@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+
+    var findShortestSubArray = function(nums) {
+        var numMap = new Map();
+
+        nums.map(val => {
+            if(numMap.has(val)){
+                numMap.set(val,numMap.get(val)+1);
+            }else{
+                numMap.set(val,1);
+            }
+        });
+
+        var degree = 0;
+
+        numMap.forEach(function(val){
+            degree = (degree > val) ? degree : val;
+        });
+
+        var candicateNumbers = [] ;
+
+        numMap.forEach(function(value,key){
+            if(value === degree){
+                candicateNumbers.push(key);
+            }
+        });
+
+
+        //计算每一种备选方案的最大最小
+        var result = candicateNumbers.map(val => {
+            var  distince = nums.lastIndexOf(val) - nums.indexOf(val) +1 ;
+            console.log(val+'的距离是' + distince);
+            return distince;
+        });
+
+        result.sort();
+
+        return result[0];
+
+
+
+    };
+   console.log( findShortestSubArray([1,2,2,1,2,1,1,1,1,2,2,2]));
+
+</script>
