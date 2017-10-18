@@ -6,10 +6,6 @@ namespace FileSystem;
  * Class Directory
  * @package FileSystem
  */
-/**
- * Class Directory
- * @package FileSystem
- */
 class Directory
 {
     private $dirHandle = null;
@@ -29,6 +25,11 @@ class Directory
         }
     }
 
+    /**
+     * Get the directory's all files.
+     * The dot, dot dot will be skipped.
+     * @return array
+     */
     public function getDirectoryFiles()
     {
         while (false !== ($file = readdir($this->dirHandle))) {
@@ -38,8 +39,15 @@ class Directory
             array_push($this->files, $file);
             echo $file . PHP_EOL;
         }
+        return $this->files;
     }
 
+    /**
+     * Get the directory's all files recursively.
+     * @param $dirPath
+     * @param $result
+     * @return bool
+     */
     public static function getDirectoryFilesRecursive($dirPath, &$result)
     {
         echo 'Current result is   ';
@@ -84,6 +92,12 @@ qwe;
         return basename($path);
     }
 
+    /**
+     * Get the dir name, which actually only get the string before the last slash character.
+     * For example, /etc/password => /etc,  /usr/share/nginx/html/test.html => /usr/share/nginx/html;
+     * @param $path
+     * @return string
+     */
     public function getDirName($path)
     {
         echo <<<qwe
@@ -96,6 +110,7 @@ qwe;
     }
 
     /**
+     * Copy the file.
      * @param $source
      * @param $dest
      * @return bool
@@ -110,6 +125,11 @@ qwe;
         return true;
     }
 
+    /**
+     * Delete the file.
+     * @param $path
+     * @return bool
+     */
     public function delete($path)
     {
         if (!is_file($path)) {
@@ -119,35 +139,69 @@ qwe;
         unlink($path);
     }
 
-    public function createFile($path)
+    /**
+     * Create an empty file, and write the content if necessary.
+     * @param $path
+     * @param string $content
+     * @return bool
+     */
+    public function createFile($path, $content = '')
     {
-        $result = touch(__DIR__ . $path);
-        if ($result) {
-            return true;
+        $fileHandle = fopen($path, 'a+');
+        if (false === $fileHandle) {
+            return false;
         }
-        return false;
+        fwrite($fileHandle, $content);
+
+        fclose($fileHandle);
+
+        return true;
     }
 
+    /**
+     * Get the __DIR__ variable, only for test the behavior in the require/include statement.
+     * The __DIR__, __FILE__ will return the actually written file, rather the included place.
+     * For example, if the code was written in the B.php, and included in the A.php,
+     * the __FILE__ will still return the B.php, and the path of it when called __DIR__.
+     * @return string
+     */
     public function getDIRSuperVariable()
     {
         echo __DIR__ . PHP_EOL;
     }
 
+    /**
+     * Get the code's current directory.
+     * @return string
+     */
     public function getCurrentDirectory()
     {
         return dirname(__FILE__);
     }
 
+    /**
+     * Get the current function name.
+     * @return string
+     */
     public function getCurrentFunctionName()
     {
         return __FUNCTION__;
     }
 
+    /**
+     * Get the directory's free space
+     * @param $dirPath
+     * @return bool|float
+     */
     public function getDirFreeSpace($dirPath)
     {
         return disk_free_space($dirPath);
     }
 
+    /**
+     * @param $bytes
+     * @return string
+     */
     public function humanReadableSize($bytes)
     {
         $unit = ['B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
@@ -183,7 +237,9 @@ qwe;
 
 
     /**
+     * Read the file line by line.
      * @param $path
+     * @return bool
      */
     public function readFileByLine($path)
     {
@@ -202,11 +258,14 @@ qwe;
 
     public function getFileContents($path)
     {
-       return file_get_contents($path) ;
+        return file_get_contents($path);
     }
 
-    public function downloadFile($url)
+    /**
+     * @param $url
+     */
+    public function downloadFile($url, $saveFileName)
     {
-
+        file_put_contents($saveFileName, file_get_contents($url));
     }
 }

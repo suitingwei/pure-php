@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5102b44-12df-4404-bd59-ad1b38ef2c80" name="Default" comment="" />
+    <list default="true" id="d5102b44-12df-4404-bd59-ad1b38ef2c80" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/sui.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileSystem/index.php" afterPath="$PROJECT_DIR$/FileSystem/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileSystem/src/Dictionary.php" afterPath="$PROJECT_DIR$/FileSystem/src/Dictionary.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,37 +27,60 @@
       <file leaf-file-name="Dictionary.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FileSystem/src/Dictionary.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="182" column="0" lean-forward="true" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+            <state relative-caret-position="279">
+              <caret line="191" column="36" lean-forward="false" selection-start-line="191" selection-start-column="36" selection-end-line="191" selection-end-column="36" />
               <folding>
-                <element signature="e#210#298#0#PHP" expanded="false" />
-                <element signature="e#303#504#0#PHP" expanded="false" />
-                <element signature="e#395#498#0#PHP" expanded="false" />
-                <element signature="e#510#799#0#PHP" expanded="false" />
-                <element signature="e#560#793#0#PHP" expanded="false" />
-                <element signature="e#628#704#0#PHP" expanded="false" />
-                <element signature="e#805#1788#0#PHP" expanded="false" />
-                <element signature="e#993#1056#0#PHP" expanded="false" />
-                <element signature="e#1066#1728#0#PHP" expanded="false" />
-                <element signature="e#1175#1281#0#PHP" expanded="false" />
-                <element signature="e#1414#1718#0#PHP" expanded="false" />
-                <element signature="e#1500#1718#0#PHP" expanded="false" />
-                <element signature="e#1794#1903#0#PHP" expanded="false" />
-                <element signature="e#1908#2130#0#PHP" expanded="false" />
-                <element signature="e#1959#2091#0#PHP" expanded="false" />
-                <element signature="e#2136#2541#0#PHP" expanded="false" />
-                <element signature="e#2189#2503#0#PHP" expanded="false" />
-                <element signature="e#2547#2620#0#PHP" expanded="false" />
-                <element signature="e#2625#2795#0#PHP" expanded="false" />
-                <element signature="e#2717#2768#0#PHP" expanded="false" />
-                <element signature="e#2801#2933#0#PHP" expanded="false" />
-                <element signature="e#2845#2903#0#PHP" expanded="false" />
-                <element signature="e#2939#3106#0#PHP" expanded="false" />
-                <element signature="e#3029#3078#0#PHP" expanded="false" />
-                <element signature="e#3112#3193#0#PHP" expanded="false" />
-                <element signature="e#3199#3282#0#PHP" expanded="false" />
-                <element signature="e#3288#3369#0#PHP" expanded="false" />
-                <element signature="e#4278#4581#0#PHP" expanded="false" />
+                <element signature="e#30#79#0#PHP" expanded="false" />
+                <element signature="e#160#248#0#PHP" expanded="false" />
+                <element signature="e#253#454#0#PHP" expanded="false" />
+                <element signature="e#345#448#0#PHP" expanded="false" />
+                <element signature="e#460#571#0#PHP" expanded="false" />
+                <element signature="e#576#894#0#PHP" expanded="false" />
+                <element signature="e#626#859#0#PHP" expanded="false" />
+                <element signature="e#694#770#0#PHP" expanded="false" />
+                <element signature="e#900#1026#0#PHP" expanded="false" />
+                <element signature="e#1031#2014#0#PHP" expanded="false" />
+                <element signature="e#1219#1282#0#PHP" expanded="false" />
+                <element signature="e#1292#1954#0#PHP" expanded="false" />
+                <element signature="e#1401#1507#0#PHP" expanded="false" />
+                <element signature="e#1640#1944#0#PHP" expanded="false" />
+                <element signature="e#1726#1944#0#PHP" expanded="false" />
+                <element signature="e#2020#2129#0#PHP" expanded="false" />
+                <element signature="e#2134#2356#0#PHP" expanded="false" />
+                <element signature="e#2185#2317#0#PHP" expanded="false" />
+                <element signature="e#2362#2610#0#PHP" expanded="false" />
+                <element signature="e#2615#3020#0#PHP" expanded="false" />
+                <element signature="e#2668#2982#0#PHP" expanded="false" />
+                <element signature="e#3026#3121#0#PHP" expanded="false" />
+                <element signature="e#3126#3296#0#PHP" expanded="false" />
+                <element signature="e#3218#3269#0#PHP" expanded="false" />
+                <element signature="e#3302#3377#0#PHP" expanded="false" />
+                <element signature="e#3382#3514#0#PHP" expanded="false" />
+                <element signature="e#3426#3484#0#PHP" expanded="false" />
+                <element signature="e#3520#3666#0#PHP" expanded="false" />
+                <element signature="e#3671#3937#0#PHP" expanded="false" />
+                <element signature="e#3776#3840#0#PHP" expanded="false" />
+                <element signature="e#3943#4339#0#PHP" expanded="false" />
+                <element signature="e#4344#4425#0#PHP" expanded="false" />
+                <element signature="e#4431#4505#0#PHP" expanded="false" />
+                <element signature="e#4510#4593#0#PHP" expanded="false" />
+                <element signature="e#4599#4670#0#PHP" expanded="false" />
+                <element signature="e#4675#4756#0#PHP" expanded="false" />
+                <element signature="e#4865#4960#0#PHP" expanded="false" />
+                <element signature="e#4966#5020#0#PHP" expanded="false" />
+                <element signature="e#5025#5320#0#PHP" expanded="false" />
+                <element signature="e#5326#5384#0#PHP" expanded="false" />
+                <element signature="e#5389#5470#0#PHP" expanded="false" />
+                <element signature="e#5476#5784#0#PHP" expanded="false" />
+                <element signature="e#5533#5591#0#PHP" expanded="false" />
+                <element signature="e#5643#5727#0#PHP" expanded="false" />
+                <element signature="e#5791#5877#0#PHP" expanded="false" />
+                <element signature="e#5882#6185#0#PHP" expanded="false" />
+                <element signature="e#5934#5992#0#PHP" expanded="false" />
+                <element signature="e#6044#6128#0#PHP" expanded="false" />
+                <element signature="e#6191#6282#0#PHP" expanded="false" />
+                <element signature="e#6288#6318#0#PHP" expanded="false" />
+                <element signature="e#6323#6451#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -64,6 +94,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -88,6 +121,9 @@
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -115,13 +151,17 @@
             <path>
               <item name="PurePHP" type="b2602c69:ProjectViewProjectNode" />
               <item name="PurePHP" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="FileSystem" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Control" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="PurePHP" type="b2602c69:ProjectViewProjectNode" />
               <item name="PurePHP" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="FileSystem" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PurePHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PurePHP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Javascript" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -193,34 +233,34 @@
       <workItem from="1508135426357" duration="1501000" />
       <workItem from="1508205875109" duration="131000" />
       <workItem from="1508301048136" duration="9430000" />
-      <workItem from="1508316042099" duration="217000" />
+      <workItem from="1508316042099" duration="1593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15857000" />
+    <option name="totallyTimeSpent" value="17233000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10520833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4925926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4925926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +279,8 @@
         <state relative-caret-position="899">
           <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
           <folding>
-            <marker date="1508315411000" expanded="true" signature="272:470" ph="..." />
+            <marker date="1508318715000" expanded="true" signature="249:474" ph="//..." />
+            <marker date="1508318715000" expanded="true" signature="476:1066" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -328,13 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Control/switch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="863">
-          <caret line="70" column="17" lean-forward="false" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Javascript/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -412,10 +446,102 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Control/switch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1643">
+          <caret line="58" column="25" lean-forward="false" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+          <folding>
+            <marker date="1507787451000" expanded="false" signature="9:83" ph=" Created by PhpStorm. ..." />
+            <marker date="1507787451000" expanded="true" signature="113:373" ph="{...}" />
+            <marker date="1507787451000" expanded="true" signature="136:370" ph="..." />
+            <marker date="1507787451000" expanded="true" signature="153:192" ph="..." />
+            <marker date="1507787451000" expanded="true" signature="209:250" ph="..." />
+            <marker date="1507787451000" expanded="true" signature="266:307" ph="..." />
+            <marker date="1507787451000" expanded="true" signature="325:365" ph="..." />
+            <marker date="1507787451000" expanded="true" signature="393:425" ph="{...}" />
+            <marker date="1507787451000" expanded="true" signature="461:539" ph="{...}" />
+            <marker date="1507787451000" expanded="true" signature="491:537" ph="{...}" />
+            <marker date="1507787451000" expanded="true" signature="576:655" ph="{...}" />
+            <marker date="1507787451000" expanded="true" signature="606:653" ph="{...}" />
+            <marker date="1507787451000" expanded="true" signature="692:771" ph="{...}" />
+            <marker date="1507787451000" expanded="true" signature="722:769" ph="{...}" />
+            <marker date="1507787451000" expanded="true" signature="810:912" ph="{...}" />
+            <marker date="1507787451000" expanded="true" signature="840:910" ph="{...}" />
+            <marker date="1507787451000" expanded="true" signature="946:974" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_7.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="633" column="9" lean-forward="false" selection-start-line="633" selection-start-column="9" selection-end-line="633" selection-end-column="9" />
+          <folding>
+            <marker date="1504494015000" expanded="true" signature="5:32729" ph="..." />
+            <marker date="1504494015000" expanded="true" signature="10:1411" ph=" Open Internet or Unix domain socket connection ..." />
+            <marker date="1504494015000" expanded="true" signature="1516:1853" ph=" Open persistent Internet or Unix domain socket connection ..." />
+            <marker date="1504494015000" expanded="true" signature="1959:4865" ph=" Pack data into binary string ..." />
+            <marker date="1504494015000" expanded="true" signature="4924:5307" ph=" Unpack data from binary string ..." />
+            <marker date="1504494015000" expanded="true" signature="5359:6535" ph=" Tells what the user's browser is capable of ..." />
+            <marker date="1504494015000" expanded="true" signature="6609:7302" ph=" One-way string encryption (hashing) ..." />
+            <marker date="1504494015000" expanded="true" signature="7348:8102" ph=" Open directory handle ..." />
+            <marker date="1504494015000" expanded="true" signature="8154:8499" ph=" Close directory handle ..." />
+            <marker date="1504494015000" expanded="true" signature="8548:8773" ph=" Change directory ..." />
+            <marker date="1504494015000" expanded="true" signature="8811:9040" ph=" Change the root directory ..." />
+            <marker date="1504494015000" expanded="true" signature="9079:9541" ph=" Gets the current working directory ..." />
+            <marker date="1504494015000" expanded="true" signature="9570:9917" ph=" Rewind directory handle ..." />
+            <marker date="1504494015000" expanded="true" signature="9967:10372" ph=" Read entry from directory handle ..." />
+            <marker date="1504494015000" expanded="true" signature="10420:10616" ph=" Return an instance of the Directory class ..." />
+            <marker date="1504494015000" expanded="true" signature="10662:11445" ph=" List files and directories inside the specified path ..." />
+            <marker date="1504494015000" expanded="true" signature="11525:12596" ph=" Find pathnames matching a pattern ..." />
+            <marker date="1504494015000" expanded="true" signature="12646:12949" ph=" Gets last access time of file ..." />
+            <marker date="1504494015000" expanded="true" signature="12990:13293" ph=" Gets inode change time of file ..." />
+            <marker date="1504494015000" expanded="true" signature="13334:13714" ph=" Gets file group ..." />
+            <marker date="1504494015000" expanded="true" signature="13755:13992" ph=" Gets file inode ..." />
+            <marker date="1504494015000" expanded="true" signature="14033:14378" ph=" Gets file modification time ..." />
+            <marker date="1504494015000" expanded="true" signature="14419:14763" ph=" Gets file owner ..." />
+            <marker date="1504494015000" expanded="true" signature="14804:15046" ph=" Gets file permissions ..." />
+            <marker date="1504494015000" expanded="true" signature="15087:15374" ph=" Gets file size ..." />
+            <marker date="1504494015000" expanded="true" signature="15414:15857" ph=" Gets file type ..." />
+            <marker date="1504494015000" expanded="true" signature="15897:16718" ph=" Checks whether a file or directory exists ..." />
+            <marker date="1504494015000" expanded="true" signature="16761:17026" ph=" Tells whether the filename is writable ..." />
+            <marker date="1504494015000" expanded="true" signature="17069:17337" ph=" &amp;Alias; &lt;function&gt;is_writable&lt;/function&gt; ..." />
+            <marker date="1504494015000" expanded="true" signature="17381:17689" ph=" Tells whether a file exists and is readable ..." />
+            <marker date="1504494015000" expanded="true" signature="17732:18012" ph=" Tells whether the filename is executable ..." />
+            <marker date="1504494015000" expanded="true" signature="18057:18337" ph=" Tells whether the filename is a regular file ..." />
+            <marker date="1504494015000" expanded="true" signature="18376:18840" ph=" Tells whether the filename is a directory ..." />
+            <marker date="1504494015000" expanded="true" signature="18878:19160" ph=" Tells whether the filename is a symbolic link ..." />
+            <marker date="1504494015000" expanded="true" signature="19199:21073" ph=" Gives information about a file ..." />
+            <marker date="1504494015000" expanded="true" signature="21109:21658" ph=" Gives information about a file or symbolic link ..." />
+            <marker date="1504494015000" expanded="true" signature="21695:21973" ph=" Changes file owner ..." />
+            <marker date="1504494015000" expanded="true" signature="22017:22297" ph=" Changes file group ..." />
+            <marker date="1504494015000" expanded="true" signature="22342:22622" ph=" Changes user ownership of symlink ..." />
+            <marker date="1504494015000" expanded="true" signature="22667:22970" ph=" Changes group ownership of symlink ..." />
+            <marker date="1504494015000" expanded="true" signature="23016:24100" ph=" Changes file mode ..." />
+            <marker date="1504494015000" expanded="true" signature="24144:24691" ph=" Sets access and modification time of file ..." />
+            <marker date="1504494015000" expanded="true" signature="24757:25143" ph=" Clears file status cache ..." />
+            <marker date="1504494015000" expanded="true" signature="25226:25538" ph=" Returns the total size of a directory ..." />
+            <marker date="1504494015000" expanded="true" signature="25587:26071" ph=" Returns available space in directory ..." />
+            <marker date="1504494015000" expanded="true" signature="26119:26274" ph=" &amp;Alias; &lt;function&gt;disk_free_space&lt;/function&gt; ..." />
+            <marker date="1504494015000" expanded="true" signature="26315:29195" ph=" Send mail ..." />
+            <marker date="1504494015000" expanded="true" signature="29304:29554" ph=" Calculate the hash value needed by EZMLM ..." />
+            <marker date="1504494015000" expanded="true" signature="29592:32676" ph=" Open connection to system logger ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="725" column="2" lean-forward="false" selection-start-line="725" selection-start-column="2" selection-end-line="725" selection-end-column="2" />
+        <state relative-caret-position="360">
+          <caret line="857" column="9" lean-forward="false" selection-start-line="857" selection-start-column="9" selection-end-line="857" selection-end-column="9" />
           <folding>
             <marker date="1504494015000" expanded="true" signature="10:207" ph=" (PHP 5.5.0)&lt;br/&gt; ..." />
             <marker date="1504494015000" expanded="true" signature="240:1153" ph=" Get the integer value of a variable ..." />
@@ -472,49 +598,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FileSystem/tmpfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FileSystem/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="27" column="56" lean-forward="true" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+        <state relative-caret-position="331">
+          <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
           <folding>
-            <marker date="1508315411000" expanded="true" signature="272:470" ph="..." />
+            <marker date="1508318715000" expanded="true" signature="249:474" ph="//..." />
+            <marker date="1508318715000" expanded="true" signature="476:1066" ph="//..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FileSystem/src/Dictionary.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="182" column="0" lean-forward="true" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+        <state relative-caret-position="279">
+          <caret line="191" column="36" lean-forward="false" selection-start-line="191" selection-start-column="36" selection-end-line="191" selection-end-column="36" />
           <folding>
-            <element signature="e#210#298#0#PHP" expanded="false" />
-            <element signature="e#303#504#0#PHP" expanded="false" />
-            <element signature="e#395#498#0#PHP" expanded="false" />
-            <element signature="e#510#799#0#PHP" expanded="false" />
-            <element signature="e#560#793#0#PHP" expanded="false" />
-            <element signature="e#628#704#0#PHP" expanded="false" />
-            <element signature="e#805#1788#0#PHP" expanded="false" />
-            <element signature="e#993#1056#0#PHP" expanded="false" />
-            <element signature="e#1066#1728#0#PHP" expanded="false" />
-            <element signature="e#1175#1281#0#PHP" expanded="false" />
-            <element signature="e#1414#1718#0#PHP" expanded="false" />
-            <element signature="e#1500#1718#0#PHP" expanded="false" />
-            <element signature="e#1794#1903#0#PHP" expanded="false" />
-            <element signature="e#1908#2130#0#PHP" expanded="false" />
-            <element signature="e#1959#2091#0#PHP" expanded="false" />
-            <element signature="e#2136#2541#0#PHP" expanded="false" />
-            <element signature="e#2189#2503#0#PHP" expanded="false" />
-            <element signature="e#2547#2620#0#PHP" expanded="false" />
-            <element signature="e#2625#2795#0#PHP" expanded="false" />
-            <element signature="e#2717#2768#0#PHP" expanded="false" />
-            <element signature="e#2801#2933#0#PHP" expanded="false" />
-            <element signature="e#2845#2903#0#PHP" expanded="false" />
-            <element signature="e#2939#3106#0#PHP" expanded="false" />
-            <element signature="e#3029#3078#0#PHP" expanded="false" />
-            <element signature="e#3112#3193#0#PHP" expanded="false" />
-            <element signature="e#3199#3282#0#PHP" expanded="false" />
-            <element signature="e#3288#3369#0#PHP" expanded="false" />
-            <element signature="e#4278#4581#0#PHP" expanded="false" />
+            <element signature="e#30#79#0#PHP" expanded="false" />
+            <element signature="e#160#248#0#PHP" expanded="false" />
+            <element signature="e#253#454#0#PHP" expanded="false" />
+            <element signature="e#345#448#0#PHP" expanded="false" />
+            <element signature="e#460#571#0#PHP" expanded="false" />
+            <element signature="e#576#894#0#PHP" expanded="false" />
+            <element signature="e#626#859#0#PHP" expanded="false" />
+            <element signature="e#694#770#0#PHP" expanded="false" />
+            <element signature="e#900#1026#0#PHP" expanded="false" />
+            <element signature="e#1031#2014#0#PHP" expanded="false" />
+            <element signature="e#1219#1282#0#PHP" expanded="false" />
+            <element signature="e#1292#1954#0#PHP" expanded="false" />
+            <element signature="e#1401#1507#0#PHP" expanded="false" />
+            <element signature="e#1640#1944#0#PHP" expanded="false" />
+            <element signature="e#1726#1944#0#PHP" expanded="false" />
+            <element signature="e#2020#2129#0#PHP" expanded="false" />
+            <element signature="e#2134#2356#0#PHP" expanded="false" />
+            <element signature="e#2185#2317#0#PHP" expanded="false" />
+            <element signature="e#2362#2610#0#PHP" expanded="false" />
+            <element signature="e#2615#3020#0#PHP" expanded="false" />
+            <element signature="e#2668#2982#0#PHP" expanded="false" />
+            <element signature="e#3026#3121#0#PHP" expanded="false" />
+            <element signature="e#3126#3296#0#PHP" expanded="false" />
+            <element signature="e#3218#3269#0#PHP" expanded="false" />
+            <element signature="e#3302#3377#0#PHP" expanded="false" />
+            <element signature="e#3382#3514#0#PHP" expanded="false" />
+            <element signature="e#3426#3484#0#PHP" expanded="false" />
+            <element signature="e#3520#3666#0#PHP" expanded="false" />
+            <element signature="e#3671#3937#0#PHP" expanded="false" />
+            <element signature="e#3776#3840#0#PHP" expanded="false" />
+            <element signature="e#3943#4339#0#PHP" expanded="false" />
+            <element signature="e#4344#4425#0#PHP" expanded="false" />
+            <element signature="e#4431#4505#0#PHP" expanded="false" />
+            <element signature="e#4510#4593#0#PHP" expanded="false" />
+            <element signature="e#4599#4670#0#PHP" expanded="false" />
+            <element signature="e#4675#4756#0#PHP" expanded="false" />
+            <element signature="e#4865#4960#0#PHP" expanded="false" />
+            <element signature="e#4966#5020#0#PHP" expanded="false" />
+            <element signature="e#5025#5320#0#PHP" expanded="false" />
+            <element signature="e#5326#5384#0#PHP" expanded="false" />
+            <element signature="e#5389#5470#0#PHP" expanded="false" />
+            <element signature="e#5476#5784#0#PHP" expanded="false" />
+            <element signature="e#5533#5591#0#PHP" expanded="false" />
+            <element signature="e#5643#5727#0#PHP" expanded="false" />
+            <element signature="e#5791#5877#0#PHP" expanded="false" />
+            <element signature="e#5882#6185#0#PHP" expanded="false" />
+            <element signature="e#5934#5992#0#PHP" expanded="false" />
+            <element signature="e#6044#6128#0#PHP" expanded="false" />
+            <element signature="e#6191#6282#0#PHP" expanded="false" />
+            <element signature="e#6288#6318#0#PHP" expanded="false" />
+            <element signature="e#6323#6451#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
