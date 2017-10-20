@@ -188,6 +188,21 @@ qwe;
         return __FUNCTION__;
     }
 
+    public function writeToFile($filePath, $content)
+    {
+        $fileHandle = fopen($filePath, 'a+');
+
+        if (false === $fileHandle) {
+            return false;
+        }
+
+        fwrite($fileHandle, $content);
+
+        fclose($fileHandle);
+
+        return true;
+    }
+
     /**
      * Get the directory's free space
      * @param $dirPath
@@ -220,6 +235,11 @@ qwe;
         return boolval(is_file($path));
     }
 
+    /**
+     * Read the file character by character.
+     * @param $path
+     * @return bool
+     */
     public function readFileByCharacter($path)
     {
         if (!is_file($path)) {
@@ -234,7 +254,6 @@ qwe;
         fclose($fileHandle);
         return true;
     }
-
 
     /**
      * Read the file line by line.
@@ -263,6 +282,7 @@ qwe;
 
     /**
      * @param $url
+     * @param $saveFileName
      */
     public function downloadFile($url, $saveFileName)
     {

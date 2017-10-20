@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Arrayable/Src/Collection.php" line="189" mnemonic="4" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d5102b44-12df-4404-bd59-ad1b38ef2c80" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/sui.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Arrayable/Src/Collection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Arrayable/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Control/Src/Files/ImageFile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Control/Src/Files/TextFile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Control/Src/Files/VideoFile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Control/Src/Interfaces/FileType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Http/Src/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Http/index.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Control/index.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Array/ArrayFunctions.php" afterPath="$PROJECT_DIR$/Arrayable/ArrayFunctions.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FileSystem/src/Dictionary.php" afterPath="$PROJECT_DIR$/FileSystem/Src/Dictionary.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/sui.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/sui.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Control/switch.php" afterPath="$PROJECT_DIR$/Control/switch.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileSystem/index.php" afterPath="$PROJECT_DIR$/FileSystem/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileSystem/src/Dictionary.php" afterPath="$PROJECT_DIR$/FileSystem/src/Dictionary.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,63 +36,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Dictionary.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FileSystem/src/Dictionary.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Arrayable/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="191" column="36" lean-forward="false" selection-start-line="191" selection-start-column="36" selection-end-line="191" selection-end-column="36" />
+            <state relative-caret-position="381">
+              <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
               <folding>
-                <element signature="e#30#79#0#PHP" expanded="false" />
-                <element signature="e#160#248#0#PHP" expanded="false" />
-                <element signature="e#253#454#0#PHP" expanded="false" />
-                <element signature="e#345#448#0#PHP" expanded="false" />
-                <element signature="e#460#571#0#PHP" expanded="false" />
-                <element signature="e#576#894#0#PHP" expanded="false" />
-                <element signature="e#626#859#0#PHP" expanded="false" />
-                <element signature="e#694#770#0#PHP" expanded="false" />
-                <element signature="e#900#1026#0#PHP" expanded="false" />
-                <element signature="e#1031#2014#0#PHP" expanded="false" />
-                <element signature="e#1219#1282#0#PHP" expanded="false" />
-                <element signature="e#1292#1954#0#PHP" expanded="false" />
-                <element signature="e#1401#1507#0#PHP" expanded="false" />
-                <element signature="e#1640#1944#0#PHP" expanded="false" />
-                <element signature="e#1726#1944#0#PHP" expanded="false" />
-                <element signature="e#2020#2129#0#PHP" expanded="false" />
-                <element signature="e#2134#2356#0#PHP" expanded="false" />
-                <element signature="e#2185#2317#0#PHP" expanded="false" />
-                <element signature="e#2362#2610#0#PHP" expanded="false" />
-                <element signature="e#2615#3020#0#PHP" expanded="false" />
-                <element signature="e#2668#2982#0#PHP" expanded="false" />
-                <element signature="e#3026#3121#0#PHP" expanded="false" />
-                <element signature="e#3126#3296#0#PHP" expanded="false" />
-                <element signature="e#3218#3269#0#PHP" expanded="false" />
-                <element signature="e#3302#3377#0#PHP" expanded="false" />
-                <element signature="e#3382#3514#0#PHP" expanded="false" />
-                <element signature="e#3426#3484#0#PHP" expanded="false" />
-                <element signature="e#3520#3666#0#PHP" expanded="false" />
-                <element signature="e#3671#3937#0#PHP" expanded="false" />
-                <element signature="e#3776#3840#0#PHP" expanded="false" />
-                <element signature="e#3943#4339#0#PHP" expanded="false" />
-                <element signature="e#4344#4425#0#PHP" expanded="false" />
-                <element signature="e#4431#4505#0#PHP" expanded="false" />
-                <element signature="e#4510#4593#0#PHP" expanded="false" />
-                <element signature="e#4599#4670#0#PHP" expanded="false" />
-                <element signature="e#4675#4756#0#PHP" expanded="false" />
-                <element signature="e#4865#4960#0#PHP" expanded="false" />
-                <element signature="e#4966#5020#0#PHP" expanded="false" />
-                <element signature="e#5025#5320#0#PHP" expanded="false" />
-                <element signature="e#5326#5384#0#PHP" expanded="false" />
-                <element signature="e#5389#5470#0#PHP" expanded="false" />
-                <element signature="e#5476#5784#0#PHP" expanded="false" />
-                <element signature="e#5533#5591#0#PHP" expanded="false" />
-                <element signature="e#5643#5727#0#PHP" expanded="false" />
-                <element signature="e#5791#5877#0#PHP" expanded="false" />
-                <element signature="e#5882#6185#0#PHP" expanded="false" />
-                <element signature="e#5934#5992#0#PHP" expanded="false" />
-                <element signature="e#6044#6128#0#PHP" expanded="false" />
-                <element signature="e#6191#6282#0#PHP" expanded="false" />
-                <element signature="e#6288#6318#0#PHP" expanded="false" />
-                <element signature="e#6323#6451#0#PHP" expanded="false" />
+                <marker date="1508491741000" expanded="true" signature="318:493" ph="..." />
               </folding>
             </state>
           </provider>
@@ -108,6 +70,18 @@
         <option value="$PROJECT_DIR$/Control/index.php" />
         <option value="$PROJECT_DIR$/FileSystem/index.php" />
         <option value="$PROJECT_DIR$/FileSystem/src/Dictionary.php" />
+        <option value="$PROJECT_DIR$/Control/src/Interfaces/FileType.php" />
+        <option value="$PROJECT_DIR$/Control/src/Files/TextFile.php" />
+        <option value="$PROJECT_DIR$/Control/Src/Files/TextFile.php" />
+        <option value="$PROJECT_DIR$/Control/Src/Files/VideoFile.php" />
+        <option value="$PROJECT_DIR$/Control/Src/Files/ImageFile.php" />
+        <option value="$PROJECT_DIR$/Control/switch.php" />
+        <option value="$PROJECT_DIR$/Http/index.php" />
+        <option value="$PROJECT_DIR$/Http/Src/Request.php" />
+        <option value="$PROJECT_DIR$/Array/Src/Collection.php" />
+        <option value="$PROJECT_DIR$/Arrayable/ArrayFunctions.php" />
+        <option value="$PROJECT_DIR$/Arrayable/index.php" />
+        <option value="$PROJECT_DIR$/Arrayable/Src/Collection.php" />
       </list>
     </option>
   </component>
@@ -119,6 +93,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.1" />
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="1920" />
+    <option name="y" value="180" />
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -140,6 +116,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -151,31 +128,29 @@
             <path>
               <item name="PurePHP" type="b2602c69:ProjectViewProjectNode" />
               <item name="PurePHP" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Control" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Arrayable" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="PurePHP" type="b2602c69:ProjectViewProjectNode" />
               <item name="PurePHP" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="FileSystem" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PurePHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PurePHP" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Javascript" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Arrayable" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Control/Src/Files" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Javascript" />
       <recent name="$PROJECT_DIR$/Control" />
@@ -194,23 +169,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.index.php (1)">
-    <configuration name="ArrayFunctions.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Array/ArrayFunctions.php" />
+  <component name="RunManager" selected="PHP Script.index.php">
+    <configuration name="ArrayFunctions.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Arrayable/ArrayFunctions.php" />
     <configuration name="index.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/FileSystem/index.php" />
-    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Control/index.php" />
-    <configuration name="switch.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Control/switch.php" />
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Arrayable/index.php" />
+    <configuration name="switch.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PurePHP/Control/switch.php" />
     <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="PHP Script.index.php" />
-      <item index="1" class="java.lang.String" itemvalue="PHP Script.switch.php" />
-      <item index="2" class="java.lang.String" itemvalue="PHP Script.ArrayFunctions.php" />
-      <item index="3" class="java.lang.String" itemvalue="PHP Script.index.php (1)" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.switch.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.ArrayFunctions.php" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Script.index.php (1)" />
+      <item index="3" class="java.lang.String" itemvalue="PHP Script.index.php" />
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="PHP Script.index.php (1)" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.ArrayFunctions.php" />
-        <item index="2" class="java.lang.String" itemvalue="PHP Script.switch.php" />
-        <item index="3" class="java.lang.String" itemvalue="PHP Script.index.php" />
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.index.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.index.php (1)" />
+        <item index="2" class="java.lang.String" itemvalue="PHP Script.ArrayFunctions.php" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.switch.php" />
       </list>
     </recent_temporary>
   </component>
@@ -233,34 +208,56 @@
       <workItem from="1508135426357" duration="1501000" />
       <workItem from="1508205875109" duration="131000" />
       <workItem from="1508301048136" duration="9430000" />
-      <workItem from="1508316042099" duration="1593000" />
+      <workItem from="1508316042099" duration="1687000" />
+      <workItem from="1508378796299" duration="190000" />
+      <workItem from="1508379169010" duration="318000" />
+      <workItem from="1508379614821" duration="166000" />
+      <workItem from="1508397305480" duration="873000" />
+      <workItem from="1508464727429" duration="29000" />
+      <workItem from="1508484199563" duration="246000" />
+      <workItem from="1508484547757" duration="249000" />
+      <workItem from="1508484829488" duration="365000" />
+      <workItem from="1508485251411" duration="191000" />
+      <workItem from="1508485462815" duration="1030000" />
+      <workItem from="1508486633112" duration="79000" />
+      <workItem from="1508486751980" duration="53000" />
+      <workItem from="1508486876824" duration="925000" />
+      <workItem from="1508488240916" duration="740000" />
+      <workItem from="1508488989082" duration="84000" />
+      <workItem from="1508489125663" duration="659000" />
+      <workItem from="1508489900251" duration="1802000" />
+      <workItem from="1508491928402" duration="4000" />
+      <workItem from="1508492125710" duration="225000" />
+      <workItem from="1508492426348" duration="14000" />
+      <workItem from="1508492482366" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17233000" />
+    <option name="totallyTimeSpent" value="25571000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="1920" y="180" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4925926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49222222" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,14 +271,683 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Arrayable/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1302">
+          <caret line="42" column="2" lean-forward="false" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
+          <folding>
+            <marker date="1508491741000" expanded="true" signature="318:493" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrayable/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1240">
+          <caret line="40" column="2" lean-forward="false" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+          <folding>
+            <marker date="1508491741000" expanded="true" signature="318:493" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrayable/Src/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3689">
+          <caret line="257" column="40" lean-forward="false" selection-start-line="257" selection-start-column="40" selection-end-line="257" selection-end-column="40" />
+          <folding>
+            <marker date="1508492440000" expanded="true" signature="206:252" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="261:325" ph=" ..." />
+            <marker date="1508492440000" expanded="false" signature="373:422" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="431:503" ph=" @param $begin ..." />
+            <marker date="1508492440000" expanded="true" signature="552:680" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="588:626" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="689:754" ph=" @param callable $callback ..." />
+            <marker date="1508492440000" expanded="false" signature="800:896" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="930:983" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="992:1062" ph=" @param callable|null $callback ..." />
+            <marker date="1508492440000" expanded="true" signature="1118:1352" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="1158:1214" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="1222:1312" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="1361:1413" ph=" Return all items. ..." />
+            <marker date="1508492440000" expanded="true" signature="1441:1481" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="1490:1545" ph=" @param null $key ..." />
+            <marker date="1508492440000" expanded="false" signature="1588:1823" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="1623:1696" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="1832:1950" ph=" Taken only these keys' values. ..." />
+            <marker date="1508492440000" expanded="true" signature="1991:2232" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="2027:2062" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="2241:2335" ph=" Split the whole array into pieces. ..." />
+            <marker date="1508492440000" expanded="true" signature="2370:2552" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="2459:2510" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="2561:2659" ph=" Get the values except these keys. ..." />
+            <marker date="1508492440000" expanded="true" signature="2702:2871" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="2880:2941" ph=" Count elements of an object ..." />
+            <marker date="1508492440000" expanded="false" signature="2971:3018" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3027:3088" ph=" Whether a offset exists ..." />
+            <marker date="1508492440000" expanded="false" signature="3132:3188" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3197:3250" ph=" Offset to retrieve ..." />
+            <marker date="1508492440000" expanded="false" signature="3291:3340" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3349:3376" ph=" Offset to set ..." />
+            <marker date="1508492440000" expanded="false" signature="3425:3476" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3485:3514" ph=" Offset to unset ..." />
+            <marker date="1508492440000" expanded="false" signature="3557:3606" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3615:3776" ph=" Return the current element ..." />
+            <marker date="1508492440000" expanded="false" signature="3808:3870" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3879:4048" ph=" Move forward to next element ..." />
+            <marker date="1508492440000" expanded="false" signature="4077:4121" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4130:4316" ph=" Return the key of the current element ..." />
+            <marker date="1508492440000" expanded="false" signature="4344:4393" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4402:4666" ph=" Checks if current position is valid ..." />
+            <marker date="1508492440000" expanded="false" signature="4696:4765" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4774:4957" ph=" Rewind the Iterator to the first element ..." />
+            <marker date="1508492440000" expanded="false" signature="4988:5034" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="5066:5341" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="5136:5299" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5184:5237" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5350:5445" ph=" Combine the data with the values. ..." />
+            <marker date="1508492440000" expanded="false" signature="5484:5823" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="5652:5717" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5832:5938" ph=" Determines whether the items contains a specific key. ..." />
+            <marker date="1508492440000" expanded="true" signature="5975:6051" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="6060:6181" ph=" Get values which the key not in array. ..." />
+            <marker date="1508492440000" expanded="false" signature="6231:6415" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="6268:6374" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="6309:6373" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="6424:6505" ph=" Unique the items. ..." />
+            <marker date="1508492440000" expanded="true" signature="6547:6677" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="6582:6647" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrayable/Src/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3038">
+          <caret line="241" column="0" lean-forward="false" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
+          <folding>
+            <marker date="1508492440000" expanded="true" signature="206:252" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="261:325" ph=" ..." />
+            <marker date="1508492440000" expanded="false" signature="373:422" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="431:503" ph=" @param $begin ..." />
+            <marker date="1508492440000" expanded="true" signature="552:680" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="588:626" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="689:754" ph=" @param callable $callback ..." />
+            <marker date="1508492440000" expanded="false" signature="800:896" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="930:983" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="992:1062" ph=" @param callable|null $callback ..." />
+            <marker date="1508492440000" expanded="true" signature="1118:1352" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="1158:1214" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="1222:1312" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="1361:1413" ph=" Return all items. ..." />
+            <marker date="1508492440000" expanded="true" signature="1441:1481" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="1490:1545" ph=" @param null $key ..." />
+            <marker date="1508492440000" expanded="false" signature="1588:1823" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="1623:1696" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="1832:1950" ph=" Taken only these keys' values. ..." />
+            <marker date="1508492440000" expanded="true" signature="1991:2232" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="2027:2062" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="2241:2335" ph=" Split the whole array into pieces. ..." />
+            <marker date="1508492440000" expanded="true" signature="2370:2552" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="2459:2510" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="2561:2659" ph=" Get the values except these keys. ..." />
+            <marker date="1508492440000" expanded="true" signature="2702:2871" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="2880:2941" ph=" Count elements of an object ..." />
+            <marker date="1508492440000" expanded="false" signature="2971:3018" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3027:3088" ph=" Whether a offset exists ..." />
+            <marker date="1508492440000" expanded="false" signature="3132:3188" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3197:3250" ph=" Offset to retrieve ..." />
+            <marker date="1508492440000" expanded="false" signature="3291:3340" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3349:3376" ph=" Offset to set ..." />
+            <marker date="1508492440000" expanded="false" signature="3425:3476" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3485:3514" ph=" Offset to unset ..." />
+            <marker date="1508492440000" expanded="false" signature="3557:3606" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3615:3776" ph=" Return the current element ..." />
+            <marker date="1508492440000" expanded="false" signature="3808:3870" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3879:4048" ph=" Move forward to next element ..." />
+            <marker date="1508492440000" expanded="false" signature="4077:4121" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4130:4316" ph=" Return the key of the current element ..." />
+            <marker date="1508492440000" expanded="false" signature="4344:4393" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4402:4666" ph=" Checks if current position is valid ..." />
+            <marker date="1508492440000" expanded="false" signature="4696:4765" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4774:4957" ph=" Rewind the Iterator to the first element ..." />
+            <marker date="1508492440000" expanded="false" signature="4988:5034" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="5066:5341" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="5136:5299" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5184:5237" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5350:5445" ph=" Combine the data with the values. ..." />
+            <marker date="1508492440000" expanded="false" signature="5484:5823" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="5652:5717" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5832:5938" ph=" Determines whether the items contains a specific key. ..." />
+            <marker date="1508492440000" expanded="true" signature="5975:6051" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="6060:6181" ph=" Get values which the key not in array. ..." />
+            <marker date="1508492440000" expanded="false" signature="6231:6415" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="6268:6374" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="6309:6373" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="6424:6505" ph=" Unique the items. ..." />
+            <marker date="1508492440000" expanded="true" signature="6547:6677" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="6582:6647" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrayable/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <marker date="1508491741000" expanded="true" signature="318:493" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrayable/Src/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="67" column="27" lean-forward="false" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+          <folding>
+            <marker date="1508492440000" expanded="true" signature="206:252" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="261:325" ph=" ..." />
+            <marker date="1508492440000" expanded="false" signature="373:422" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="431:503" ph=" @param $begin ..." />
+            <marker date="1508492440000" expanded="true" signature="552:680" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="588:626" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="689:754" ph=" @param callable $callback ..." />
+            <marker date="1508492440000" expanded="false" signature="800:896" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="930:983" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="992:1062" ph=" @param callable|null $callback ..." />
+            <marker date="1508492440000" expanded="true" signature="1118:1352" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="1158:1214" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="1222:1312" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="1361:1413" ph=" Return all items. ..." />
+            <marker date="1508492440000" expanded="true" signature="1441:1481" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="1490:1545" ph=" @param null $key ..." />
+            <marker date="1508492440000" expanded="false" signature="1588:1823" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="1623:1696" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="1832:1950" ph=" Taken only these keys' values. ..." />
+            <marker date="1508492440000" expanded="true" signature="1991:2232" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="2027:2062" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="2241:2335" ph=" Split the whole array into pieces. ..." />
+            <marker date="1508492440000" expanded="true" signature="2370:2552" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="2459:2510" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="2561:2659" ph=" Get the values except these keys. ..." />
+            <marker date="1508492440000" expanded="true" signature="2702:2871" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="2880:2941" ph=" Count elements of an object ..." />
+            <marker date="1508492440000" expanded="false" signature="2971:3018" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3027:3088" ph=" Whether a offset exists ..." />
+            <marker date="1508492440000" expanded="false" signature="3132:3188" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3197:3250" ph=" Offset to retrieve ..." />
+            <marker date="1508492440000" expanded="false" signature="3291:3340" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3349:3376" ph=" Offset to set ..." />
+            <marker date="1508492440000" expanded="false" signature="3425:3476" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3485:3514" ph=" Offset to unset ..." />
+            <marker date="1508492440000" expanded="false" signature="3557:3606" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3615:3776" ph=" Return the current element ..." />
+            <marker date="1508492440000" expanded="false" signature="3808:3870" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3879:4048" ph=" Move forward to next element ..." />
+            <marker date="1508492440000" expanded="false" signature="4077:4121" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4130:4316" ph=" Return the key of the current element ..." />
+            <marker date="1508492440000" expanded="false" signature="4344:4393" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4402:4666" ph=" Checks if current position is valid ..." />
+            <marker date="1508492440000" expanded="false" signature="4696:4765" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4774:4957" ph=" Rewind the Iterator to the first element ..." />
+            <marker date="1508492440000" expanded="false" signature="4988:5034" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="5066:5341" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="5136:5299" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5184:5237" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5350:5445" ph=" Combine the data with the values. ..." />
+            <marker date="1508492440000" expanded="false" signature="5484:5823" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="5652:5717" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5832:5938" ph=" Determines whether the items contains a specific key. ..." />
+            <marker date="1508492440000" expanded="true" signature="5975:6051" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="6060:6181" ph=" Get values which the key not in array. ..." />
+            <marker date="1508492440000" expanded="false" signature="6231:6415" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="6268:6374" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="6309:6373" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="6424:6505" ph=" Unique the items. ..." />
+            <marker date="1508492440000" expanded="true" signature="6547:6677" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="6582:6647" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrayable/Src/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="93" column="13" lean-forward="false" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+          <folding>
+            <marker date="1508492440000" expanded="true" signature="206:252" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="261:325" ph=" ..." />
+            <marker date="1508492440000" expanded="false" signature="373:422" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="431:503" ph=" @param $begin ..." />
+            <marker date="1508492440000" expanded="true" signature="552:680" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="588:626" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="689:754" ph=" @param callable $callback ..." />
+            <marker date="1508492440000" expanded="false" signature="800:896" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="930:983" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="992:1062" ph=" @param callable|null $callback ..." />
+            <marker date="1508492440000" expanded="true" signature="1118:1352" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="1158:1214" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="1222:1312" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="1361:1413" ph=" Return all items. ..." />
+            <marker date="1508492440000" expanded="true" signature="1441:1481" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="1490:1545" ph=" @param null $key ..." />
+            <marker date="1508492440000" expanded="false" signature="1588:1823" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="1623:1696" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="1832:1950" ph=" Taken only these keys' values. ..." />
+            <marker date="1508492440000" expanded="true" signature="1991:2232" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="2027:2062" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="2241:2335" ph=" Split the whole array into pieces. ..." />
+            <marker date="1508492440000" expanded="true" signature="2370:2552" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="2459:2510" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="2561:2659" ph=" Get the values except these keys. ..." />
+            <marker date="1508492440000" expanded="true" signature="2702:2871" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="2880:2941" ph=" Count elements of an object ..." />
+            <marker date="1508492440000" expanded="false" signature="2971:3018" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3027:3088" ph=" Whether a offset exists ..." />
+            <marker date="1508492440000" expanded="false" signature="3132:3188" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3197:3250" ph=" Offset to retrieve ..." />
+            <marker date="1508492440000" expanded="false" signature="3291:3340" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3349:3376" ph=" Offset to set ..." />
+            <marker date="1508492440000" expanded="false" signature="3425:3476" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3485:3514" ph=" Offset to unset ..." />
+            <marker date="1508492440000" expanded="false" signature="3557:3606" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3615:3776" ph=" Return the current element ..." />
+            <marker date="1508492440000" expanded="false" signature="3808:3870" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3879:4048" ph=" Move forward to next element ..." />
+            <marker date="1508492440000" expanded="false" signature="4077:4121" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4130:4316" ph=" Return the key of the current element ..." />
+            <marker date="1508492440000" expanded="false" signature="4344:4393" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4402:4666" ph=" Checks if current position is valid ..." />
+            <marker date="1508492440000" expanded="false" signature="4696:4765" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4774:4957" ph=" Rewind the Iterator to the first element ..." />
+            <marker date="1508492440000" expanded="false" signature="4988:5034" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="5066:5341" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="5136:5299" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5184:5237" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5350:5445" ph=" Combine the data with the values. ..." />
+            <marker date="1508492440000" expanded="false" signature="5484:5823" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="5652:5717" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5832:5938" ph=" Determines whether the items contains a specific key. ..." />
+            <marker date="1508492440000" expanded="true" signature="5975:6051" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="6060:6181" ph=" Get values which the key not in array. ..." />
+            <marker date="1508492440000" expanded="false" signature="6231:6415" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="6268:6374" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="6309:6373" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="6424:6505" ph=" Unique the items. ..." />
+            <marker date="1508492440000" expanded="true" signature="6547:6677" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="6582:6647" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrayable/Src/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1705">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding>
+            <marker date="1508492440000" expanded="true" signature="206:252" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="261:325" ph=" ..." />
+            <marker date="1508492440000" expanded="false" signature="373:422" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="431:503" ph=" @param $begin ..." />
+            <marker date="1508492440000" expanded="true" signature="552:680" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="588:626" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="689:754" ph=" @param callable $callback ..." />
+            <marker date="1508492440000" expanded="false" signature="800:896" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="930:983" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="992:1062" ph=" @param callable|null $callback ..." />
+            <marker date="1508492440000" expanded="true" signature="1118:1352" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="1158:1214" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="1222:1312" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="1361:1413" ph=" Return all items. ..." />
+            <marker date="1508492440000" expanded="true" signature="1441:1481" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="1490:1545" ph=" @param null $key ..." />
+            <marker date="1508492440000" expanded="false" signature="1588:1823" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="1623:1696" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="1832:1950" ph=" Taken only these keys' values. ..." />
+            <marker date="1508492440000" expanded="true" signature="1991:2232" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="2027:2062" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="2241:2335" ph=" Split the whole array into pieces. ..." />
+            <marker date="1508492440000" expanded="true" signature="2370:2552" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="2459:2510" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="2561:2659" ph=" Get the values except these keys. ..." />
+            <marker date="1508492440000" expanded="true" signature="2702:2871" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="2880:2941" ph=" Count elements of an object ..." />
+            <marker date="1508492440000" expanded="false" signature="2971:3018" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3027:3088" ph=" Whether a offset exists ..." />
+            <marker date="1508492440000" expanded="false" signature="3132:3188" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3197:3250" ph=" Offset to retrieve ..." />
+            <marker date="1508492440000" expanded="false" signature="3291:3340" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3349:3376" ph=" Offset to set ..." />
+            <marker date="1508492440000" expanded="false" signature="3425:3476" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3485:3514" ph=" Offset to unset ..." />
+            <marker date="1508492440000" expanded="false" signature="3557:3606" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3615:3776" ph=" Return the current element ..." />
+            <marker date="1508492440000" expanded="false" signature="3808:3870" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3879:4048" ph=" Move forward to next element ..." />
+            <marker date="1508492440000" expanded="false" signature="4077:4121" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4130:4316" ph=" Return the key of the current element ..." />
+            <marker date="1508492440000" expanded="false" signature="4344:4393" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4402:4666" ph=" Checks if current position is valid ..." />
+            <marker date="1508492440000" expanded="false" signature="4696:4765" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4774:4957" ph=" Rewind the Iterator to the first element ..." />
+            <marker date="1508492440000" expanded="false" signature="4988:5034" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="5066:5341" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="5136:5299" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5184:5237" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5350:5445" ph=" Combine the data with the values. ..." />
+            <marker date="1508492440000" expanded="false" signature="5484:5823" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="5652:5717" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5832:5938" ph=" Determines whether the items contains a specific key. ..." />
+            <marker date="1508492440000" expanded="true" signature="5975:6051" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="6060:6181" ph=" Get values which the key not in array. ..." />
+            <marker date="1508492440000" expanded="false" signature="6231:6415" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="6268:6374" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="6309:6373" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="6424:6505" ph=" Unique the items. ..." />
+            <marker date="1508492440000" expanded="true" signature="6547:6677" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="6582:6647" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrayable/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <marker date="1508491741000" expanded="true" signature="318:493" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrayable/Src/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1488">
+          <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <folding>
+            <marker date="1508492440000" expanded="true" signature="206:252" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="261:325" ph=" ..." />
+            <marker date="1508492440000" expanded="false" signature="373:422" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="431:503" ph=" @param $begin ..." />
+            <marker date="1508492440000" expanded="true" signature="552:680" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="588:626" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="689:754" ph=" @param callable $callback ..." />
+            <marker date="1508492440000" expanded="false" signature="800:896" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="930:983" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="992:1062" ph=" @param callable|null $callback ..." />
+            <marker date="1508492440000" expanded="true" signature="1118:1352" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="1158:1214" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="1222:1312" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="1361:1413" ph=" Return all items. ..." />
+            <marker date="1508492440000" expanded="true" signature="1441:1481" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="1490:1545" ph=" @param null $key ..." />
+            <marker date="1508492440000" expanded="false" signature="1588:1823" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="1623:1696" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="1832:1950" ph=" Taken only these keys' values. ..." />
+            <marker date="1508492440000" expanded="true" signature="1991:2232" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="2027:2062" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="2241:2335" ph=" Split the whole array into pieces. ..." />
+            <marker date="1508492440000" expanded="true" signature="2370:2552" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="2459:2510" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="2561:2659" ph=" Get the values except these keys. ..." />
+            <marker date="1508492440000" expanded="true" signature="2702:2871" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="2880:2941" ph=" Count elements of an object ..." />
+            <marker date="1508492440000" expanded="false" signature="2971:3018" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3027:3088" ph=" Whether a offset exists ..." />
+            <marker date="1508492440000" expanded="false" signature="3132:3188" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3197:3250" ph=" Offset to retrieve ..." />
+            <marker date="1508492440000" expanded="false" signature="3291:3340" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3349:3376" ph=" Offset to set ..." />
+            <marker date="1508492440000" expanded="false" signature="3425:3476" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3485:3514" ph=" Offset to unset ..." />
+            <marker date="1508492440000" expanded="false" signature="3557:3606" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3615:3776" ph=" Return the current element ..." />
+            <marker date="1508492440000" expanded="false" signature="3808:3870" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3879:4048" ph=" Move forward to next element ..." />
+            <marker date="1508492440000" expanded="false" signature="4077:4121" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4130:4316" ph=" Return the key of the current element ..." />
+            <marker date="1508492440000" expanded="false" signature="4344:4393" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4402:4666" ph=" Checks if current position is valid ..." />
+            <marker date="1508492440000" expanded="false" signature="4696:4765" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4774:4957" ph=" Rewind the Iterator to the first element ..." />
+            <marker date="1508492440000" expanded="false" signature="4988:5034" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="5066:5341" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="5136:5299" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5184:5237" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5350:5445" ph=" Combine the data with the values. ..." />
+            <marker date="1508492440000" expanded="false" signature="5484:5823" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="5652:5717" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5832:5938" ph=" Determines whether the items contains a specific key. ..." />
+            <marker date="1508492440000" expanded="true" signature="5975:6051" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="6060:6181" ph=" Get values which the key not in array. ..." />
+            <marker date="1508492440000" expanded="false" signature="6231:6415" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="6268:6374" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="6309:6373" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="6424:6505" ph=" Unique the items. ..." />
+            <marker date="1508492440000" expanded="true" signature="6547:6677" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="6582:6647" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrayable/Src/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="45" column="43" lean-forward="false" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+          <folding>
+            <marker date="1508492440000" expanded="true" signature="206:252" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="261:325" ph=" ..." />
+            <marker date="1508492440000" expanded="false" signature="373:422" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="431:503" ph=" @param $begin ..." />
+            <marker date="1508492440000" expanded="true" signature="552:680" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="588:626" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="689:754" ph=" @param callable $callback ..." />
+            <marker date="1508492440000" expanded="false" signature="800:896" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="930:983" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="992:1062" ph=" @param callable|null $callback ..." />
+            <marker date="1508492440000" expanded="true" signature="1118:1352" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="1158:1214" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="1222:1312" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="1361:1413" ph=" Return all items. ..." />
+            <marker date="1508492440000" expanded="true" signature="1441:1481" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="1490:1545" ph=" @param null $key ..." />
+            <marker date="1508492440000" expanded="false" signature="1588:1823" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="1623:1696" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="1832:1950" ph=" Taken only these keys' values. ..." />
+            <marker date="1508492440000" expanded="true" signature="1991:2232" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="2027:2062" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="2241:2335" ph=" Split the whole array into pieces. ..." />
+            <marker date="1508492440000" expanded="true" signature="2370:2552" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="2459:2510" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="2561:2659" ph=" Get the values except these keys. ..." />
+            <marker date="1508492440000" expanded="true" signature="2702:2871" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="2880:2941" ph=" Count elements of an object ..." />
+            <marker date="1508492440000" expanded="false" signature="2971:3018" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3027:3088" ph=" Whether a offset exists ..." />
+            <marker date="1508492440000" expanded="false" signature="3132:3188" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3197:3250" ph=" Offset to retrieve ..." />
+            <marker date="1508492440000" expanded="false" signature="3291:3340" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3349:3376" ph=" Offset to set ..." />
+            <marker date="1508492440000" expanded="false" signature="3425:3476" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3485:3514" ph=" Offset to unset ..." />
+            <marker date="1508492440000" expanded="false" signature="3557:3606" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3615:3776" ph=" Return the current element ..." />
+            <marker date="1508492440000" expanded="false" signature="3808:3870" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3879:4048" ph=" Move forward to next element ..." />
+            <marker date="1508492440000" expanded="false" signature="4077:4121" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4130:4316" ph=" Return the key of the current element ..." />
+            <marker date="1508492440000" expanded="false" signature="4344:4393" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4402:4666" ph=" Checks if current position is valid ..." />
+            <marker date="1508492440000" expanded="false" signature="4696:4765" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4774:4957" ph=" Rewind the Iterator to the first element ..." />
+            <marker date="1508492440000" expanded="false" signature="4988:5034" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="5066:5341" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="5136:5299" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5184:5237" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5350:5445" ph=" Combine the data with the values. ..." />
+            <marker date="1508492440000" expanded="false" signature="5484:5823" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="5652:5717" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5832:5938" ph=" Determines whether the items contains a specific key. ..." />
+            <marker date="1508492440000" expanded="true" signature="5975:6051" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="6060:6181" ph=" Get values which the key not in array. ..." />
+            <marker date="1508492440000" expanded="false" signature="6231:6415" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="6268:6374" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="6309:6373" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="6424:6505" ph=" Unique the items. ..." />
+            <marker date="1508492440000" expanded="true" signature="6547:6677" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="6582:6647" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrayable/Src/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <marker date="1508492440000" expanded="true" signature="206:252" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="261:325" ph=" ..." />
+            <marker date="1508492440000" expanded="false" signature="373:422" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="431:503" ph=" @param $begin ..." />
+            <marker date="1508492440000" expanded="true" signature="552:680" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="588:626" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="689:754" ph=" @param callable $callback ..." />
+            <marker date="1508492440000" expanded="false" signature="800:896" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="930:983" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="992:1062" ph=" @param callable|null $callback ..." />
+            <marker date="1508492440000" expanded="true" signature="1118:1352" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="1158:1214" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="1222:1312" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="1361:1413" ph=" Return all items. ..." />
+            <marker date="1508492440000" expanded="true" signature="1441:1481" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="1490:1545" ph=" @param null $key ..." />
+            <marker date="1508492440000" expanded="false" signature="1588:1823" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="1623:1696" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="1832:1950" ph=" Taken only these keys' values. ..." />
+            <marker date="1508492440000" expanded="true" signature="1991:2232" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="2027:2062" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="2241:2335" ph=" Split the whole array into pieces. ..." />
+            <marker date="1508492440000" expanded="true" signature="2370:2552" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="2459:2510" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="2561:2659" ph=" Get the values except these keys. ..." />
+            <marker date="1508492440000" expanded="true" signature="2702:2871" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="2880:2941" ph=" Count elements of an object ..." />
+            <marker date="1508492440000" expanded="false" signature="2971:3018" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3027:3088" ph=" Whether a offset exists ..." />
+            <marker date="1508492440000" expanded="false" signature="3132:3188" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3197:3250" ph=" Offset to retrieve ..." />
+            <marker date="1508492440000" expanded="false" signature="3291:3340" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3349:3376" ph=" Offset to set ..." />
+            <marker date="1508492440000" expanded="false" signature="3425:3476" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3485:3514" ph=" Offset to unset ..." />
+            <marker date="1508492440000" expanded="false" signature="3557:3606" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3615:3776" ph=" Return the current element ..." />
+            <marker date="1508492440000" expanded="false" signature="3808:3870" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3879:4048" ph=" Move forward to next element ..." />
+            <marker date="1508492440000" expanded="false" signature="4077:4121" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4130:4316" ph=" Return the key of the current element ..." />
+            <marker date="1508492440000" expanded="false" signature="4344:4393" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4402:4666" ph=" Checks if current position is valid ..." />
+            <marker date="1508492440000" expanded="false" signature="4696:4765" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4774:4957" ph=" Rewind the Iterator to the first element ..." />
+            <marker date="1508492440000" expanded="false" signature="4988:5034" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="5066:5341" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="5136:5299" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5184:5237" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5350:5445" ph=" Combine the data with the values. ..." />
+            <marker date="1508492440000" expanded="false" signature="5484:5823" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="5652:5717" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5832:5938" ph=" Determines whether the items contains a specific key. ..." />
+            <marker date="1508492440000" expanded="true" signature="5975:6051" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="6060:6181" ph=" Get values which the key not in array. ..." />
+            <marker date="1508492440000" expanded="false" signature="6231:6415" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="6268:6374" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="6309:6373" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="6424:6505" ph=" Unique the items. ..." />
+            <marker date="1508492440000" expanded="true" signature="6547:6677" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="6582:6647" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Http/Src/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <marker date="1508484361000" expanded="true" signature="76:90" ph="{...}" />
+            <marker date="1508484361000" expanded="true" signature="117:155" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Control/switch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <marker date="1508398070000" expanded="true" signature="163:257" ph="..." />
+            <marker date="1508398070000" expanded="false" signature="285:545" ph="{...}" />
+            <marker date="1508398070000" expanded="true" signature="308:542" ph="..." />
+            <marker date="1508398070000" expanded="true" signature="325:364" ph="..." />
+            <marker date="1508398070000" expanded="true" signature="381:422" ph="..." />
+            <marker date="1508398070000" expanded="true" signature="438:479" ph="..." />
+            <marker date="1508398070000" expanded="true" signature="497:537" ph="..." />
+            <marker date="1508398070000" expanded="true" signature="579:615" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Control/switch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding>
+            <marker date="1508398070000" expanded="true" signature="163:257" ph="..." />
+            <marker date="1508398070000" expanded="false" signature="285:545" ph="{...}" />
+            <marker date="1508398070000" expanded="true" signature="308:542" ph="..." />
+            <marker date="1508398070000" expanded="true" signature="325:364" ph="..." />
+            <marker date="1508398070000" expanded="true" signature="381:422" ph="..." />
+            <marker date="1508398070000" expanded="true" signature="438:479" ph="..." />
+            <marker date="1508398070000" expanded="true" signature="497:537" ph="..." />
+            <marker date="1508398070000" expanded="true" signature="579:615" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileSystem/Src/Dictionary.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="199" column="0" lean-forward="true" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileSystem/Src/Dictionary.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1612">
+          <caret line="204" column="44" lean-forward="false" selection-start-line="204" selection-start-column="44" selection-end-line="204" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileSystem/Src/Dictionary.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7316">
+          <caret line="236" column="0" lean-forward="true" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileSystem/Src/Dictionary.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5921">
+          <caret line="191" column="36" lean-forward="false" selection-start-line="191" selection-start-column="36" selection-end-line="191" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FileSystem/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="899">
           <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <marker date="1508318715000" expanded="true" signature="249:474" ph="//..." />
-            <marker date="1508318715000" expanded="true" signature="476:1066" ph="//..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -289,20 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1302">
           <caret line="42" column="28" lean-forward="false" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-          <folding>
-            <marker date="1508149198000" expanded="true" signature="31:122" ph="..." />
-            <marker date="1508149198000" expanded="true" signature="38:98" ph="..." />
-            <marker date="1508149198000" expanded="true" signature="105:114" ph="..." />
-            <marker date="1508149198000" expanded="true" signature="132:1098" ph="..." />
-            <marker date="1508149198000" expanded="true" signature="181:1021" ph="{...}" />
-            <marker date="1508149198000" expanded="true" signature="240:403" ph="{...}" />
-            <marker date="1508149198000" expanded="true" signature="273:339" ph="{...}" />
-            <marker date="1508149198000" expanded="true" signature="343:393" ph="{...}" />
-            <marker date="1508149198000" expanded="true" signature="468:531" ph="{...}" />
-            <marker date="1508149198000" expanded="true" signature="614:717" ph="{...}" />
-            <marker date="1508149198000" expanded="true" signature="648:707" ph="{...}" />
-            <marker date="1508149198000" expanded="true" signature="796:959" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -310,52 +962,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1302">
           <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-          <folding>
-            <marker date="1508149198000" expanded="true" signature="31:122" ph="..." />
-            <marker date="1508149198000" expanded="true" signature="38:98" ph="..." />
-            <marker date="1508149198000" expanded="true" signature="105:114" ph="..." />
-            <marker date="1508149198000" expanded="true" signature="132:1098" ph="..." />
-            <marker date="1508149198000" expanded="true" signature="181:1021" ph="{...}" />
-            <marker date="1508149198000" expanded="true" signature="240:403" ph="{...}" />
-            <marker date="1508149198000" expanded="true" signature="273:339" ph="{...}" />
-            <marker date="1508149198000" expanded="true" signature="343:393" ph="{...}" />
-            <marker date="1508149198000" expanded="true" signature="468:531" ph="{...}" />
-            <marker date="1508149198000" expanded="true" signature="614:717" ph="{...}" />
-            <marker date="1508149198000" expanded="true" signature="648:707" ph="{...}" />
-            <marker date="1508149198000" expanded="true" signature="796:959" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Array/ArrayFunctions.php">
+    <entry file="file://$PROJECT_DIR$/Arrayable/ArrayFunctions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1767">
           <caret line="77" column="37" lean-forward="false" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Array/ArrayFunctions.php">
+    <entry file="file://$PROJECT_DIR$/Arrayable/ArrayFunctions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2108">
           <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Array/ArrayFunctions.php">
+    <entry file="file://$PROJECT_DIR$/Arrayable/ArrayFunctions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2139">
           <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Array/ArrayFunctions.php">
+    <entry file="file://$PROJECT_DIR$/Arrayable/ArrayFunctions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="992">
           <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Array/ArrayFunctions.php">
+    <entry file="file://$PROJECT_DIR$/Arrayable/ArrayFunctions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
@@ -373,54 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-          <folding>
-            <marker date="1508149198000" expanded="true" signature="31:122" ph="..." />
-            <marker date="1508149198000" expanded="true" signature="38:98" ph="..." />
-            <marker date="1508149198000" expanded="true" signature="105:114" ph="..." />
-            <marker date="1508149198000" expanded="true" signature="132:1098" ph="..." />
-            <marker date="1508149198000" expanded="true" signature="181:1021" ph="{...}" />
-            <marker date="1508149198000" expanded="true" signature="240:403" ph="{...}" />
-            <marker date="1508149198000" expanded="true" signature="273:339" ph="{...}" />
-            <marker date="1508149198000" expanded="true" signature="343:393" ph="{...}" />
-            <marker date="1508149198000" expanded="true" signature="468:531" ph="{...}" />
-            <marker date="1508149198000" expanded="true" signature="614:717" ph="{...}" />
-            <marker date="1508149198000" expanded="true" signature="648:707" ph="{...}" />
-            <marker date="1508149198000" expanded="true" signature="796:959" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Control/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <marker date="1508303576000" expanded="false" signature="9:83" ph=" Created by PhpStorm. ..." />
-            <marker date="1508303576000" expanded="true" signature="115:251" ph="..." />
-            <marker date="1508303576000" expanded="true" signature="144:249" ph="..." />
-            <marker date="1508303576000" expanded="true" signature="163:196" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Array/ArrayFunctions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="72" column="18" lean-forward="false" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
-          <folding>
-            <marker date="1507885382000" expanded="true" signature="26:80" ph="..." />
-            <marker date="1507885382000" expanded="true" signature="95:167" ph="..." />
-            <marker date="1507885382000" expanded="true" signature="267:872" ph="{...}" />
-            <marker date="1507885382000" expanded="true" signature="911:974" ph="..." />
-            <marker date="1507885382000" expanded="true" signature="1010:1084" ph="..." />
-            <marker date="1507885382000" expanded="true" signature="1119:1235" ph="..." />
-            <marker date="1507885382000" expanded="true" signature="1132:1232" ph="..." />
-            <marker date="1507885382000" expanded="true" signature="1142:1231" ph="..." />
-            <marker date="1507885382000" expanded="true" signature="1165:1206" ph="..." />
-            <marker date="1507885382000" expanded="true" signature="1272:1850" ph="..." />
-            <marker date="1507885382000" expanded="true" signature="1427:1520" ph="..." />
-            <marker date="1507885382000" expanded="true" signature="1537:1632" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -428,47 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="153" column="0" lean-forward="false" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
-          <folding>
-            <marker date="1504494015000" expanded="true" signature="10:1370" ph=" @deprecated 5.3.0 since 5.3.0 ..." />
-            <marker date="1504494015000" expanded="true" signature="1403:1637" ph=" Sets the process title ..." />
-            <marker date="1504494015000" expanded="true" signature="1687:1901" ph=" Returns the current process title ..." />
-            <marker date="1504494015000" expanded="true" signature="1945:2130" ph=" Reclaims memory used by the Zend Engine memory manager ..." />
-            <marker date="1504494015000" expanded="true" signature="2166:2711" ph=" Returns active resources ..." />
-            <marker date="1504494015000" expanded="true" signature="2753:3116" ph=" The full path and filename of the file. If used inside an include, ..." />
-            <marker date="1504494015000" expanded="true" signature="3154:3264" ph=" The current line number of the file. ..." />
-            <marker date="1504494015000" expanded="true" signature="3301:3771" ph=" The class name. (Added in PHP 4.3.0) As of PHP 5 this constant ..." />
-            <marker date="1504494015000" expanded="true" signature="3810:4059" ph=" The function name. (Added in PHP 4.3.0) As of PHP 5 this constant ..." />
-            <marker date="1504494015000" expanded="true" signature="4101:4286" ph=" The class method name. (Added in PHP 5.0.0) The method name is ..." />
-            <marker date="1504494015000" expanded="true" signature="4326:4614" ph=" The trait name. (Added in PHP 5.4.0) As of PHP 5.4 this constant ..." />
-            <marker date="1504494015000" expanded="true" signature="4653:4978" ph=" The directory of the file. If used inside an include, ..." />
-            <marker date="1504494015000" expanded="true" signature="5015:5222" ph=" The name of the current namespace (case-sensitive). This constant ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Control/switch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1643">
-          <caret line="58" column="25" lean-forward="false" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-          <folding>
-            <marker date="1507787451000" expanded="false" signature="9:83" ph=" Created by PhpStorm. ..." />
-            <marker date="1507787451000" expanded="true" signature="113:373" ph="{...}" />
-            <marker date="1507787451000" expanded="true" signature="136:370" ph="..." />
-            <marker date="1507787451000" expanded="true" signature="153:192" ph="..." />
-            <marker date="1507787451000" expanded="true" signature="209:250" ph="..." />
-            <marker date="1507787451000" expanded="true" signature="266:307" ph="..." />
-            <marker date="1507787451000" expanded="true" signature="325:365" ph="..." />
-            <marker date="1507787451000" expanded="true" signature="393:425" ph="{...}" />
-            <marker date="1507787451000" expanded="true" signature="461:539" ph="{...}" />
-            <marker date="1507787451000" expanded="true" signature="491:537" ph="{...}" />
-            <marker date="1507787451000" expanded="true" signature="576:655" ph="{...}" />
-            <marker date="1507787451000" expanded="true" signature="606:653" ph="{...}" />
-            <marker date="1507787451000" expanded="true" signature="692:771" ph="{...}" />
-            <marker date="1507787451000" expanded="true" signature="722:769" ph="{...}" />
-            <marker date="1507787451000" expanded="true" signature="810:912" ph="{...}" />
-            <marker date="1507787451000" expanded="true" signature="840:910" ph="{...}" />
-            <marker date="1507787451000" expanded="true" signature="946:974" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -476,7 +1025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -484,57 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="633" column="9" lean-forward="false" selection-start-line="633" selection-start-column="9" selection-end-line="633" selection-end-column="9" />
-          <folding>
-            <marker date="1504494015000" expanded="true" signature="5:32729" ph="..." />
-            <marker date="1504494015000" expanded="true" signature="10:1411" ph=" Open Internet or Unix domain socket connection ..." />
-            <marker date="1504494015000" expanded="true" signature="1516:1853" ph=" Open persistent Internet or Unix domain socket connection ..." />
-            <marker date="1504494015000" expanded="true" signature="1959:4865" ph=" Pack data into binary string ..." />
-            <marker date="1504494015000" expanded="true" signature="4924:5307" ph=" Unpack data from binary string ..." />
-            <marker date="1504494015000" expanded="true" signature="5359:6535" ph=" Tells what the user's browser is capable of ..." />
-            <marker date="1504494015000" expanded="true" signature="6609:7302" ph=" One-way string encryption (hashing) ..." />
-            <marker date="1504494015000" expanded="true" signature="7348:8102" ph=" Open directory handle ..." />
-            <marker date="1504494015000" expanded="true" signature="8154:8499" ph=" Close directory handle ..." />
-            <marker date="1504494015000" expanded="true" signature="8548:8773" ph=" Change directory ..." />
-            <marker date="1504494015000" expanded="true" signature="8811:9040" ph=" Change the root directory ..." />
-            <marker date="1504494015000" expanded="true" signature="9079:9541" ph=" Gets the current working directory ..." />
-            <marker date="1504494015000" expanded="true" signature="9570:9917" ph=" Rewind directory handle ..." />
-            <marker date="1504494015000" expanded="true" signature="9967:10372" ph=" Read entry from directory handle ..." />
-            <marker date="1504494015000" expanded="true" signature="10420:10616" ph=" Return an instance of the Directory class ..." />
-            <marker date="1504494015000" expanded="true" signature="10662:11445" ph=" List files and directories inside the specified path ..." />
-            <marker date="1504494015000" expanded="true" signature="11525:12596" ph=" Find pathnames matching a pattern ..." />
-            <marker date="1504494015000" expanded="true" signature="12646:12949" ph=" Gets last access time of file ..." />
-            <marker date="1504494015000" expanded="true" signature="12990:13293" ph=" Gets inode change time of file ..." />
-            <marker date="1504494015000" expanded="true" signature="13334:13714" ph=" Gets file group ..." />
-            <marker date="1504494015000" expanded="true" signature="13755:13992" ph=" Gets file inode ..." />
-            <marker date="1504494015000" expanded="true" signature="14033:14378" ph=" Gets file modification time ..." />
-            <marker date="1504494015000" expanded="true" signature="14419:14763" ph=" Gets file owner ..." />
-            <marker date="1504494015000" expanded="true" signature="14804:15046" ph=" Gets file permissions ..." />
-            <marker date="1504494015000" expanded="true" signature="15087:15374" ph=" Gets file size ..." />
-            <marker date="1504494015000" expanded="true" signature="15414:15857" ph=" Gets file type ..." />
-            <marker date="1504494015000" expanded="true" signature="15897:16718" ph=" Checks whether a file or directory exists ..." />
-            <marker date="1504494015000" expanded="true" signature="16761:17026" ph=" Tells whether the filename is writable ..." />
-            <marker date="1504494015000" expanded="true" signature="17069:17337" ph=" &amp;Alias; &lt;function&gt;is_writable&lt;/function&gt; ..." />
-            <marker date="1504494015000" expanded="true" signature="17381:17689" ph=" Tells whether a file exists and is readable ..." />
-            <marker date="1504494015000" expanded="true" signature="17732:18012" ph=" Tells whether the filename is executable ..." />
-            <marker date="1504494015000" expanded="true" signature="18057:18337" ph=" Tells whether the filename is a regular file ..." />
-            <marker date="1504494015000" expanded="true" signature="18376:18840" ph=" Tells whether the filename is a directory ..." />
-            <marker date="1504494015000" expanded="true" signature="18878:19160" ph=" Tells whether the filename is a symbolic link ..." />
-            <marker date="1504494015000" expanded="true" signature="19199:21073" ph=" Gives information about a file ..." />
-            <marker date="1504494015000" expanded="true" signature="21109:21658" ph=" Gives information about a file or symbolic link ..." />
-            <marker date="1504494015000" expanded="true" signature="21695:21973" ph=" Changes file owner ..." />
-            <marker date="1504494015000" expanded="true" signature="22017:22297" ph=" Changes file group ..." />
-            <marker date="1504494015000" expanded="true" signature="22342:22622" ph=" Changes user ownership of symlink ..." />
-            <marker date="1504494015000" expanded="true" signature="22667:22970" ph=" Changes group ownership of symlink ..." />
-            <marker date="1504494015000" expanded="true" signature="23016:24100" ph=" Changes file mode ..." />
-            <marker date="1504494015000" expanded="true" signature="24144:24691" ph=" Sets access and modification time of file ..." />
-            <marker date="1504494015000" expanded="true" signature="24757:25143" ph=" Clears file status cache ..." />
-            <marker date="1504494015000" expanded="true" signature="25226:25538" ph=" Returns the total size of a directory ..." />
-            <marker date="1504494015000" expanded="true" signature="25587:26071" ph=" Returns available space in directory ..." />
-            <marker date="1504494015000" expanded="true" signature="26119:26274" ph=" &amp;Alias; &lt;function&gt;disk_free_space&lt;/function&gt; ..." />
-            <marker date="1504494015000" expanded="true" signature="26315:29195" ph=" Send mail ..." />
-            <marker date="1504494015000" expanded="true" signature="29304:29554" ph=" Calculate the hash value needed by EZMLM ..." />
-            <marker date="1504494015000" expanded="true" signature="29592:32676" ph=" Open connection to system logger ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -542,137 +1039,476 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="857" column="9" lean-forward="false" selection-start-line="857" selection-start-column="9" selection-end-line="857" selection-end-column="9" />
-          <folding>
-            <marker date="1504494015000" expanded="true" signature="10:207" ph=" (PHP 5.5.0)&lt;br/&gt; ..." />
-            <marker date="1504494015000" expanded="true" signature="240:1153" ph=" Get the integer value of a variable ..." />
-            <marker date="1504494015000" expanded="true" signature="1200:1553" ph=" Get float value of a variable ..." />
-            <marker date="1504494015000" expanded="true" signature="1588:2003" ph=" (PHP 4.2.0, PHP 5)&lt;br/&gt; ..." />
-            <marker date="1504494015000" expanded="true" signature="2039:2482" ph=" Get string value of a variable ..." />
-            <marker date="1504494015000" expanded="true" signature="2515:2973" ph=" Get the type of a variable ..." />
-            <marker date="1504494015000" expanded="true" signature="3007:3698" ph=" Set the type of a variable ..." />
-            <marker date="1504494015000" expanded="true" signature="3740:3988" ph=" Finds whether a variable is &amp;null; ..." />
-            <marker date="1504494015000" expanded="true" signature="4022:4282" ph=" Finds whether a variable is a resource ..." />
-            <marker date="1504494015000" expanded="true" signature="4320:4578" ph=" Finds out whether a variable is a boolean ..." />
-            <marker date="1504494015000" expanded="true" signature="4612:4865" ph=" &amp;Alias; &lt;function&gt;is_int&lt;/function&gt; ..." />
-            <marker date="1504494015000" expanded="true" signature="4899:5161" ph=" Finds whether the type of a variable is float ..." />
-            <marker date="1504494015000" expanded="true" signature="5196:5460" ph=" Find whether the type of a variable is integer ..." />
-            <marker date="1504494015000" expanded="true" signature="5493:5749" ph=" &amp;Alias; &lt;function&gt;is_int&lt;/function&gt; ..." />
-            <marker date="1504494015000" expanded="true" signature="5786:6040" ph=" &amp;Alias; &lt;function&gt;is_float&lt;/function&gt; ..." />
-            <marker date="1504494015000" expanded="true" signature="6076:6328" ph=" &amp;Alias; &lt;function&gt;is_float&lt;/function&gt; ..." />
-            <marker date="1504494015000" expanded="true" signature="6362:6657" ph=" Finds whether a variable is a number or a numeric string ..." />
-            <marker date="1504494015000" expanded="true" signature="6694:6963" ph=" Find whether the type of a variable is string ..." />
-            <marker date="1504494015000" expanded="true" signature="6999:7253" ph=" Finds whether a variable is an array ..." />
-            <marker date="1504494015000" expanded="true" signature="7288:7545" ph=" Finds whether a variable is an object ..." />
-            <marker date="1504494015000" expanded="true" signature="7581:7836" ph=" Finds whether a variable is a scalar ..." />
-            <marker date="1504494015000" expanded="true" signature="7872:8875" ph=" Verify that the contents of a variable can be called as a function ..." />
-            <marker date="1504494015000" expanded="true" signature="8958:9441" ph=" Closes process file pointer ..." />
-            <marker date="1504494015000" expanded="true" signature="9477:9999" ph=" Opens process file pointer ..." />
-            <marker date="1504494015000" expanded="true" signature="10042:10662" ph=" Outputs a file ..." />
-            <marker date="1504494015000" expanded="true" signature="10745:11055" ph=" Rewind the position of a file pointer ..." />
-            <marker date="1504494015000" expanded="true" signature="11091:11374" ph=" Removes directory ..." />
-            <marker date="1504494015000" expanded="true" signature="11427:11712" ph=" Changes the current umask ..." />
-            <marker date="1504494015000" expanded="true" signature="11752:12065" ph=" Closes an open file pointer ..." />
-            <marker date="1504494015000" expanded="true" signature="12101:12516" ph=" Tests for end-of-file on a file pointer ..." />
-            <marker date="1504494015000" expanded="true" signature="12550:12961" ph=" Gets character from file pointer ..." />
-            <marker date="1504494015000" expanded="true" signature="12996:13970" ph=" Gets line from file pointer ..." />
-            <marker date="1504494015000" expanded="true" signature="14021:14748" ph=" Gets line from file pointer and strip HTML tags ..." />
-            <marker date="1504494015000" expanded="true" signature="14824:15109" ph=" Binary-safe file read ..." />
-            <marker date="1504494015000" expanded="true" signature="15153:21365" ph=" Opens file or URL ..." />
-            <marker date="1504494015000" expanded="true" signature="21452:21929" ph=" Output all remaining data on a file pointer ..." />
-            <marker date="1504494015000" expanded="true" signature="21968:22480" ph=" Truncates a file to a given length ..." />
-            <marker date="1504494015000" expanded="true" signature="22526:22848" ph=" Gets information about a file using an open file pointer ..." />
-            <marker date="1504494015000" expanded="true" signature="22883:23664" ph=" Seeks on a file pointer ..." />
-            <marker date="1504494015000" expanded="true" signature="23728:24283" ph=" Returns the current position of the file read/write pointer ..." />
-            <marker date="1504494015000" expanded="true" signature="24318:24653" ph=" Flushes the output to a file ..." />
-            <marker date="1504494015000" expanded="true" signature="24689:25376" ph=" Binary-safe file write ..." />
-            <marker date="1504494015000" expanded="true" signature="25437:26234" ph=" &amp;Alias; &lt;function&gt;fwrite&lt;/function&gt; ..." />
-            <marker date="1504494015000" expanded="true" signature="26287:27201" ph=" Attempts to create the directory specified by pathname. ..." />
-            <marker date="1504494015000" expanded="true" signature="27289:27718" ph=" Renames a file or directory ..." />
-            <marker date="1504494015000" expanded="true" signature="27782:28373" ph=" Copies file ..." />
-            <marker date="1504494015000" expanded="true" signature="28431:28871" ph=" Create file with unique file name ..." />
-            <marker date="1504494015000" expanded="true" signature="28914:29146" ph=" Creates a temporary file ..." />
-            <marker date="1504494015000" expanded="true" signature="29176:30113" ph=" Reads entire file into an array ..." />
-            <marker date="1504494015000" expanded="true" signature="30181:31041" ph=" Reads entire file into a string ..." />
-            <marker date="1504494015000" expanded="true" signature="31163:33026" ph=" Write a string to a file ..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileSystem/tmpfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/FileSystem/tmpfile" />
     <entry file="file://$PROJECT_DIR$/FileSystem/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
           <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileSystem/Src/Dictionary.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="188" column="4" lean-forward="false" selection-start-line="188" selection-start-column="4" selection-end-line="188" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Control/Src/Files/TextFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Control/Src/Files/ImageFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Control/Src/Files/VideoFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Control/index.php" />
+    <entry file="file://$PROJECT_DIR$/Control/Src/Interfaces/FileType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Control/switch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <marker date="1508318715000" expanded="true" signature="249:474" ph="//..." />
-            <marker date="1508318715000" expanded="true" signature="476:1066" ph="//..." />
+            <marker date="1508398070000" expanded="true" signature="163:257" ph="..." />
+            <marker date="1508398070000" expanded="false" signature="285:545" ph="{...}" />
+            <marker date="1508398070000" expanded="true" signature="308:542" ph="..." />
+            <marker date="1508398070000" expanded="true" signature="325:364" ph="..." />
+            <marker date="1508398070000" expanded="true" signature="381:422" ph="..." />
+            <marker date="1508398070000" expanded="true" signature="438:479" ph="..." />
+            <marker date="1508398070000" expanded="true" signature="497:537" ph="..." />
+            <marker date="1508398070000" expanded="true" signature="579:615" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileSystem/src/Dictionary.php">
+    <entry file="file://$PROJECT_DIR$/Http/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Http/Src/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <marker date="1508484361000" expanded="true" signature="76:90" ph="{...}" />
+            <marker date="1508484361000" expanded="true" signature="117:155" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="147" column="42" lean-forward="false" selection-start-line="147" selection-start-column="42" selection-end-line="147" selection-end-column="42" />
+          <folding>
+            <marker date="1508379059000" expanded="true" signature="48:142" ph=" Created by typecasting to object. ..." />
+            <marker date="1508379059000" expanded="true" signature="168:213" ph=" @link https://wiki.php.net/rfc/iterable ..." />
+            <marker date="1508379059000" expanded="true" signature="242:366" ph=" Interface to detect if a class is traversable using &amp;foreach;. ..." />
+            <marker date="1508379059000" expanded="true" signature="416:525" ph=" Interface to create an external Iterator. ..." />
+            <marker date="1508379059000" expanded="true" signature="577:869" ph="..." />
+            <marker date="1508379059000" expanded="true" signature="586:831" ph=" Retrieve an external iterator ..." />
+            <marker date="1508379059000" expanded="true" signature="875:1024" ph=" Interface for external iterators or objects that can be iterated ..." />
+            <marker date="1508379059000" expanded="true" signature="1067:2231" ph="..." />
+            <marker date="1508379059000" expanded="true" signature="1076:1237" ph=" Return the current element ..." />
+            <marker date="1508379059000" expanded="true" signature="1279:1448" ph=" Move forward to next element ..." />
+            <marker date="1508379059000" expanded="true" signature="1487:1673" ph=" Return the key of the current element ..." />
+            <marker date="1508379059000" expanded="true" signature="1711:1975" ph=" Checks if current position is valid ..." />
+            <marker date="1508379059000" expanded="true" signature="2015:2198" ph=" Rewind the Iterator to the first element ..." />
+            <marker date="1508379059000" expanded="true" signature="2237:2348" ph=" Interface to provide accessing objects as arrays. ..." />
+            <marker date="1508379059000" expanded="true" signature="2374:3685" ph="..." />
+            <marker date="1508379059000" expanded="true" signature="2383:2744" ph=" Whether a offset exists ..." />
+            <marker date="1508379059000" expanded="true" signature="2798:3038" ph=" Offset to retrieve ..." />
+            <marker date="1508379059000" expanded="true" signature="3089:3374" ph=" Offset to set ..." />
+            <marker date="1508379059000" expanded="true" signature="3433:3640" ph=" Offset to unset ..." />
+            <marker date="1508379059000" expanded="true" signature="3691:3791" ph=" Interface for customized serializing. ..." />
+            <marker date="1508379059000" expanded="true" signature="3818:4359" ph="..." />
+            <marker date="1508379059000" expanded="true" signature="3827:4027" ph=" String representation of object ..." />
+            <marker date="1508379059000" expanded="true" signature="4071:4310" ph=" Constructs the object ..." />
+            <marker date="1508379059000" expanded="true" signature="4366:4571" ph=" Throwable is the base interface for any object that can be thrown via a throw statement in PHP 7, ..." />
+            <marker date="1508379059000" expanded="true" signature="4593:6774" ph="{...}" />
+            <marker date="1508379059000" expanded="true" signature="4604:4737" ph=" Gets the message ..." />
+            <marker date="1508379059000" expanded="true" signature="4782:5125" ph=" Gets the exception code ..." />
+            <marker date="1508379059000" expanded="true" signature="5167:5389" ph=" Gets the file in which the exception occurred ..." />
+            <marker date="1508379059000" expanded="true" signature="5431:5658" ph=" Gets the line on which the object was instantiated ..." />
+            <marker date="1508379059000" expanded="true" signature="5700:5948" ph=" Gets the stack trace ..." />
+            <marker date="1508379059000" expanded="true" signature="5991:6183" ph=" Gets the stack trace as a string ..." />
+            <marker date="1508379059000" expanded="true" signature="6234:6463" ph=" Returns the previous Throwable ..." />
+            <marker date="1508379059000" expanded="true" signature="6509:6736" ph=" Gets a string representation of the thrown object ..." />
+            <marker date="1508379059000" expanded="true" signature="6778:6888" ph=" Exception is the base class for ..." />
+            <marker date="1508379059000" expanded="true" signature="6929:9816" ph="..." />
+            <marker date="1508379059000" expanded="true" signature="7026:7157" ph=" Clone the exception ..." />
+            <marker date="1508379059000" expanded="true" signature="7209:7596" ph=" Construct the exception. Note: The message is NOT binary safe. ..." />
+            <marker date="1508379059000" expanded="true" signature="7697:7877" ph=" Gets the Exception message ..." />
+            <marker date="1508379059000" expanded="true" signature="7931:8251" ph=" Gets the Exception code ..." />
+            <marker date="1508379059000" expanded="true" signature="8302:8512" ph=" Gets the file in which the exception occurred ..." />
+            <marker date="1508379059000" expanded="true" signature="8563:8770" ph=" Gets the line in which the exception occurred ..." />
+            <marker date="1508379059000" expanded="true" signature="8821:8996" ph=" Gets the stack trace ..." />
+            <marker date="1508379059000" expanded="true" signature="9048:9266" ph=" Returns previous Exception ..." />
+            <marker date="1508379059000" expanded="true" signature="9321:9517" ph=" Gets the stack trace as a string ..." />
+            <marker date="1508379059000" expanded="true" signature="9577:9776" ph=" String representation of the exception ..." />
+            <marker date="1508379059000" expanded="true" signature="9822:9954" ph=" Error is the base class for all internal PHP error exceptions. ..." />
+            <marker date="1508379059000" expanded="true" signature="9991:12620" ph="..." />
+            <marker date="1508379059000" expanded="true" signature="10000:10320" ph=" Construct the error object. ..." />
+            <marker date="1508379059000" expanded="true" signature="10408:10420" ph="{...}" />
+            <marker date="1508379059000" expanded="true" signature="10429:10563" ph=" Gets the message ..." />
+            <marker date="1508379059000" expanded="true" signature="10598:10610" ph="{...}" />
+            <marker date="1508379059000" expanded="true" signature="10619:10962" ph=" Gets the exception code ..." />
+            <marker date="1508379059000" expanded="true" signature="11006:11228" ph=" Gets the file in which the exception occurred ..." />
+            <marker date="1508379059000" expanded="true" signature="11272:11499" ph=" Gets the line on which the object was instantiated ..." />
+            <marker date="1508379059000" expanded="true" signature="11544:11792" ph=" Gets the stack trace ..." />
+            <marker date="1508379059000" expanded="true" signature="11836:12028" ph=" Gets the stack trace as a string ..." />
+            <marker date="1508379059000" expanded="true" signature="12080:12309" ph=" Returns the previous Throwable ..." />
+            <marker date="1508379059000" expanded="true" signature="12355:12582" ph=" Gets a string representation of the thrown object ..." />
+            <marker date="1508379059000" expanded="true" signature="12626:13106" ph=" There are three scenarios where a TypeError may be thrown. ..." />
+            <marker date="1508379059000" expanded="true" signature="13140:13142" ph="..." />
+            <marker date="1508379059000" expanded="true" signature="13148:13326" ph=" ParseError is thrown when an error occurs while parsing PHP code, such as when {@see eval()} is called. ..." />
+            <marker date="1508379059000" expanded="true" signature="13361:13363" ph="..." />
+            <marker date="1508379059000" expanded="true" signature="13369:13522" ph=" AssertionError is thrown when an assertion made via {@see assert()} fails. ..." />
+            <marker date="1508379059000" expanded="true" signature="13561:13563" ph="..." />
+            <marker date="1508379059000" expanded="true" signature="13569:13786" ph=" ArgumentCountError is thrown when too few arguments are passed to a user ..." />
+            <marker date="1508379059000" expanded="true" signature="13835:14201" ph=" ArithmeticError is thrown when an error occurs while performing mathematical operations. ..." />
+            <marker date="1508379059000" expanded="true" signature="14241:14243" ph="..." />
+            <marker date="1508379059000" expanded="true" signature="14249:14414" ph=" DivisionByZeroError is thrown when an attempt is made to divide a number by zero. ..." />
+            <marker date="1508379059000" expanded="true" signature="14458:14460" ph="..." />
+            <marker date="1508379059000" expanded="true" signature="14466:14550" ph=" An Error Exception. ..." />
+            <marker date="1508379059000" expanded="true" signature="14593:15603" ph="..." />
+            <marker date="1508379059000" expanded="true" signature="14629:15229" ph=" Constructs the exception ..." />
+            <marker date="1508379059000" expanded="true" signature="15370:15556" ph=" Gets the exception severity ..." />
+            <marker date="1508379059000" expanded="true" signature="15609:16223" ph=" Class used to represent anonymous functions. ..." />
+            <marker date="1508379059000" expanded="true" signature="16247:19084" ph="..." />
+            <marker date="1508379059000" expanded="true" signature="16256:16504" ph=" This method exists only to disallow instantiation of the Closure class. ..." />
+            <marker date="1508379059000" expanded="true" signature="16554:16815" ph=" This is for consistency with other classes that implement calling magic, ..." />
+            <marker date="1508379059000" expanded="true" signature="16866:17524" ph=" Duplicates the closure with a new bound object and class scope ..." />
+            <marker date="1508379059000" expanded="true" signature="17591:18383" ph=" This method is a static version of Closure::bindTo(). ..." />
+            <marker date="1508379059000" expanded="true" signature="18473:18874" ph=" Temporarily binds the closure to newthis, and calls it with any given parameters. ..." />
+            <marker date="1508379059000" expanded="true" signature="18937:19017" ph=" @param callable $callable ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="924" column="9" lean-forward="false" selection-start-line="924" selection-start-column="9" selection-end-line="924" selection-end-column="9" />
+          <folding>
+            <marker date="1508379059000" expanded="true" signature="5:35629" ph="..." />
+            <marker date="1508379059000" expanded="true" signature="11:1344" ph=" Generate a system log message ..." />
+            <marker date="1508379059000" expanded="true" signature="1392:1568" ph=" Close connection to system logger ..." />
+            <marker date="1508379059000" expanded="true" signature="1599:2105" ph=" Registers a function that will be called when PHP starts sending output. ..." />
+            <marker date="1508379059000" expanded="true" signature="2172:3254" ph=" PHP &gt; 5.4.0&lt;br/&gt; ..." />
+            <marker date="1508379059000" expanded="true" signature="3336:3713" ph=" PHP &gt; 5.4.0&lt;br/&gt; ..." />
+            <marker date="1508379059000" expanded="true" signature="3774:4020" ph=" PHP &gt; 5.4.0&lt;br/&gt; ..." />
+            <marker date="1508379059000" expanded="true" signature="4070:4250" ph=" Initializes all syslog related variables ..." />
+            <marker date="1508379059000" expanded="true" signature="4296:4493" ph=" Combined linear congruential generator ..." />
+            <marker date="1508379059000" expanded="true" signature="4525:4968" ph=" Calculate the metaphone key of a string ..." />
+            <marker date="1508379059000" expanded="true" signature="5019:7653" ph=" Turn on output buffering ..." />
+            <marker date="1508379059000" expanded="true" signature="7742:7881" ph=" Flush (send) the output buffer ..." />
+            <marker date="1508379059000" expanded="true" signature="7912:8052" ph=" Clean (erase) the output buffer ..." />
+            <marker date="1508379059000" expanded="true" signature="8083:8465" ph=" Flush (send) the output buffer and turn off output buffering ..." />
+            <marker date="1508379059000" expanded="true" signature="8500:8883" ph=" Clean (erase) the output buffer and turn off output buffering ..." />
+            <marker date="1508379059000" expanded="true" signature="8918:9162" ph=" Flush the output buffer, return it as a string and turn off output buffering ..." />
+            <marker date="1508379059000" expanded="true" signature="9197:9491" ph=" Get current buffer contents and delete current output buffer ..." />
+            <marker date="1508379059000" expanded="true" signature="9526:9756" ph=" Return the length of the output buffer ..." />
+            <marker date="1508379059000" expanded="true" signature="9792:10053" ph=" Return the nesting level of the output buffering mechanism ..." />
+            <marker date="1508379059000" expanded="true" signature="10088:11830" ph=" Get status of output buffers ..." />
+            <marker date="1508379059000" expanded="true" signature="11885:12138" ph=" Return the contents of the output buffer ..." />
+            <marker date="1508379059000" expanded="true" signature="12176:12416" ph=" Turn implicit flush on/off ..." />
+            <marker date="1508379059000" expanded="true" signature="12468:12831" ph=" List all output handlers in use ..." />
+            <marker date="1508379059000" expanded="true" signature="12870:13246" ph=" Sort an array by key ..." />
+            <marker date="1508379059000" expanded="true" signature="13307:13701" ph=" Sort an array by key in reverse order ..." />
+            <marker date="1508379059000" expanded="true" signature="13763:14007" ph=" Sort an array using a &quot;natural order&quot; algorithm ..." />
+            <marker date="1508379059000" expanded="true" signature="14050:14315" ph=" Sort an array using a case insensitive &quot;natural order&quot; algorithm ..." />
+            <marker date="1508379059000" expanded="true" signature="14362:14762" ph=" Sort an array and maintain index association ..." />
+            <marker date="1508379059000" expanded="true" signature="14823:15241" ph=" Sort an array in reverse order and maintain index association ..." />
+            <marker date="1508379059000" expanded="true" signature="15303:15764" ph=" Sort an array ..." />
+            <marker date="1508379059000" expanded="true" signature="15824:16210" ph=" Sort an array in reverse order ..." />
+            <marker date="1508379059000" expanded="true" signature="16271:16777" ph=" Sort an array by values using a user-defined comparison function ..." />
+            <marker date="1508379059000" expanded="true" signature="16833:17236" ph=" Sort an array with a user-defined comparison function and maintain index association ..." />
+            <marker date="1508379059000" expanded="true" signature="17293:17955" ph=" Sort an array by keys using a user-defined comparison function ..." />
+            <marker date="1508379059000" expanded="true" signature="18012:18219" ph=" Shuffle an array ..." />
+            <marker date="1508379059000" expanded="true" signature="18262:19362" ph=" Apply a user function to every member of an array ..." />
+            <marker date="1508379059000" expanded="true" signature="19437:20287" ph=" Apply a user function recursively to every member of an array ..." />
+            <marker date="1508379059000" expanded="true" signature="20372:21737" ph=" Counts all elements in an array, or something in an object. ..." />
+            <marker date="1508379059000" expanded="true" signature="21791:22289" ph=" Set the internal pointer of an array to its last element ..." />
+            <marker date="1508379059000" expanded="true" signature="22328:22664" ph=" Rewind the internal array pointer ..." />
+            <marker date="1508379059000" expanded="true" signature="22704:23055" ph=" Advance the internal array pointer of an array ..." />
+            <marker date="1508379059000" expanded="true" signature="23095:23396" ph=" Set the internal pointer of an array to its first element ..." />
+            <marker date="1508379059000" expanded="true" signature="23437:23935" ph=" Return the current element in an array ..." />
+            <marker date="1508379059000" expanded="true" signature="23978:24460" ph=" Fetch a key from an array ..." />
+            <marker date="1508379059000" expanded="true" signature="24499:24882" ph=" Find lowest value ..." />
+            <marker date="1508379059000" expanded="true" signature="24949:25378" ph=" Find highest value ..." />
+            <marker date="1508379059000" expanded="true" signature="25445:26038" ph=" Checks if a value exists in an array ..." />
+            <marker date="1508379059000" expanded="true" signature="26110:27002" ph=" Searches the array for a given value and returns the corresponding key if successful ..." />
+            <marker date="1508379059000" expanded="true" signature="27077:28237" ph=" Import variables into the current symbol table from an array ..." />
+            <marker date="1508379059000" expanded="true" signature="28321:28862" ph=" Create array containing variables and their values ..." />
+            <marker date="1508379059000" expanded="true" signature="28911:29310" ph=" Fill an array with values ..." />
+            <marker date="1508379059000" expanded="true" signature="29369:29728" ph=" Fill an array with values, specifying keys ..." />
+            <marker date="1508379059000" expanded="true" signature="29785:30380" ph=" Create an array containing a range of elements ..." />
+            <marker date="1508379059000" expanded="true" signature="30433:30952" ph=" Sort multiple or multi-dimensional arrays ..." />
+            <marker date="1508379059000" expanded="true" signature="31038:31373" ph=" Push one or more elements onto the end of array ..." />
+            <marker date="1508379059000" expanded="true" signature="31436:31747" ph=" Pop the element off the end of array ..." />
+            <marker date="1508379059000" expanded="true" signature="31792:32070" ph=" Shift an element off the beginning of array ..." />
+            <marker date="1508379059000" expanded="true" signature="32117:32471" ph=" Prepend one or more elements to the beginning of an array ..." />
+            <marker date="1508379059000" expanded="true" signature="32537:34093" ph=" Remove a portion of the array and replace it with something else ..." />
+            <marker date="1508379059000" expanded="true" signature="34187:35166" ph=" Extract a slice of the array ..." />
+            <marker date="1508379059000" expanded="true" signature="35261:35546" ph=" Merge one or more arrays ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrayable/ArrayFunctions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="86" column="22" lean-forward="false" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+          <folding>
+            <marker date="1508490232000" expanded="false" signature="26:80" ph="..." />
+            <marker date="1508490232000" expanded="false" signature="95:167" ph="..." />
+            <marker date="1508490232000" expanded="false" signature="267:872" ph="{...}" />
+            <marker date="1508490232000" expanded="false" signature="911:974" ph="..." />
+            <marker date="1508490232000" expanded="false" signature="1010:1084" ph="..." />
+            <marker date="1508490232000" expanded="false" signature="1119:1235" ph="..." />
+            <marker date="1508490232000" expanded="false" signature="1132:1232" ph="..." />
+            <marker date="1508490232000" expanded="false" signature="1142:1231" ph="..." />
+            <marker date="1508490232000" expanded="false" signature="1165:1206" ph="..." />
+            <marker date="1508490232000" expanded="false" signature="1272:1850" ph="..." />
+            <marker date="1508490232000" expanded="false" signature="1427:1520" ph="..." />
+            <marker date="1508490232000" expanded="false" signature="1537:1632" ph="..." />
+            <marker date="1508490232000" expanded="true" signature="1885:1947" ph="..." />
+            <marker date="1508490232000" expanded="true" signature="1950:2061" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="198" column="9" lean-forward="false" selection-start-line="198" selection-start-column="9" selection-end-line="198" selection-end-column="9" />
+          <folding>
+            <marker date="1508379059000" expanded="true" signature="10:289" ph=" Get the last occurred error ..." />
+            <marker date="1508379059000" expanded="true" signature="326:1167" ph=" Call a user function given by the first parameter ..." />
+            <marker date="1508379059000" expanded="true" signature="1243:1637" ph=" Call a user function given with an array of parameters ..." />
+            <marker date="1508379059000" expanded="true" signature="1707:2034" ph=" Call a user method on an specific object ..." />
+            <marker date="1508379059000" expanded="true" signature="2122:2430" ph=" Call a user method given with an array of parameters ..." />
+            <marker date="1508379059000" expanded="true" signature="2509:3011" ph=" Call a static method ..." />
+            <marker date="1508379059000" expanded="true" signature="3092:3538" ph=" Call a static method and pass the arguments as array ..." />
+            <marker date="1508379059000" expanded="true" signature="3621:4726" ph=" Generates a storable representation of a value ..." />
+            <marker date="1508379059000" expanded="true" signature="4764:6446" ph=" Creates a PHP value from a stored representation ..." />
+            <marker date="1508379059000" expanded="true" signature="6507:6754" ph=" Dumps information about a variable ..." />
+            <marker date="1508379059000" expanded="true" signature="6807:7367" ph=" Outputs or returns a parsable string representation of a variable ..." />
+            <marker date="1508379059000" expanded="true" signature="7427:7679" ph=" Dumps a string representation of an internal zend value to output ..." />
+            <marker date="1508379059000" expanded="true" signature="7726:8413" ph=" Prints human-readable information about a variable ..." />
+            <marker date="1508379059000" expanded="true" signature="8470:8855" ph=" Returns the amount of memory allocated to PHP ..." />
+            <marker date="1508379059000" expanded="true" signature="8912:9284" ph=" Returns the peak of memory allocated by PHP ..." />
+            <marker date="1508379059000" expanded="true" signature="9346:10206" ph=" Register a function for execution on shutdown ..." />
+            <marker date="1508379059000" expanded="true" signature="10294:10702" ph=" Register a function for execution on each tick ..." />
+            <marker date="1508379059000" expanded="true" signature="10780:11082" ph=" De-register a function for execution on each tick ..." />
+            <marker date="1508379059000" expanded="true" signature="11143:11665" ph=" Syntax highlighting of a file ..." />
+            <marker date="1508379059000" expanded="true" signature="11727:11913" ph=" &amp;Alias; &lt;function&gt;highlight_file&lt;/function&gt; ..." />
+            <marker date="1508379059000" expanded="true" signature="11966:12516" ph=" Syntax highlighting of a string ..." />
+            <marker date="1508379059000" expanded="true" signature="12575:13091" ph=" Return source with stripped comments and whitespace ..." />
+            <marker date="1508379059000" expanded="true" signature="13143:13477" ph=" Gets the value of a configuration option ..." />
+            <marker date="1508379059000" expanded="true" signature="13515:14555" ph=" Gets all configuration options ..." />
+            <marker date="1508379059000" expanded="true" signature="14623:15071" ph=" Sets the value of a configuration option ..." />
+            <marker date="1508379059000" expanded="true" signature="15120:15286" ph=" &amp;Alias; &lt;function&gt;ini_set&lt;/function&gt; ..." />
+            <marker date="1508379059000" expanded="true" signature="15337:15563" ph=" Restores the value of a configuration option ..." />
+            <marker date="1508379059000" expanded="true" signature="15605:15796" ph=" Gets the current include_path configuration option ..." />
+            <marker date="1508379059000" expanded="true" signature="15835:16141" ph=" Sets the include_path configuration option ..." />
+            <marker date="1508379059000" expanded="true" signature="16197:16377" ph=" Restores the value of the include_path configuration option ..." />
+            <marker date="1508379059000" expanded="true" signature="16420:19467" ph=" Send a cookie ..." />
+            <marker date="1508379059000" expanded="true" signature="19592:20013" ph=" Send a cookie without urlencoding the cookie value ..." />
+            <marker date="1508379059000" expanded="true" signature="20143:21549" ph=" Send a raw HTTP header ..." />
+            <marker date="1508379059000" expanded="true" signature="21630:21878" ph=" Remove previously set headers ..." />
+            <marker date="1508379059000" expanded="true" signature="21926:22488" ph=" Checks if or where headers have been sent ..." />
+            <marker date="1508379059000" expanded="true" signature="22551:22746" ph=" Returns a list of response headers sent (or ready to send) ..." />
+            <marker date="1508379059000" expanded="true" signature="22781:22968" ph=" Check whether client disconnected ..." />
+            <marker date="1508379059000" expanded="true" signature="23009:23286" ph=" Returns connection status bitfield ..." />
+            <marker date="1508379059000" expanded="true" signature="23326:23760" ph=" Set whether a client disconnect should abort script execution ..." />
+            <marker date="1508379059000" expanded="true" signature="23813:25089" ph=" Parse a configuration file ..." />
+            <marker date="1508379059000" expanded="true" signature="25198:25939" ph=" Parse a configuration string ..." />
+            <marker date="1508379059000" expanded="true" signature="26045:26317" ph=" Tells whether the file was uploaded via HTTP POST ..." />
+            <marker date="1508379059000" expanded="true" signature="26365:27002" ph=" Moves an uploaded file to a new location ..." />
+            <marker date="1508379059000" expanded="true" signature="27066:27364" ph=" Get the Internet host name corresponding to a given IP address ..." />
+            <marker date="1508379059000" expanded="true" signature="27411:27724" ph=" Get the IPv4 address corresponding to a given Internet host name ..." />
+            <marker date="1508379059000" expanded="true" signature="27769:28088" ph=" Get a list of IPv4 addresses corresponding to a given Internet host ..." />
+            <marker date="1508379059000" expanded="true" signature="28134:28323" ph=" Gets the host name ..." />
+            <marker date="1508379059000" expanded="true" signature="28357:28868" ph=" &amp;Alias; &lt;function&gt;checkdnsrr&lt;/function&gt; ..." />
+            <marker date="1508379059000" expanded="true" signature="28919:29455" ph=" Check DNS records corresponding to a given Internet host name or IP address ..." />
+            <marker date="1508379059000" expanded="true" signature="29507:29689" ph=" &amp;Alias; &lt;function&gt;getmxrr&lt;/function&gt; ..." />
+            <marker date="1508379059000" expanded="true" signature="29752:30327" ph=" Get MX records corresponding to a given Internet host name ..." />
+            <marker date="1508379059000" expanded="true" signature="30406:36374" ph=" Fetch DNS Resource Records associated with a hostname ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_9.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
-          <caret line="191" column="36" lean-forward="false" selection-start-line="191" selection-start-column="36" selection-end-line="191" selection-end-column="36" />
+          <caret line="628" column="6" lean-forward="false" selection-start-line="628" selection-start-column="6" selection-end-line="628" selection-end-column="6" />
           <folding>
-            <element signature="e#30#79#0#PHP" expanded="false" />
-            <element signature="e#160#248#0#PHP" expanded="false" />
-            <element signature="e#253#454#0#PHP" expanded="false" />
-            <element signature="e#345#448#0#PHP" expanded="false" />
-            <element signature="e#460#571#0#PHP" expanded="false" />
-            <element signature="e#576#894#0#PHP" expanded="false" />
-            <element signature="e#626#859#0#PHP" expanded="false" />
-            <element signature="e#694#770#0#PHP" expanded="false" />
-            <element signature="e#900#1026#0#PHP" expanded="false" />
-            <element signature="e#1031#2014#0#PHP" expanded="false" />
-            <element signature="e#1219#1282#0#PHP" expanded="false" />
-            <element signature="e#1292#1954#0#PHP" expanded="false" />
-            <element signature="e#1401#1507#0#PHP" expanded="false" />
-            <element signature="e#1640#1944#0#PHP" expanded="false" />
-            <element signature="e#1726#1944#0#PHP" expanded="false" />
-            <element signature="e#2020#2129#0#PHP" expanded="false" />
-            <element signature="e#2134#2356#0#PHP" expanded="false" />
-            <element signature="e#2185#2317#0#PHP" expanded="false" />
-            <element signature="e#2362#2610#0#PHP" expanded="false" />
-            <element signature="e#2615#3020#0#PHP" expanded="false" />
-            <element signature="e#2668#2982#0#PHP" expanded="false" />
-            <element signature="e#3026#3121#0#PHP" expanded="false" />
-            <element signature="e#3126#3296#0#PHP" expanded="false" />
-            <element signature="e#3218#3269#0#PHP" expanded="false" />
-            <element signature="e#3302#3377#0#PHP" expanded="false" />
-            <element signature="e#3382#3514#0#PHP" expanded="false" />
-            <element signature="e#3426#3484#0#PHP" expanded="false" />
-            <element signature="e#3520#3666#0#PHP" expanded="false" />
-            <element signature="e#3671#3937#0#PHP" expanded="false" />
-            <element signature="e#3776#3840#0#PHP" expanded="false" />
-            <element signature="e#3943#4339#0#PHP" expanded="false" />
-            <element signature="e#4344#4425#0#PHP" expanded="false" />
-            <element signature="e#4431#4505#0#PHP" expanded="false" />
-            <element signature="e#4510#4593#0#PHP" expanded="false" />
-            <element signature="e#4599#4670#0#PHP" expanded="false" />
-            <element signature="e#4675#4756#0#PHP" expanded="false" />
-            <element signature="e#4865#4960#0#PHP" expanded="false" />
-            <element signature="e#4966#5020#0#PHP" expanded="false" />
-            <element signature="e#5025#5320#0#PHP" expanded="false" />
-            <element signature="e#5326#5384#0#PHP" expanded="false" />
-            <element signature="e#5389#5470#0#PHP" expanded="false" />
-            <element signature="e#5476#5784#0#PHP" expanded="false" />
-            <element signature="e#5533#5591#0#PHP" expanded="false" />
-            <element signature="e#5643#5727#0#PHP" expanded="false" />
-            <element signature="e#5791#5877#0#PHP" expanded="false" />
-            <element signature="e#5882#6185#0#PHP" expanded="false" />
-            <element signature="e#5934#5992#0#PHP" expanded="false" />
-            <element signature="e#6044#6128#0#PHP" expanded="false" />
-            <element signature="e#6191#6282#0#PHP" expanded="false" />
-            <element signature="e#6288#6318#0#PHP" expanded="false" />
-            <element signature="e#6323#6451#0#PHP" expanded="false" />
+            <marker date="1508379059000" expanded="true" signature="5:36325" ph="..." />
+            <marker date="1508379059000" expanded="true" signature="86:402" ph=" Merge two or more arrays recursively ..." />
+            <marker date="1508379059000" expanded="true" signature="476:1487" ph=" array_replace() replaces the values of the first array with the same values from all the following arrays. ..." />
+            <marker date="1508379059000" expanded="true" signature="1589:2041" ph=" Replaces elements from passed arrays into the first array recursively ..." />
+            <marker date="1508379059000" expanded="true" signature="2153:2646" ph=" Return all the keys of an array ..." />
+            <marker date="1508379059000" expanded="true" signature="2729:2950" ph=" Return all the values of an array ..." />
+            <marker date="1508379059000" expanded="true" signature="2997:3293" ph=" Counts all the values of an array ..." />
+            <marker date="1508379059000" expanded="true" signature="3346:4200" ph=" (PHP 5 &amp;gt;=5.5.0)&lt;br/&gt; ..." />
+            <marker date="1508379059000" expanded="true" signature="4275:4599" ph=" Return an array with elements in reverse order ..." />
+            <marker date="1508379059000" expanded="true" signature="4670:5290" ph=" Iteratively reduce the array to a single value using a callback function ..." />
+            <marker date="1508379059000" expanded="true" signature="5365:6045" ph=" Pad array to the specified length with a value ..." />
+            <marker date="1508379059000" expanded="true" signature="6112:6424" ph=" Exchanges all keys with their associated values in an array ..." />
+            <marker date="1508379059000" expanded="true" signature="6469:6851" ph=" Changes all keys in an array ..." />
+            <marker date="1508379059000" expanded="true" signature="6921:7462" ph=" Pick one or more random entries out of an array ..." />
+            <marker date="1508379059000" expanded="true" signature="7524:8004" ph=" Removes duplicate values from an array ..." />
+            <marker date="1508379059000" expanded="true" signature="8071:8501" ph=" Computes the intersection of arrays ..." />
+            <marker date="1508379059000" expanded="true" signature="8584:9045" ph=" Computes the intersection of arrays using keys for comparison ..." />
+            <marker date="1508379059000" expanded="true" signature="9132:9685" ph=" Computes the intersection of arrays using a callback function on the keys for comparison ..." />
+            <marker date="1508379059000" expanded="true" signature="9792:10542" ph=" Computes the intersection of arrays, compares data by a callback function ..." />
+            <marker date="1508379059000" expanded="true" signature="10646:11116" ph=" Computes the intersection of arrays with additional index check ..." />
+            <marker date="1508379059000" expanded="true" signature="11205:11940" ph=" Computes the intersection of arrays with additional index check, compares data by a callback function ..." />
+            <marker date="1508379059000" expanded="true" signature="12050:12624" ph=" Computes the intersection of arrays with additional index check, compares indexes by a callback function ..." />
+            <marker date="1508379059000" expanded="true" signature="12733:13568" ph=" Computes the intersection of arrays with additional index check, compares data and indexes by a callback functions ..." />
+            <marker date="1508379059000" expanded="true" signature="13698:14104" ph=" Computes the difference of arrays ..." />
+            <marker date="1508379059000" expanded="true" signature="14182:14613" ph=" Computes the difference of arrays using keys for comparison ..." />
+            <marker date="1508379059000" expanded="true" signature="14695:15423" ph=" Computes the difference of arrays using a callback function on the keys for comparison ..." />
+            <marker date="1508379059000" expanded="true" signature="15525:16292" ph=" Computes the difference of arrays by using a callback function for data comparison ..." />
+            <marker date="1508379059000" expanded="true" signature="16391:16830" ph=" Computes the difference of arrays with additional index check ..." />
+            <marker date="1508379059000" expanded="true" signature="16914:18037" ph=" Computes the difference of arrays with additional index check, compares data by a callback function ..." />
+            <marker date="1508379059000" expanded="true" signature="18142:18901" ph=" Computes the difference of arrays with additional index check which is performed by a user supplied callback function ..." />
+            <marker date="1508379059000" expanded="true" signature="19005:20339" ph=" Computes the difference of arrays with additional index check, compares data and indexes by a callback function ..." />
+            <marker date="1508379059000" expanded="true" signature="20464:20714" ph=" Calculate the sum of values in an array ..." />
+            <marker date="1508379059000" expanded="true" signature="20758:20990" ph=" Calculate the product of values in an array ..." />
+            <marker date="1508379059000" expanded="true" signature="21038:22088" ph=" Iterates over each value in the &lt;b&gt;array&lt;/b&gt; ..." />
+            <marker date="1508379059000" expanded="true" signature="22164:22643" ph=" Applies the callback to the elements of the given arrays ..." />
+            <marker date="1508379059000" expanded="true" signature="22714:23242" ph=" Split an array into chunks ..." />
+            <marker date="1508379059000" expanded="true" signature="23318:23781" ph=" Creates an array by using one array for keys and another for its values ..." />
+            <marker date="1508379059000" expanded="true" signature="23843:24180" ph=" Checks if the given key or index exists in the array ..." />
+            <marker date="1508379059000" expanded="true" signature="24238:24374" ph=" &amp;Alias; &lt;function&gt;current&lt;/function&gt; ..." />
+            <marker date="1508379059000" expanded="true" signature="24405:24584" ph=" &amp;Alias; &lt;function&gt;count&lt;/function&gt; ..." />
+            <marker date="1508379059000" expanded="true" signature="24624:25014" ph=" Checks if the given key or index exists in the array. The name of this function is array_key_exists() in PHP &gt; 4.0.6. ..." />
+            <marker date="1508379059000" expanded="true" signature="25060:25444" ph=" Checks if assertion is &amp;false; ..." />
+            <marker date="1508379059000" expanded="true" signature="25497:25654" ph=" (PHP 5 &amp;gt;=5.5.0)&lt;br/&gt; ..." />
+            <marker date="1508379059000" expanded="true" signature="25698:25859" ph=" (PHP 5 &amp;gt;=5.5.0)&lt;br/&gt; ..." />
+            <marker date="1508379059000" expanded="true" signature="25909:27173" ph=" Set/get the various assert flags ..." />
+            <marker date="1508379059000" expanded="true" signature="27230:28219" ph=" Compares two &quot;PHP-standardized&quot; version number strings ..." />
+            <marker date="1508379059000" expanded="true" signature="28295:28716" ph=" Convert a pathname and a project identifier to a System V IPC key ..." />
+            <marker date="1508379059000" expanded="true" signature="28759:29003" ph=" Perform the rot13 transform on a string ..." />
+            <marker date="1508379059000" expanded="true" signature="29039:29250" ph=" Retrieve list of registered filters ..." />
+            <marker date="1508379059000" expanded="true" signature="29291:33212" ph=" Register a user defined stream filter ..." />
+            <marker date="1508379059000" expanded="true" signature="33280:33478" ph=" Return a bucket object from the brigade for operating on ..." />
+            <marker date="1508379059000" expanded="true" signature="33537:33722" ph=" Prepend bucket to brigade ..." />
+            <marker date="1508379059000" expanded="true" signature="33783:33964" ph=" Append bucket to brigade ..." />
+            <marker date="1508379059000" expanded="true" signature="34024:34228" ph=" Create a new bucket for use on the current stream ..." />
+            <marker date="1508379059000" expanded="true" signature="34284:34582" ph=" Add URL rewriter values ..." />
+            <marker date="1508379059000" expanded="true" signature="34640:35407" ph=" Reset URL rewriter values ..." />
+            <marker date="1508379059000" expanded="true" signature="35455:35643" ph=" Returns directory path used for temporary files ..." />
+            <marker date="1508379059000" expanded="true" signature="35682:36040" ph=" Get the contents of the realpath cache. ..." />
+            <marker date="1508379059000" expanded="true" signature="36081:36286" ph=" Get the amount of memory used by the realpath cache. ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrayable/Src/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+          <folding>
+            <marker date="1508492440000" expanded="true" signature="206:252" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="261:325" ph=" ..." />
+            <marker date="1508492440000" expanded="false" signature="373:422" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="431:503" ph=" @param $begin ..." />
+            <marker date="1508492440000" expanded="true" signature="552:680" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="588:626" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="689:754" ph=" @param callable $callback ..." />
+            <marker date="1508492440000" expanded="false" signature="800:896" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="930:983" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="992:1062" ph=" @param callable|null $callback ..." />
+            <marker date="1508492440000" expanded="true" signature="1118:1352" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="1158:1214" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="1222:1312" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="1361:1413" ph=" Return all items. ..." />
+            <marker date="1508492440000" expanded="true" signature="1441:1481" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="1490:1545" ph=" @param null $key ..." />
+            <marker date="1508492440000" expanded="false" signature="1588:1823" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="1623:1696" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="1832:1950" ph=" Taken only these keys' values. ..." />
+            <marker date="1508492440000" expanded="true" signature="1991:2232" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="2027:2062" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="2241:2335" ph=" Split the whole array into pieces. ..." />
+            <marker date="1508492440000" expanded="true" signature="2370:2552" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="2459:2510" ph="..." />
+            <marker date="1508492440000" expanded="false" signature="2561:2659" ph=" Get the values except these keys. ..." />
+            <marker date="1508492440000" expanded="true" signature="2702:2871" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="2880:2941" ph=" Count elements of an object ..." />
+            <marker date="1508492440000" expanded="false" signature="2971:3018" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3027:3088" ph=" Whether a offset exists ..." />
+            <marker date="1508492440000" expanded="false" signature="3132:3188" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3197:3250" ph=" Offset to retrieve ..." />
+            <marker date="1508492440000" expanded="false" signature="3291:3340" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3349:3376" ph=" Offset to set ..." />
+            <marker date="1508492440000" expanded="false" signature="3425:3476" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3485:3514" ph=" Offset to unset ..." />
+            <marker date="1508492440000" expanded="false" signature="3557:3606" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3615:3776" ph=" Return the current element ..." />
+            <marker date="1508492440000" expanded="false" signature="3808:3870" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="3879:4048" ph=" Move forward to next element ..." />
+            <marker date="1508492440000" expanded="false" signature="4077:4121" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4130:4316" ph=" Return the key of the current element ..." />
+            <marker date="1508492440000" expanded="false" signature="4344:4393" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4402:4666" ph=" Checks if current position is valid ..." />
+            <marker date="1508492440000" expanded="false" signature="4696:4765" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="4774:4957" ph=" Rewind the Iterator to the first element ..." />
+            <marker date="1508492440000" expanded="false" signature="4988:5034" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="5066:5341" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="5136:5299" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5184:5237" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5350:5445" ph=" Combine the data with the values. ..." />
+            <marker date="1508492440000" expanded="false" signature="5484:5823" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="5652:5717" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="5832:5938" ph=" Determines whether the items contains a specific key. ..." />
+            <marker date="1508492440000" expanded="true" signature="5975:6051" ph="{...}" />
+            <marker date="1508492440000" expanded="false" signature="6060:6181" ph=" Get values which the key not in array. ..." />
+            <marker date="1508492440000" expanded="false" signature="6231:6415" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="6268:6374" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="6309:6373" ph="..." />
+            <marker date="1508492440000" expanded="true" signature="6424:6505" ph=" Unique the items. ..." />
+            <marker date="1508492440000" expanded="true" signature="6547:6677" ph="{...}" />
+            <marker date="1508492440000" expanded="true" signature="6582:6647" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrayable/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <folding>
+            <marker date="1508491741000" expanded="true" signature="318:493" ph="..." />
           </folding>
         </state>
       </provider>

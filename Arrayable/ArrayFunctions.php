@@ -81,10 +81,16 @@ function testArrayMergeFunction(){
     print_r(array_merge(... $data)); // [1, 2, 3, 4, 5];
 }
 
+function testArrayPadFunction(){
+    $arr = [ 1,2,3];
+
+    print_r(array_pad($arr,-10,null));
+}
+
 //testArrayFillKeysFunction();
 //testArrayFillFunction();
 //testArrayMapFunction();
-
-testArrayMergeFunction();
+//testArrayMergeFunction();
+testArrayPadFunction();
 
 

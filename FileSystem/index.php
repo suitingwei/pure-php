@@ -1,6 +1,6 @@
 <?php
 
-require  './src/Dictionary.php';
+require './Src/Dictionary.php';
 
 
 $result =[];
@@ -25,8 +25,8 @@ $directory =  new FileSystem\Directory('/Users/sui/PhpstormProjects/PurePHP');
 #echo $directory->getDirFreeSpace('/Users/sui/PhpstormProjects/PurePHP').PHP_EOL;
 #echo $directory->humanReadableSize(1024).PHP_EOL;
 #print $directory->isFile('/Users/sui/').PHP_EOL;
-#$directory->readFileByCharacter('./src/Dictionary.php').PHP_EOL;
-#$directory->readFileByLine('./src/Dictionary.php').PHP_EOL;
-#echo $directory->getFileContents('./src/Dictionary.php').PHP_EOL;
+#$directory->readFileByCharacter('./Src/Dictionary.php').PHP_EOL;
+#$directory->readFileByLine('./Src/Dictionary.php').PHP_EOL;
+#echo $directory->getFileContents('./Src/Dictionary.php').PHP_EOL;
 
 $directory->createFile('tmpfile');

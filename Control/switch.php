@@ -1,10 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: sui
- * Date: 2017/10/12
- * Time: 13:43
- */
+
+require './Src/Interfaces/FileType.php';
+require './Src/Files/VideoFile.php';
+require './Src/Files/ImageFile.php';
+require './Src/Files/TextFile.php';
+
+use Control\Src\Interfaces\FileType;
+use Control\Src\Files\{
+    VideoFile, TextFile, ImageFile
+};
 
 
 function useSwitch($file)
@@ -21,51 +25,11 @@ function useSwitch($file)
     }
 }
 
-interface FileType
-{
-    public function type();
-}
-
-class TextFile implements FileType
-{
-
-    public function type()
-    {
-        return 'My type is text';
-    }
-}
-
-class VideoFile implements FileType
-{
-
-    public function type()
-    {
-        return 'My type is video';
-    }
-}
-
-class ImageFile implements FileType
-{
-
-    public function type()
-    {
-        return 'My type is image';
-    }
-}
-
-class UnknownFile implements FileType
-{
-
-    public function type()
-    {
-        return 'Even myself don\'t know which type i am';
-    }
-}
-
 function usePoly(FileType $file)
 {
-    echo $file->type();
+    echo $file->type().PHP_EOL;
 }
 
-echo useSwitch(1);
-usePoly(new UnknownFile());
+usePoly(new TextFile());
+usePoly(new ImageFile());
+usePoly(new VideoFile());
