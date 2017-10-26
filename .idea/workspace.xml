@@ -4,34 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/Kernel/Arrayable/Src/Collection.php" line="189" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5102b44-12df-4404-bd59-ad1b38ef2c80" name="Default" comment="1. Add the collection module.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kernel/Config/database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kernel/Database/MysqlFunction/Mysql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kernel/Database/Pdo/Configure.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kernel/Database/Pdo/Model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kernel/FileSystem/Src/DotEnv.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kernel/Http/Src/Request.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kernel/Http/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/helpers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Http/Src/Request.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Http/index.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Arrayable/ArrayFunctions.php" afterPath="$PROJECT_DIR$/Kernel/Arrayable/ArrayFunctions.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Arrayable/Src/Collection.php" afterPath="$PROJECT_DIR$/Kernel/Arrayable/Src/Collection.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Arrayable/index.php" afterPath="$PROJECT_DIR$/Kernel/Arrayable/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Control/Src/Files/ImageFile.php" afterPath="$PROJECT_DIR$/Kernel/Control/Src/Files/ImageFile.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Control/Src/Files/TextFile.php" afterPath="$PROJECT_DIR$/Kernel/Control/Src/Files/TextFile.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Control/Src/Files/VideoFile.php" afterPath="$PROJECT_DIR$/Kernel/Control/Src/Files/VideoFile.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Control/Src/Interfaces/FileType.php" afterPath="$PROJECT_DIR$/Kernel/Control/Src/Interfaces/FileType.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Control/switch.php" afterPath="$PROJECT_DIR$/Kernel/Control/switch.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FileSystem/Src/Dictionary.php" afterPath="$PROJECT_DIR$/Kernel/FileSystem/Src/Dictionary.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FileSystem/index.php" afterPath="$PROJECT_DIR$/Kernel/FileSystem/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Javascript/index.html" afterPath="$PROJECT_DIR$/Kernel/Javascript/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PurePHP.iml" afterPath="$PROJECT_DIR$/.idea/PurePHP.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d5102b44-12df-4404-bd59-ad1b38ef2c80" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +26,8 @@
       <file leaf-file-name="Configure.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Kernel/Database/Pdo/Configure.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="403">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -307,7 +280,7 @@
       <workItem from="1509008817218" duration="1290000" />
       <workItem from="1509010807739" duration="1000" />
       <workItem from="1509010907027" duration="353000" />
-      <workItem from="1509011801434" duration="20000" />
+      <workItem from="1509011801434" duration="53000" />
     </task>
     <task id="LOCAL-00001" summary="1. Add the collection module.">
       <created>1508492503533</created>
@@ -316,11 +289,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508492503533</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1. Add the collection module.">
+      <created>1509011828621</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1509011828621</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34637000" />
+    <option name="totallyTimeSpent" value="34670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="4" width="1909" height="1076" extended-state="0" />
@@ -686,6 +666,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
           <caret line="113" column="20" lean-forward="false" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
+          <folding>
+            <marker date="1508397487000" expanded="true" signature="33:77" ph=" Class Directory ..." />
+            <marker date="1508397487000" expanded="true" signature="95:6859" ph="{...}" />
+            <marker date="1508397487000" expanded="true" signature="163:246" ph=" Dictionary constructor. ..." />
+            <marker date="1508397487000" expanded="true" signature="287:454" ph="{...}" />
+            <marker date="1508397487000" expanded="true" signature="378:447" ph="..." />
+            <marker date="1508397487000" expanded="true" signature="463:569" ph=" Get the directory's all files. ..." />
+            <marker date="1508397487000" expanded="true" signature="611:894" ph="{...}" />
+            <marker date="1508397487000" expanded="true" signature="681:858" ph="..." />
+            <marker date="1508397487000" expanded="true" signature="730:769" ph="..." />
+            <marker date="1508397487000" expanded="true" signature="903:1024" ph=" Get the directory's all files recursively. ..." />
+            <marker date="1508397487000" expanded="true" signature="1100:2014" ph="{...}" />
+            <marker date="1508397487000" expanded="true" signature="1246:1281" ph="..." />
+            <marker date="1508397487000" expanded="true" signature="1341:1953" ph="..." />
+            <marker date="1508397487000" expanded="true" signature="1467:1506" ph="..." />
+            <marker date="1508397487000" expanded="true" signature="1665:1724" ph="..." />
+            <marker date="1508397487000" expanded="true" signature="1754:1943" ph="..." />
+            <marker date="1508397487000" expanded="true" signature="2023:2127" ph=" Return the last part of the element split by '/' ..." />
+            <marker date="1508397487000" expanded="true" signature="2165:2356" ph="{...}" />
+            <marker date="1508397487000" expanded="true" signature="2191:2314" ph="..." />
+            <marker date="1508397487000" expanded="true" signature="2365:2608" ph=" Get the dir name, which actually only get the string before the last slash character. ..." />
+            <marker date="1508397487000" expanded="true" signature="2648:3020" ph="{...}" />
+            <marker date="1508397487000" expanded="true" signature="2674:2979" ph="..." />
+            <marker date="1508397487000" expanded="true" signature="3029:3119" ph=" Copy the file. ..." />
+            <marker date="1508397487000" expanded="true" signature="3162:3296" ph="{...}" />
+            <marker date="1508397487000" expanded="true" signature="3233:3268" ph="..." />
+            <marker date="1508397487000" expanded="true" signature="3305:3375" ph=" Delete the file. ..." />
+            <marker date="1508397487000" expanded="true" signature="3411:3514" ph="{...}" />
+            <marker date="1508397487000" expanded="true" signature="3448:3483" ph="..." />
+            <marker date="1508397487000" expanded="true" signature="3523:3664" ph=" Create an empty file, and write the content if necessary. ..." />
+            <marker date="1508397487000" expanded="true" signature="3719:3937" ph="{...}" />
+            <marker date="1508397487000" expanded="true" signature="3804:3839" ph="..." />
+            <marker date="1508397487000" expanded="true" signature="3946:4337" ph=" Get the __DIR__ variable, only for test the behavior in the require/include statement. ..." />
+            <marker date="1508397487000" expanded="true" signature="4381:4425" ph="{...}" />
+            <marker date="1508397487000" expanded="true" signature="4434:4503" ph=" Get the code's current directory. ..." />
+            <marker date="1508397487000" expanded="true" signature="4547:4593" ph="{...}" />
+            <marker date="1508397487000" expanded="true" signature="4602:4668" ph=" Get the current function name. ..." />
+            <marker date="1508397487000" expanded="true" signature="4715:4756" ph="{...}" />
+            <marker date="1508397487000" expanded="true" signature="4810:5034" ph="{...}" />
+            <marker date="1508397487000" expanded="true" signature="4900:4935" ph="..." />
+            <marker date="1508397487000" expanded="true" signature="5043:5136" ph=" Get the directory's free space ..." />
+            <marker date="1508397487000" expanded="true" signature="5184:5238" ph="{...}" />
+            <marker date="1508397487000" expanded="true" signature="5247:5296" ph=" @param $bytes ..." />
+            <marker date="1508397487000" expanded="true" signature="5344:5598" ph="{...}" />
+            <marker date="1508397487000" expanded="true" signature="5607:5660" ph=" ..." />
+            <marker date="1508397487000" expanded="true" signature="5696:5748" ph="{...}" />
+            <marker date="1508397487000" expanded="true" signature="5757:5848" ph=" Read the file character by character. ..." />
+            <marker date="1508397487000" expanded="true" signature="5897:6163" ph="{...}" />
+            <marker date="1508397487000" expanded="true" signature="5934:5969" ph="..." />
+            <marker date="1508397487000" expanded="true" signature="6068:6105" ph="..." />
+            <marker date="1508397487000" expanded="true" signature="6172:6253" ph=" Read the file line by line. ..." />
+            <marker date="1508397487000" expanded="true" signature="6297:6563" ph="{...}" />
+            <marker date="1508397487000" expanded="true" signature="6334:6369" ph="..." />
+            <marker date="1508397487000" expanded="true" signature="6468:6505" ph="..." />
+            <marker date="1508397487000" expanded="true" signature="6607:6660" ph="{...}" />
+            <marker date="1508397487000" expanded="true" signature="6669:6722" ph=" @param $url ..." />
+            <marker date="1508397487000" expanded="true" signature="6778:6857" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -749,6 +787,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="859">
           <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <folding>
+            <marker date="1508397805000" expanded="true" signature="248:473" ph="//..." />
+            <marker date="1508397805000" expanded="true" signature="475:1065" ph="//..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -782,6 +824,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
           <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <marker date="1509010624000" expanded="false" signature="9:83" ph=" Created by PhpStorm. ..." />
+            <marker date="1509010624000" expanded="true" signature="274:369" ph="{...}" />
+            <marker date="1509010624000" expanded="true" signature="423:515" ph="{...}" />
+            <marker date="1509010624000" expanded="true" signature="547:1157" ph="{...}" />
+            <marker date="1509010624000" expanded="true" signature="802:1078" ph="..." />
+            <marker date="1509010624000" expanded="true" signature="848:887" ph="..." />
+            <marker date="1509010624000" expanded="true" signature="1202:1272" ph="{...}" />
+            <marker date="1509010624000" expanded="true" signature="1281:1348" ph=" @param $key ..." />
+            <marker date="1509010624000" expanded="true" signature="1406:1770" ph="{...}" />
+            <marker date="1509010624000" expanded="true" signature="1497:1541" ph="..." />
+            <marker date="1509010624000" expanded="true" signature="1632:1676" ph="..." />
+            <marker date="1509010624000" expanded="true" signature="1833:2124" ph="{...}" />
+            <marker date="1509010624000" expanded="true" signature="1879:1928" ph="..." />
+            <marker date="1509010624000" expanded="true" signature="1986:2057" ph="..." />
+            <marker date="1509010624000" expanded="true" signature="2166:2211" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -819,8 +878,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Kernel/Database/Pdo/Configure.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="403">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
