@@ -13,7 +13,11 @@ class Configure
 {
     public function __construct()
     {
-        print_r();
+        
+    }
+
+    public function getDsn()
+    {
     }
 
 }

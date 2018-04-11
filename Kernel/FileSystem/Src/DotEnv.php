@@ -22,7 +22,7 @@ class DotEnv
         $this->readFile();
     }
 
-    protected function getEnv($key, $default = null)
+    protected  function getEnv($key, $default = null)
     {
         return isset($this->fileData[$key]) ? $this->fileData[$key] : $default;
     }

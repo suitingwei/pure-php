@@ -12,19 +12,14 @@ class Model
 {
     private $pdo = null;
 
+    /**
+     * @var Configure
+     */
+    private $configure;
+
     public function __construct()
     {
-        $this->pdo = new \PDO($this->getDsnString());
+        $this->pdo = new \PDO($this->configure->getDsn());
     }
 
-    protected function getDsnString()
-    {
-        return '';
-    }
-
-
-    protected function getDatabaseHost()
-    {
-
-    }
 }

@@ -4,6 +4,7 @@ if (!function_exists('env')) {
     /**
      * Get the env.
      * @param null $key
+     * @param null $default
      * @return mixed|string
      */
     function env($key,$default=null ){
