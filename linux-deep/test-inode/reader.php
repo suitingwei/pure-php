@@ -6,9 +6,22 @@
  * Time: 17:44
  */
 
-file_put_contents('./test.file','====line1====');
+$fileName = 'shared.file';
+$filePath = __DIR__ . DIRECTORY_SEPARATOR . $fileName;
 
+echo "start reading the file {$fileName}\n";
 
-while(true){
-    
+$fp = fopen($filePath,'a');
+
+if($fp === false){
+   die('failed to open the file') ;
 }
+
+while (true) {
+    $line = fread($fp,1000);
+    
+    echo "data read= \t".$line.PHP_EOL;
+    
+    sleep(0.5);
+}
+fclose($fp);
