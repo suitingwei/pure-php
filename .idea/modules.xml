@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PurePHP.iml" filepath="$PROJECT_DIR$/.idea/PurePHP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pure-php.iml" filepath="$PROJECT_DIR$/.idea/pure-php.iml" />
     </modules>
   </component>
 </project>

@@ -1,14 +1,13 @@
 <?php
 
-use Kernel\Database\Pdo\Model;
-
 require './vendor/autoload.php';
 
-require './helpers.php';
+$request = Kernel\Http\Src\Request::getInstance()->getQueryData();
 
-$data = require __DIR__ . '/Kernel/Config/database.php';
+(new Kernel\Application\Container(
+    realpath(__DIR__)
+))->run();
 
-
-$orm = new Model();
+echo rootPath();
 
 

@@ -1,12 +1,23 @@
 <?php
 
-namespace Http\Src;
+namespace Kernel\Http\Src;
+
+
+use Kernel\Helpers\Traits\Singleton;
 
 class Request
 {
+    use Singleton;
+
     private $serverData = [];
 
-    public function __construct()
+    /**
+     * Get 请求参数
+     * @var array
+     */
+    private $getParameters;
+
+    private  function __construct()
     {
         $this->serverData = $_SERVER;
     }
@@ -31,18 +42,23 @@ class Request
         return $this->serverData['REQUEST_URI'];
     }
 
+    /**
+     * 获取 HttpQueryString
+     * @return string
+     */
     public function getQueryString()
     {
         return $this->serverData['QUERY_STRING'];
     }
 
+    /**
+     * @return array
+     */
     public function getQueryData()
     {
-        $data = [];
+        parse_str($this->getQueryString(), $this->getParameters);
 
-        parse_str($this->getQueryString(), $data);
-
-        return $data;
+        return $this->getParameters;
     }
 
     public function getHeaders()
