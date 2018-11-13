@@ -11,14 +11,14 @@ $filePath = __DIR__ . DIRECTORY_SEPARATOR . $fileName;
 
 echo "start reading the file {$fileName}\n";
 
-$fp = fopen($filePath,'a');
+$fp = fopen($filePath,'r');
 
 if($fp === false){
    die('failed to open the file') ;
 }
 
 while (true) {
-    $line = fread($fp,1000);
+    $line = fgets($fp);
     
     echo "data read= \t".$line.PHP_EOL;
     
