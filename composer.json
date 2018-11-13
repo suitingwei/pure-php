@@ -1,0 +1,20 @@
+{
+    "name": "sui/pure-php",
+    "description": "Pure PHP without framework or any library.",
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sui",
+            "email": "ufoddd001@gmail.com"
+        }
+    ],
+	"autoload":{
+		"psr-4" :{
+			"Kernel\\" : "Kernel"
+		}
+	},
+    "require": {
+        "influxdb/influxdb-php": "^1.14"
+    }
+}
