@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5102b44-12df-4404-bd59-ad1b38ef2c80" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linux-deep/multiple-processes/writter.php" beforeDir="false" afterPath="$PROJECT_DIR$/linux-deep/multiple-processes/writter.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +39,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="standard_6.php" pinned="false" current-in-tab="true">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_6.php">
+      <file leaf-file-name="writter.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/linux-deep/multiple-processes/writter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="673" column="34" selection-start-line="673" selection-start-column="34" selection-end-line="673" selection-end-column="34" />
+            <state relative-caret-position="541">
+              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+              <folding>
+                <element signature="e#6#299#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -405,7 +407,7 @@
       <workItem from="1542079193574" duration="1675000" />
       <workItem from="1542190724434" duration="295000" />
       <workItem from="1542339771580" duration="1541000" />
-      <workItem from="1542351416005" duration="316000" />
+      <workItem from="1542351416005" duration="714000" />
     </task>
     <task id="LOCAL-00001" summary="1. Add the collection module.">
       <created>1508492503533</created>
@@ -498,11 +500,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542341392811</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1.Test the multiple processes writing single log file situtation.&#10;2.Add the exclusive lock on the file.">
+      <created>1542351978709</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1542351978709</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69812000" />
+    <option name="totallyTimeSpent" value="70210000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -517,7 +526,7 @@
     <frame x="1440" y="-180" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27604166" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.27604166" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32995737" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -581,7 +590,8 @@
     <MESSAGE value="1.test shared file in the writer\reader situlation." />
     <MESSAGE value="1.Test the situlation,that fpm will report error when cp the new file into the old file." />
     <MESSAGE value="1.Test the multiple processes writing single log file situtation." />
-    <option name="LAST_COMMIT_MESSAGE" value="1.Test the multiple processes writing single log file situtation." />
+    <MESSAGE value="1.Test the multiple processes writing single log file situtation.&#10;2.Add the exclusive lock on the file." />
+    <option name="LAST_COMMIT_MESSAGE" value="1.Test the multiple processes writing single log file situtation.&#10;2.Add the exclusive lock on the file." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -787,13 +797,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/linux-deep/file1" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="723" column="27" selection-start-line="723" selection-start-column="27" selection-end-line="723" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_defines.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -801,20 +804,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linux-deep/multiple-processes/writter.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_6.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding>
-            <element signature="e#6#299#0#PHP" expanded="true" />
-          </folding>
+        <state>
+          <caret line="676" column="6" selection-start-line="676" selection-start-column="6" selection-end-line="676" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_6.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="673" column="34" selection-start-line="673" selection-start-column="34" selection-end-line="673" selection-end-column="34" />
+        <state relative-caret-position="378">
+          <caret line="854" column="9" selection-start-line="854" selection-start-column="9" selection-end-line="854" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux-deep/multiple-processes/writter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+          <folding>
+            <element signature="e#6#299#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

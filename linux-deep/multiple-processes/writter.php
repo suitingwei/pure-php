@@ -29,6 +29,10 @@ for($i=0;$i<100;$i++){
     
     $data = sprintf("time=%s,processId=%s,content=%s\n", date('Y-m-d H:i:s', time()), posix_getpid(), "This is the line{$i}");
     
+    echo $data;
+    
+    fwrite($fp,$data);
+    
     sleep(0.1);
 }
 
