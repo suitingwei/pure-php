@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5102b44-12df-4404-bd59-ad1b38ef2c80" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/linux-deep/test-inode/test-fpm-cp-error/implementedClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linux-deep/test-inode/test-fpm-cp-error/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linux-deep/test-inode/test-fpm-cp-error/interface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux-deep/multiple-processes/writter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux-deep/test-inode/reader.php" beforeDir="false" afterPath="$PROJECT_DIR$/linux-deep/test-inode/reader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux-deep/test-inode/test-fpm-cp-error/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/linux-deep/test-inode/test-fpm-cp-error/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,11 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/linux-deep/test-inode/test-fpm-cp-error/index.php">
+      <file leaf-file-name="writter.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/linux-deep/multiple-processes/writter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="216">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -114,7 +114,6 @@
         <option value="$PROJECT_DIR$/InfluxGrafana/index.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/work_helpers.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/linux-deep/test-cp.php" />
         <option value="$PROJECT_DIR$/linux-deep/test-inode.php" />
         <option value="$PROJECT_DIR$/linux-deep/test-inode/writer.php" />
@@ -122,6 +121,8 @@
         <option value="$PROJECT_DIR$/linux-deep/test-inode/test-fpm-cp-error/interface.php" />
         <option value="$PROJECT_DIR$/linux-deep/test-inode/test-fpm-cp-error/implementedClass.php" />
         <option value="$PROJECT_DIR$/linux-deep/test-inode/test-fpm-cp-error/index.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/linux-deep/multiple-processes/writter.php" />
       </list>
     </option>
   </component>
@@ -201,14 +202,7 @@
               <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
               <item name="pure-php" type="462c0819:PsiDirectoryNode" />
               <item name="linux-deep" type="462c0819:PsiDirectoryNode" />
-              <item name="test-inode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pure-php" type="462c0819:PsiDirectoryNode" />
-              <item name="linux-deep" type="462c0819:PsiDirectoryNode" />
-              <item name="test-inode" type="462c0819:PsiDirectoryNode" />
-              <item name="test-fpm-cp-error" type="462c0819:PsiDirectoryNode" />
+              <item name="multiple-processes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
@@ -262,10 +256,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.index.php">
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php" />
     <configuration name="work_helpers.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/work_helpers.php" />
+    <list>
+      <item itemvalue="PHP Script.work_helpers.php" />
+      <item itemvalue="PHP Script.index.php" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.index.php" />
         <item itemvalue="PHP Script.work_helpers.php" />
       </list>
     </recent_temporary>
@@ -399,7 +399,9 @@
       <workItem from="1541473479803" duration="87000" />
       <workItem from="1542003030170" duration="2237000" />
       <workItem from="1542015881341" duration="1545000" />
-      <workItem from="1542079193574" duration="1002000" />
+      <workItem from="1542079193574" duration="1675000" />
+      <workItem from="1542190724434" duration="295000" />
+      <workItem from="1542339771580" duration="874000" />
     </task>
     <task id="LOCAL-00001" summary="1. Add the collection module.">
       <created>1508492503533</created>
@@ -457,11 +459,25 @@
       <option name="project" value="LOCAL" />
       <updated>1542017162914</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1.Test the situlation,that fpm will report error when cp the new file into the old file.">
+      <created>1542080608070</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1542080608070</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1.Test the situlation,that fpm will report error when cp the new file into the old file.">
+      <created>1542080708548</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1542080708548</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66987000" />
+    <option name="totallyTimeSpent" value="68829000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -476,7 +492,7 @@
     <frame x="1440" y="-180" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2765625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27604166" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32995737" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -538,7 +554,8 @@
     <MESSAGE value="1.add linux kernel stuff learning code." />
     <MESSAGE value="1.rm other repo's code" />
     <MESSAGE value="1.test shared file in the writer\reader situlation." />
-    <option name="LAST_COMMIT_MESSAGE" value="1.test shared file in the writer\reader situlation." />
+    <MESSAGE value="1.Test the situlation,that fpm will report error when cp the new file into the old file." />
+    <option name="LAST_COMMIT_MESSAGE" value="1.Test the situlation,that fpm will report error when cp the new file into the old file." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -546,13 +563,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="551" column="9" selection-start-line="551" selection-start-column="9" selection-end-line="551" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -686,27 +696,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/syslog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clear-jiaocai-result.txt" />
     <entry file="file://$PROJECT_DIR$/clear-course-section-result.txt" />
     <entry file="file://$PROJECT_DIR$/work_helpers.php" />
     <entry file="file://$PROJECT_DIR$/InfluxGrafana/index.php" />
     <entry file="file://$PROJECT_DIR$/InfluxGrafana/studentNginxAccess2018081505.log" />
     <entry file="file://$PROJECT_DIR$/InfluxGrafana/NOAA_data.txt" />
-    <entry file="file://$PROJECT_DIR$/index.php" />
-    <entry file="file://$PROJECT_DIR$/linux-deep/test-cp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
@@ -735,13 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="601" column="7" selection-start-line="601" selection-start-column="7" selection-end-line="601" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linux-deep/test-inode/reader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -765,8 +753,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linux-deep/test-inode/test-fpm-cp-error/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        <state relative-caret-position="231">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux-deep/test-cp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syslog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="1121" column="9" selection-start-line="1121" selection-start-column="9" selection-end-line="1121" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux-deep/multiple-processes/writter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
         </state>
       </provider>
     </entry>

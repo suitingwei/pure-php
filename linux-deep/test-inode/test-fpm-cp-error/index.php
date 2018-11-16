@@ -5,7 +5,6 @@
  */
 
 
-require __DIR__.'/interface.php';
 require __DIR__.'/implementedClass.php';
 
 while (true){
