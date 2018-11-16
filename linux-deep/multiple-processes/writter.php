@@ -9,31 +9,31 @@
  *  |----- worker4 -------- writting log file
  */
 
-$i        = 0;
 $fileName = './single.file';
-while ($i++ < 100) {
+
+$fp = fopen($fileName, 'a+');
+
+if ($fp === false) {
+    die('open file failed.');
+}
+
+$lock = false;
+
+//Get the exclusive lock on the file, so that only the current writter process can write the data into it.
+while(!($lock = flock($fp,LOCK_EX))){
+    echo "failed to get the clusive lock on the file.\n";
+    sleep(0.1);
+}
+
+for($i=0;$i<100;$i++){
+    
     $data = sprintf("time=%s,processId=%s,content=%s\n", date('Y-m-d H:i:s', time()), posix_getpid(), "This is the line{$i}");
-    
-    
-    $fp = fopen($fileName, 'a+');
-    
-    if ($fp === false) {
-        die('open file failed.');
-    }
-    
-    //Get the exclusive lock on the file, so that only the current writter process can write the data into it.
-    if (flock($fp, LOCK_EX)) {
-        fwrite($fp, $data);
-    }
-    else{
-        continue;
-    }
-    
-    //release the lock on the file.
-    flock($fp,LOCK_UN);
     
     sleep(0.1);
 }
 
+
+//release the lock on the file.
+flock($fp,LOCK_UN);
 
 
