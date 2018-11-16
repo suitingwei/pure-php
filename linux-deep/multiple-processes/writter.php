@@ -9,6 +9,7 @@
  *  |----- worker4 -------- writting log file
  */
 
+$i = 0;
 while($i++<100){
     $data=  sprintf("time=%s,processId=%s,content=%s\n",date('Y-m-d H:i:s',time()),posix_getpid(),"This is the line{$i}");
     
