@@ -4,12 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/linux-deep/test-cp.php" line="32" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5102b44-12df-4404-bd59-ad1b38ef2c80" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linux-deep/multiple-processes/writter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="d5102b44-12df-4404-bd59-ad1b38ef2c80" name="Default" comment="1.Test the multiple processes writing single log file situtation.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux-deep/test-inode/test-fpm-cp-error/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/linux-deep/test-inode/test-fpm-cp-error/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/linux-deep/multiple-processes/writter.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -203,6 +199,12 @@
               <item name="pure-php" type="462c0819:PsiDirectoryNode" />
               <item name="linux-deep" type="462c0819:PsiDirectoryNode" />
               <item name="multiple-processes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pure-php" type="462c0819:PsiDirectoryNode" />
+              <item name="linux-deep" type="462c0819:PsiDirectoryNode" />
+              <item name="test-inode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
@@ -401,7 +403,7 @@
       <workItem from="1542015881341" duration="1545000" />
       <workItem from="1542079193574" duration="1675000" />
       <workItem from="1542190724434" duration="295000" />
-      <workItem from="1542339771580" duration="874000" />
+      <workItem from="1542339771580" duration="1348000" />
     </task>
     <task id="LOCAL-00001" summary="1. Add the collection module.">
       <created>1508492503533</created>
@@ -473,11 +475,25 @@
       <option name="project" value="LOCAL" />
       <updated>1542080708548</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="1.Test the multiple processes writing single log file situtation.">
+      <created>1542340746899</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1542340746900</updated>
+    </task>
+    <task id="LOCAL-00012" summary="1.Test the multiple processes writing single log file situtation.">
+      <created>1542341062798</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1542341062798</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68829000" />
+    <option name="totallyTimeSpent" value="69303000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -497,6 +513,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32777777" />
       <window_info anchor="bottom" id="LuaCheck" order="8" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -514,7 +531,6 @@
       <window_info anchor="right" x="100" y="100" width="1720" height="880" id="Documentation" order="4" type="FLOATING" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32777777" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,7 +571,8 @@
     <MESSAGE value="1.rm other repo's code" />
     <MESSAGE value="1.test shared file in the writer\reader situlation." />
     <MESSAGE value="1.Test the situlation,that fpm will report error when cp the new file into the old file." />
-    <option name="LAST_COMMIT_MESSAGE" value="1.Test the situlation,that fpm will report error when cp the new file into the old file." />
+    <MESSAGE value="1.Test the multiple processes writing single log file situtation." />
+    <option name="LAST_COMMIT_MESSAGE" value="1.Test the multiple processes writing single log file situtation." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -563,13 +580,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12222" />
@@ -723,13 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linux-deep/test-inode/writer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linux-deep/test-inode/reader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -779,17 +782,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/linux-deep/test-inode/writer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux-deep/file1">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="1121" column="9" selection-start-line="1121" selection-start-column="9" selection-end-line="1121" selection-end-column="9" />
+        <state relative-caret-position="459">
+          <caret line="1079" column="7" selection-start-line="1079" selection-start-column="7" selection-end-line="1079" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/linux-deep/multiple-processes/writter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
         </state>
       </provider>
     </entry>
