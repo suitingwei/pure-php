@@ -1,35 +1,38 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: sui
- * Date: 2018/11/14
- * Time: 18:18
+ * [
+ *   123 => 222,
+ *   124 => 222,
+ *   129 => 222,
+ * ]
+ *
+ * @var array
  */
+//8byte => 64bit, 500w * 8byte /1024/1024 =  38mb
+$arr =[
 
-$arr = [
-    [
-        'questionId'      => 123,
-        'courseSectionId' => 123,
-    ],
-    [
-        'questionId'      => 12987979,
-        'courseSectionId' => 123,
-    ],
-    [
-        'questionId'      => 123998,
-        'courseSectionId' => 0,
-    ],
-    [
-        'questionId'      => 1239981283,
-        'courseSectionId' => 0,
-    ],
 ];
 
-$arr =array_column($arr,null,'questionId');
-print_r($arr ) ;
+echo "memory usage:".(memory_get_usage()/1024/1024).'Mb'.PHP_EOL;
+for($i=0;$i<500000;$i++){
+    $arr[$i]= rand(0,50);
+}
+echo "memory usage:".(memory_get_usage()/1024/1024).'Mb'.PHP_EOL;
 
-$arr = array_column($arr,'courseSectionId');
-print_r($arr);
+#10w
+foreach ($classList as $class) {
+    
+    $studentList=  getStudentListByClassId($class['classId']);
+    
+    #50
+    foreach ($studentList as $student) {
+        $finishHomeworkNumInClass=  getFinishHomeworkNumByStudentIdAndClassId($student['studentId'],$class['classId']);
+        
+        if(isset($arr[$student['studentId']])){
+            $arr[$student['studentId']] += $finishHomeworkNumInClass;
+        }
+    }
+}
 
-$arr=  array_unique($arr);
-print_r($arr);
+
+
