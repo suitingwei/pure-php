@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5102b44-12df-4404-bd59-ad1b38ef2c80" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/apcu/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpRuntime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apcu/apc.php" beforeDir="false" afterPath="$PROJECT_DIR$/apcu/apc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apcu/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/apcu/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +46,11 @@
     <leaf>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apcu/index.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -56,6 +65,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>stu</find>
+      <find>appear</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -64,8 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/switch.php" />
-        <option value="$PROJECT_DIR$/ArrayFunctions.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Control/index.php" />
         <option value="$PROJECT_DIR$/FileSystem/index.php" />
@@ -115,6 +123,8 @@
         <option value="$PROJECT_DIR$/linux-deep/test-inode/test-fpm-cp-error/index.php" />
         <option value="$PROJECT_DIR$/linux-deep/multiple-processes/writter.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/apcu/apc.php" />
+        <option value="$PROJECT_DIR$/apcu/index.php" />
       </list>
     </option>
   </component>
@@ -189,6 +199,27 @@
               <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
               <item name="pure-php" type="462c0819:PsiDirectoryNode" />
               <item name="apcu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
+            </path>
+            <path>
+              <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="apcu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="superglobals" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -378,7 +409,7 @@
       <workItem from="1546411916803" duration="197000" />
       <workItem from="1546412440958" duration="801000" />
       <workItem from="1546521634229" duration="28000" />
-      <workItem from="1546670314454" duration="712000" />
+      <workItem from="1546670314454" duration="3882000" />
     </task>
     <task id="LOCAL-00001" summary="1. Add the collection module.">
       <created>1508492503533</created>
@@ -499,11 +530,25 @@
       <option name="project" value="LOCAL" />
       <updated>1546670385549</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="1. add apcu">
+      <created>1546673232116</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1546673232116</updated>
+    </task>
+    <task id="LOCAL-00019" summary="1. add apcu">
+      <created>1546673408268</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1546673408268</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73136000" />
+    <option name="totallyTimeSpent" value="76306000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -516,11 +561,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-180" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27604166" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32995737" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="LuaCheck" order="8" weight="0.32995737" />
+      <window_info anchor="bottom" id="File Transfer" weight="0.32962963" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -585,7 +632,8 @@
     <MESSAGE value="1.optimize the lock operation." />
     <MESSAGE value="1.Add the missing write op." />
     <MESSAGE value="1. add composer &#10;2. add pdo." />
-    <option name="LAST_COMMIT_MESSAGE" value="1. add composer &#10;2. add pdo." />
+    <MESSAGE value="1. add apcu" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. add apcu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -593,22 +641,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Kernel/FileSystem/index.php" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/PDO/PDO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="1000" column="5" selection-start-line="1000" selection-start-column="5" selection-end-line="1000" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_d.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="337" column="9" selection-start-line="337" selection-start-column="9" selection-end-line="337" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kernel/Arrayable/ArrayFunctions.php" />
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -668,13 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="18" column="86" selection-start-line="18" selection-start-column="86" selection-end-line="18" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="155" column="2" selection-start-line="155" selection-start-column="2" selection-end-line="155" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -798,13 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linux-deep/multiple-processes/writter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="613">
@@ -812,8 +830,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="458" column="9" selection-start-line="458" selection-start-column="9" selection-end-line="458" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/superglobals/_superglobals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="843">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apcu/apc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="722" column="3" selection-start-line="722" selection-start-column="3" selection-end-line="722" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#1361#0#PHP" expanded="true" />
+            <element signature="e#39#45#1" expanded="true" />
+            <element signature="e#39#45#1" expanded="true" />
+            <element signature="e#37#43#1" expanded="true" />
+            <element signature="e#37#43#1" expanded="true" />
+            <element signature="e#70#76#1" expanded="true" />
+            <element signature="e#0#6#0" expanded="true" />
+            <element signature="e#28#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/apcu/apcu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apcu/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

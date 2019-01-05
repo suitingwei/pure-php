@@ -11,7 +11,6 @@
       <extension name="ZendUtils" enabled="false" />
       <extension name="amqp" enabled="false" />
       <extension name="apc" enabled="false" />
-      <extension name="apcu" enabled="false" />
       <extension name="com" enabled="false" />
       <extension name="couchbase" enabled="false" />
       <extension name="cubrid" enabled="false" />
