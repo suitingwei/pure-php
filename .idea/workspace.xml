@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5102b44-12df-4404-bd59-ad1b38ef2c80" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/bubbleSort.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/insertSort.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/selectSort.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ob/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ob/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tax.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apcu/apc.php" beforeDir="false" afterPath="$PROJECT_DIR$/apcu/apc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apcu/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/apcu/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,10 +46,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apcu/index.php">
+        <entry file="file://$PROJECT_DIR$/ob/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="357">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -74,12 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/Control/index.php" />
-        <option value="$PROJECT_DIR$/FileSystem/index.php" />
-        <option value="$PROJECT_DIR$/FileSystem/src/Dictionary.php" />
-        <option value="$PROJECT_DIR$/Control/src/Interfaces/FileType.php" />
-        <option value="$PROJECT_DIR$/Control/src/Files/TextFile.php" />
         <option value="$PROJECT_DIR$/Control/Src/Files/TextFile.php" />
         <option value="$PROJECT_DIR$/Control/Src/Files/VideoFile.php" />
         <option value="$PROJECT_DIR$/Control/Src/Files/ImageFile.php" />
@@ -125,6 +120,12 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/apcu/apc.php" />
         <option value="$PROJECT_DIR$/apcu/index.php" />
+        <option value="$PROJECT_DIR$/tax.php" />
+        <option value="$PROJECT_DIR$/algorithms/bubbleSort.php" />
+        <option value="$PROJECT_DIR$/algorithms/selectSort.php" />
+        <option value="$PROJECT_DIR$/algorithms/insertSort.php" />
+        <option value="$PROJECT_DIR$/ob/view.php" />
+        <option value="$PROJECT_DIR$/ob/index.php" />
       </list>
     </option>
   </component>
@@ -198,28 +199,7 @@
             <path>
               <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
               <item name="pure-php" type="462c0819:PsiDirectoryNode" />
-              <item name="apcu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
-            </path>
-            <path>
-              <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="apcu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="superglobals" type="462c0819:PsiDirectoryNode" />
+              <item name="ob" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,19 +211,20 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/linux-deep/test-inode" />
-      <recent name="$PROJECT_DIR$/Control/Src/Files" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/linux-deep/test-inode" />
       <recent name="$PROJECT_DIR$/Kernel/Helpers/Functions" />
       <recent name="$PROJECT_DIR$/Kernel/Helpers" />
       <recent name="$PROJECT_DIR$/app/config" />
       <recent name="$PROJECT_DIR$/Kernel" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algorithms" />
+      <recent name="$PROJECT_DIR$/linux-deep/test-inode" />
+      <recent name="$PROJECT_DIR$/Control/Src/Files" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -409,7 +390,13 @@
       <workItem from="1546411916803" duration="197000" />
       <workItem from="1546412440958" duration="801000" />
       <workItem from="1546521634229" duration="28000" />
-      <workItem from="1546670314454" duration="3882000" />
+      <workItem from="1546670314454" duration="4580000" />
+      <workItem from="1546826892956" duration="69000" />
+      <workItem from="1547005296135" duration="3342000" />
+      <workItem from="1547014667635" duration="2950000" />
+      <workItem from="1547464665550" duration="2183000" />
+      <workItem from="1547535242104" duration="194000" />
+      <workItem from="1547535474872" duration="182000" />
     </task>
     <task id="LOCAL-00001" summary="1. Add the collection module.">
       <created>1508492503533</created>
@@ -544,11 +531,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546673408268</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="1. add apcu">
+      <created>1546678275022</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1546678275022</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76306000" />
+    <option name="totallyTimeSpent" value="85924000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -561,13 +555,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-180" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27604166" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32995737" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="LuaCheck" order="8" weight="0.32995737" />
-      <window_info anchor="bottom" id="File Transfer" weight="0.32962963" />
+      <window_info anchor="bottom" id="File Transfer" order="9" visible="true" weight="0.32962963" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -641,25 +634,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kernel/FileSystem/Src/Dictionary.php" />
-    <entry file="file://$PROJECT_DIR$/Kernel/Database/MysqlFunction/Mysql.php" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/date/date_c.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3467">
-          <caret line="320" column="20" selection-start-line="320" selection-start-column="20" selection-end-line="320" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kernel/Database/Pdo/Model.php" />
-    <entry file="file://$PROJECT_DIR$/Kernel/Control/switch.php" />
-    <entry file="file://$PROJECT_DIR$/Kernel/FileSystem/Src/DotEnv.php" />
     <entry file="file://$PROJECT_DIR$/Kernel/Database/Pdo/Configure.php" />
     <entry file="file://$PROJECT_DIR$/Kernel/Javascript/index.html" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_2.php">
@@ -731,13 +705,6 @@
     <entry file="file://$PROJECT_DIR$/InfluxGrafana/index.php" />
     <entry file="file://$PROJECT_DIR$/InfluxGrafana/studentNginxAccess2018081505.log" />
     <entry file="file://$PROJECT_DIR$/InfluxGrafana/NOAA_data.txt" />
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_7.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -851,23 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apcu/apc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="722" column="3" selection-start-line="722" selection-start-column="3" selection-end-line="722" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#1361#0#PHP" expanded="true" />
-            <element signature="e#39#45#1" expanded="true" />
-            <element signature="e#39#45#1" expanded="true" />
-            <element signature="e#37#43#1" expanded="true" />
-            <element signature="e#37#43#1" expanded="true" />
-            <element signature="e#70#76#1" expanded="true" />
-            <element signature="e#0#6#0" expanded="true" />
-            <element signature="e#28#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -884,8 +834,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apcu/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="255">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apcu/apc.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="707" column="9" selection-start-line="707" selection-start-column="9" selection-end-line="707" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="209" column="30" selection-start-line="209" selection-start-column="30" selection-end-line="209" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/bubbleSort.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/selectSort.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/insertSort.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ob/view.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ob/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
