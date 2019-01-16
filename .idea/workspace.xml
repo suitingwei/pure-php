@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5102b44-12df-4404-bd59-ad1b38ef2c80" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms/bubbleSort.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/insertSort.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/selectSort.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ob/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ob/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sockets/clients/client_v1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sockets/clients/echo_client_v1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sockets/servers/echo_server_v1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sockets/servers/server_v1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ob/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/ob/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ob/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/ob/view.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ob/index.php">
+      <file leaf-file-name="echo_server_v1.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sockets/servers/echo_server_v1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="306">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -75,12 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Control/Src/Files/TextFile.php" />
-        <option value="$PROJECT_DIR$/Control/Src/Files/VideoFile.php" />
-        <option value="$PROJECT_DIR$/Control/Src/Files/ImageFile.php" />
-        <option value="$PROJECT_DIR$/Control/switch.php" />
-        <option value="$PROJECT_DIR$/Array/Src/Collection.php" />
-        <option value="$PROJECT_DIR$/Arrayable/ArrayFunctions.php" />
         <option value="$PROJECT_DIR$/Arrayable/index.php" />
         <option value="$PROJECT_DIR$/Arrayable/Src/Collection.php" />
         <option value="$PROJECT_DIR$/Http/index.php" />
@@ -126,6 +120,12 @@
         <option value="$PROJECT_DIR$/algorithms/insertSort.php" />
         <option value="$PROJECT_DIR$/ob/view.php" />
         <option value="$PROJECT_DIR$/ob/index.php" />
+        <option value="$PROJECT_DIR$/sockets/servers/blocking_server.php" />
+        <option value="$PROJECT_DIR$/sockets/clients/client.php" />
+        <option value="$PROJECT_DIR$/sockets/clients/chat_client.php" />
+        <option value="$PROJECT_DIR$/sockets/servers/server_v1.php" />
+        <option value="$PROJECT_DIR$/sockets/clients/echo_client_v1.php" />
+        <option value="$PROJECT_DIR$/sockets/servers/echo_server_v1.php" />
       </list>
     </option>
   </component>
@@ -199,7 +199,40 @@
             <path>
               <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
               <item name="pure-php" type="462c0819:PsiDirectoryNode" />
-              <item name="ob" type="462c0819:PsiDirectoryNode" />
+              <item name="sockets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pure-php" type="462c0819:PsiDirectoryNode" />
+              <item name="sockets" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pure-php" type="462c0819:PsiDirectoryNode" />
+              <item name="sockets" type="462c0819:PsiDirectoryNode" />
+              <item name="servers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
+            </path>
+            <path>
+              <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="readline" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="sockets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,13 +248,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sockets/servers" />
+      <recent name="$PROJECT_DIR$/sockets" />
       <recent name="$PROJECT_DIR$/linux-deep/test-inode" />
       <recent name="$PROJECT_DIR$/Kernel/Helpers/Functions" />
       <recent name="$PROJECT_DIR$/Kernel/Helpers" />
-      <recent name="$PROJECT_DIR$/app/config" />
-      <recent name="$PROJECT_DIR$/Kernel" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sockets/servers" />
+      <recent name="$PROJECT_DIR$/sockets/clients" />
       <recent name="$PROJECT_DIR$/algorithms" />
       <recent name="$PROJECT_DIR$/linux-deep/test-inode" />
       <recent name="$PROJECT_DIR$/Control/Src/Files" />
@@ -397,6 +432,11 @@
       <workItem from="1547464665550" duration="2183000" />
       <workItem from="1547535242104" duration="194000" />
       <workItem from="1547535474872" duration="182000" />
+      <workItem from="1547538577573" duration="153000" />
+      <workItem from="1547554284903" duration="312000" />
+      <workItem from="1547557965496" duration="494000" />
+      <workItem from="1547604354459" duration="1967000" />
+      <workItem from="1547617720925" duration="2973000" />
     </task>
     <task id="LOCAL-00001" summary="1. Add the collection module.">
       <created>1508492503533</created>
@@ -538,11 +578,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546678275022</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="1. controller view.">
+      <created>1547538720345</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1547538720345</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85924000" />
+    <option name="totallyTimeSpent" value="91823000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,7 +603,7 @@
   <component name="ToolWindowManager">
     <frame x="1440" y="-180" width="1920" height="1080" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27604166" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.27604166" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32995737" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="LuaCheck" order="8" weight="0.32995737" />
@@ -626,7 +673,8 @@
     <MESSAGE value="1.Add the missing write op." />
     <MESSAGE value="1. add composer &#10;2. add pdo." />
     <MESSAGE value="1. add apcu" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. add apcu" />
+    <MESSAGE value="1. controller view." />
+    <option name="LAST_COMMIT_MESSAGE" value="1. controller view." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -634,25 +682,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Kernel/Database/Pdo/Configure.php" />
-    <entry file="file://$PROJECT_DIR$/Kernel/Javascript/index.html" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="220" column="24" selection-start-line="220" selection-start-column="24" selection-end-line="220" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kernel/Http/Src/Request.php" />
-    <entry file="file://$PROJECT_DIR$/app/config/database.php" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/basic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kernel/Helpers/Traits/Singleton.php" />
     <entry file="file://$PROJECT_DIR$/Kernel/Helpers/Functions/helpers.php" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/csprng/CSPRNG.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -849,13 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="209" column="30" selection-start-line="209" selection-start-column="30" selection-end-line="209" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/bubbleSort.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -884,13 +906,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="280" column="27" selection-start-line="280" selection-start-column="27" selection-end-line="280" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ob/view.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ob/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="459">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sockets/fork.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sockets/clients/client_v1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/readline/readline.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sockets/servers/server_v1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding>
+            <element signature="e#6#46#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/sockets/sockets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="371" column="2" selection-start-line="371" selection-start-column="2" selection-end-line="371" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sockets/clients/echo_client_v1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+          <folding>
+            <element signature="e#7#24#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sockets/servers/echo_server_v1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>
