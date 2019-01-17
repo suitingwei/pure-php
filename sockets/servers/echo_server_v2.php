@@ -35,7 +35,7 @@ while (true) {
     if ($pid == 0) {
         //子进程关闭监听套接字
 //        socket_close($sockFd);
-    
+        
         /**
          * Socket read 函数会阻塞在这里。
          * 即便网络连接上没有数据传送，这个函数也是会停在这里.
@@ -65,10 +65,41 @@ while (true) {
     }
 }
 
+/**
+ *
+ */
 function installSignal()
 {
-    pcntl_signal(SIGTERM, function () {
-        echo "Receiving signal term\n";
-        exit(0);
-    });
+    if (pcntl_signal(SIGTERM, 'handleMasterTerminate') === false) {
+        die("Failed to install signal SIGTERM \n" . error_get_last()['message'] ?? '');
+    } else {
+        echo "Installing signal:[SIGTERM]\n";
+    }
+    
+    if (pcntl_signal(SIGCHLD, 'handleChildExit') === false) {
+        die("Failed to install signal SIGCHILD \n" . error_get_last()['message'] ?? '');
+    } else {
+        echo "Installing signal:[SIGCHILD]\n";
+    }
+}
+
+function handleMasterTerminate(int $signalNumber, $signalInfo)
+{
+    echo "Receiving signal term\n";
+    exit(0);
+}
+
+function handleChildExit(int $signalNumber, $signalInfo)
+{
+    $status = 0;
+    while ($pid = pcntl_waitpid(-1, $status, WNOHANG)) {
+        if ($pid == 0) {
+            continue;
+        }
+        if ($pid == -1) {
+            error_get_last();
+        }
+        
+        echo sprintf("Child process:%s has exited with status:%s\n", $pid, $status);
+    }
 }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="00da4335-5525-4257-90b8-641469871530" name="39.105.1.40" url="http://39.105.1.40">
+      <webServer id="00da4335-5525-4257-90b8-641469871530" name="自己的主服务器" url="http://39.105.1.40">
         <fileTransfer host="39.105.1.40" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/html/PurePHP" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
@@ -10,8 +10,8 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="3cf23d90-df7a-4570-b542-d4a7f0f81c00" name="39.106.46.51" url="http://39.106.46.51">
-        <fileTransfer host="39.106.46.51" port="22" rootFolder="/home/sui/pure-php" accessType="SFTP">
+      <webServer id="3cf23d90-df7a-4570-b542-d4a7f0f81c00" name="叨叨服务器" url="http://39.106.46.51">
+        <fileTransfer host="39.106.46.51" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/sui/pure-php" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

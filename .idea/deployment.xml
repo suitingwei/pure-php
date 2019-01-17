@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="39.105.1.40">
+  <component name="PublishConfigData" autoUpload="Always" serverName="自己的主服务器">
     <serverData>
-      <paths name="39.105.1.40">
+      <paths name="叨叨服务器">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="39.106.46.51">
+      <paths name="自己的主服务器">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
