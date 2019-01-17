@@ -35,7 +35,12 @@ while (true) {
     if ($pid == 0) {
         //子进程关闭监听套接字
 //        socket_close($sockFd);
-        
+    
+        /**
+         * Socket read 函数会阻塞在这里。
+         * 即便网络连接上没有数据传送，这个函数也是会停在这里.
+         * 直到客户端发送了一个空的数据包（也就是说有 header，但是 data 是空）
+         */
         while (!empty($clientData = socket_read($connectFd, 1024))) {
             echo sprintf("[Client]> %s\n", $clientData);
             socket_write($connectFd, $clientData);
@@ -45,6 +50,9 @@ while (true) {
          * 如果客户端发送了空字符串，那么我们视为他想要结束链接。就关闭这个链接套接字
          */
         socket_close($connectFd);
+        
+        //子进程退出
+        exit(0);
     } /**
      * 父进程继续处于 while 大循环即可
      * 如果 php 的 cli 模式没有做特殊的机制的话。

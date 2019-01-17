@@ -10,6 +10,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="3cf23d90-df7a-4570-b542-d4a7f0f81c00" name="39.106.46.51" url="http://39.106.46.51">
+        <fileTransfer host="39.106.46.51" port="22" rootFolder="/home/sui/pure-php" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>
