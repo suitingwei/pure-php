@@ -10,7 +10,7 @@
 set_error_handler(function () {
 });
 
-pcntl_signal(SIGTERM,function(){
+pcntl_signal(SIGTERM, function () {
 
 });
 
@@ -33,7 +33,7 @@ while (!empty($str = readline("[Client]> "))) {
     }
     
     //从服务端读取数据,这里
-    if(!empty($data = socket_read($sockFd, 1024))) {
+    if (!empty($data = socket_read($sockFd, 1024))) {
         echo sprintf("[Server]> %s\n", $data);
     }
 }
