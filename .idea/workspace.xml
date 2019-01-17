@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5102b44-12df-4404-bd59-ad1b38ef2c80" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/sui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/sui.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sockets/clients/echo_client_v1.php" beforeDir="false" afterPath="$PROJECT_DIR$/sockets/clients/echo_client_v1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sockets/servers/echo_server_v2.php" beforeDir="false" afterPath="$PROJECT_DIR$/sockets/servers/echo_server_v2.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,24 +44,10 @@
       <file leaf-file-name="echo_server_v2.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sockets/servers/echo_server_v2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="79" column="40" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
+            <state relative-caret-position="715">
+              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
               <folding>
                 <element signature="e#192#208#0#PHP" />
-                <element signature="e#398#1521#0#PHP" />
-                <element signature="e#444#581#0#PHP" />
-                <element signature="e#621#643#0#PHP" />
-                <element signature="e#648#1519#0#PHP" />
-                <element signature="e#736#874#0#PHP" />
-                <element signature="e#883#1062#0#PHP" />
-                <element signature="e#1080#1144#0#PHP" />
-                <element signature="e#1227#1466#0#PHP" />
-                <element signature="e#1471#1519#0#PHP" />
-                <element signature="n#handleMasterTerminate#0;n#!!top" />
-                <element signature="n#handleChildExit#0;n#!!top" />
-                <element signature="e#1953#2228#0#PHP" />
-                <element signature="e#2014#2062#0#PHP" />
-                <element signature="e#2071#2128#0#PHP" />
               </folding>
             </state>
           </provider>
@@ -138,9 +122,9 @@
         <option value="$PROJECT_DIR$/sockets/clients/chat_client.php" />
         <option value="$PROJECT_DIR$/sockets/servers/server_v1.php" />
         <option value="$PROJECT_DIR$/sockets/servers/echo_server_v1.php" />
-        <option value="$PROJECT_DIR$/sockets/clients/echo_client_v1.php" />
         <option value="$PROJECT_DIR$/sockets/servers/fork_server_v1.php" />
         <option value="$PROJECT_DIR$/sockets/servers/echo_server_v2.php" />
+        <option value="$PROJECT_DIR$/sockets/clients/echo_client_v1.php" />
       </list>
     </option>
   </component>
@@ -203,6 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,7 +237,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -460,7 +444,10 @@
       <workItem from="1547639047966" duration="393000" />
       <workItem from="1547692613497" duration="782000" />
       <workItem from="1547693586123" duration="773000" />
-      <workItem from="1547695679621" duration="3154000" />
+      <workItem from="1547695679621" duration="3610000" />
+      <workItem from="1547713411849" duration="417000" />
+      <workItem from="1547714011234" duration="854000" />
+      <workItem from="1547715066058" duration="1396000" />
     </task>
     <task id="LOCAL-00001" summary="1. Add the collection module.">
       <created>1508492503533</created>
@@ -630,11 +617,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547711493181</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="1. Add signal handler.">
+      <created>1547712767909</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1547712767909</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99788000" />
+    <option name="totallyTimeSpent" value="102911000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -722,7 +716,8 @@
     <MESSAGE value="1. controller view." />
     <MESSAGE value="1. socket programming ." />
     <MESSAGE value="1.基于 fork 的多进程服务器。" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.基于 fork 的多进程服务器。" />
+    <MESSAGE value="1. Add signal handler." />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Add signal handler." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -985,27 +980,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sockets/clients/echo_client_v1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding>
-            <element signature="e#7#24#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/_types.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/sockets/sockets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="381" column="24" selection-start-line="381" selection-start-column="24" selection-end-line="381" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1016,13 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/pcntl/pcntl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="153" column="49" selection-start-line="153" selection-start-column="49" selection-end-line="153" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1030,26 +1001,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/pcntl/pcntl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="132" column="57" selection-start-line="132" selection-start-column="57" selection-end-line="132" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/sockets/sockets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="1304" column="18" selection-start-line="1304" selection-start-column="18" selection-end-line="1304" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sockets/clients/echo_client_v1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="e#7#24#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sockets/servers/echo_server_v2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="79" column="40" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
+        <state relative-caret-position="715">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
           <folding>
             <element signature="e#192#208#0#PHP" />
-            <element signature="e#398#1521#0#PHP" />
-            <element signature="e#444#581#0#PHP" />
-            <element signature="e#621#643#0#PHP" />
-            <element signature="e#648#1519#0#PHP" />
-            <element signature="e#736#874#0#PHP" />
-            <element signature="e#883#1062#0#PHP" />
-            <element signature="e#1080#1144#0#PHP" />
-            <element signature="e#1227#1466#0#PHP" />
-            <element signature="e#1471#1519#0#PHP" />
-            <element signature="n#handleMasterTerminate#0;n#!!top" />
-            <element signature="n#handleChildExit#0;n#!!top" />
-            <element signature="e#1953#2228#0#PHP" />
-            <element signature="e#2014#2062#0#PHP" />
-            <element signature="e#2071#2128#0#PHP" />
           </folding>
         </state>
       </provider>

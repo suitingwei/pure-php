@@ -18,13 +18,34 @@ $sockFd = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
 
 socket_bind($sockFd, $address, $port);
 
+/**
+ * 设置主监听套接字为非阻塞状态。
+ * 这样如果有信号量到达的时候，accept 调用会返回 false，主循环下一次能够检测到。
+ */
+socket_set_nonblock($sockFd);
+
 //4000[二次握手] 6000[三次握手]
 socket_listen($sockFd, 10000);
 
 while (true) {
-    //三次握手完成,取出来第一个三次握手成功的
+    
+    /**
+     * 如果在上一次循环中，accept 调用的时候出发了信号量，那么会阻塞？排队？
+     * 需要手动再次触发已经达到的信号量
+     */
+    pcntl_signal_dispatch();
+    
+    /**
+     * 三次握手完成,取出来第一个三次握手成功的
+     * 1. 在阻塞 SOCKET 调用的时候，这个函数会在没有连接到来的情况下永久阻塞，直到第一个请求到来。
+     * 即便内核触发了信号量，因为进程阻塞在这一个系统调用，也不会停止。
+     * 2.所以必须设置 socket 为非阻塞调用，这样如果没有连接，那么 accept会返回 false。在 C 中
+     * 如果收到了信号量，那么 accept 调用可能直接回返回E_INT错误码。可以直接捕获。
+     */
     if (($connectFd = socket_accept($sockFd)) === false) {
-        die("Failed to accept the client connection" . socket_last_error());
+        //die("Failed to accept the client connection" . socket_last_error());
+        //监听套接字刚刚建立的时候，还没有请求到达，这个时候会直接返回 false 表示无请求。
+        continue;
     }
     
     $pid = pcntl_fork();
@@ -76,6 +97,12 @@ function installSignal()
         echo "Installing signal:[SIGTERM]\n";
     }
     
+    if (pcntl_signal(SIGINT, 'handleMasterTerminate') === false) {
+        die("Failed to install signal SIGTERM \n" . error_get_last()['message'] ?? '');
+    } else {
+        echo "Installing signal:[SIGTERM]\n";
+    }
+    
     if (pcntl_signal(SIGCHLD, 'handleChildExit') === false) {
         die("Failed to install signal SIGCHILD \n" . error_get_last()['message'] ?? '');
     } else {
@@ -83,23 +110,26 @@ function installSignal()
     }
 }
 
+/**
+ * @param int $signalNumber
+ * @param     $signalInfo
+ */
 function handleMasterTerminate(int $signalNumber, $signalInfo)
 {
-    echo "Receiving signal term\n";
+    echo "Receiving signal term!\n";
     exit(0);
 }
 
 function handleChildExit(int $signalNumber, $signalInfo)
 {
     $status = 0;
-    while ($pid = pcntl_waitpid(-1, $status, WNOHANG)) {
-        if ($pid == 0) {
-            continue;
-        }
-        if ($pid == -1) {
-            error_get_last();
-        }
-        
+    
+    /**
+     * 如果有一个子进程退出了。会触发这个信号 handler，然后进入一次循环，然后他一定能找到一个刚才退出的子进程
+     */
+    while (($pid = pcntl_wait($status, WNOHANG)) > 0) {
         echo sprintf("Child process:%s has exited with status:%s\n", $pid, $status);
     }
+    
+    return;
 }

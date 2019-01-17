@@ -36,6 +36,9 @@ while (!empty($str = readline("[Client]> "))) {
     if (!empty($data = socket_read($sockFd, 1024))) {
         echo sprintf("[Server]> %s\n", $data);
     }
+    else{
+        echo ("Failed to send data to server:" . socket_last_error());
+    }
 }
 
 echo "shutting down client\n";
