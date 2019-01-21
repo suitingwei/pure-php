@@ -4,8 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/linux-deep/test-cp.php" line="32" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5102b44-12df-4404-bd59-ad1b38ef2c80" name="Default" comment="1. add signal handlers.">
-      <change afterPath="$PROJECT_DIR$/sockets/clients/echo_client_v2.php" afterDir="false" />
+    <list default="true" id="d5102b44-12df-4404-bd59-ad1b38ef2c80" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/sockets/servers/echo_server_v3.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="echo_client_v2.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sockets/clients/echo_client_v2.php">
+      <file leaf-file-name="echo_server_v3.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sockets/servers/echo_server_v3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="1008">
+              <caret line="82" selection-start-line="82" selection-end-line="82" />
             </state>
           </provider>
         </entry>
@@ -62,6 +62,7 @@
     <findStrings>
       <find>stu</find>
       <find>appear</find>
+      <find>Client]&gt;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -70,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Http/Src/Request.php" />
         <option value="$PROJECT_DIR$/FileSystem/Src/Dictionary.php" />
         <option value="$PROJECT_DIR$/Database/MysqlFunction/Mysql.php" />
         <option value="$PROJECT_DIR$/Database/config.php" />
@@ -121,6 +121,7 @@
         <option value="$PROJECT_DIR$/sockets/clients/echo_client_v1.php" />
         <option value="$PROJECT_DIR$/sockets/servers/echo_server_v2.php" />
         <option value="$PROJECT_DIR$/sockets/clients/echo_client_v2.php" />
+        <option value="$PROJECT_DIR$/sockets/servers/echo_server_v3.php" />
       </list>
     </option>
   </component>
@@ -183,6 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,7 +240,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,19 +249,19 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sockets/servers" />
+      <recent name="$PROJECT_DIR$/sockets/clients" />
+      <recent name="$PROJECT_DIR$/algorithms" />
+      <recent name="$PROJECT_DIR$/linux-deep/test-inode" />
+      <recent name="$PROJECT_DIR$/Control/Src/Files" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sockets/servers" />
       <recent name="$PROJECT_DIR$/sockets" />
       <recent name="$PROJECT_DIR$/linux-deep/test-inode" />
       <recent name="$PROJECT_DIR$/Kernel/Helpers/Functions" />
       <recent name="$PROJECT_DIR$/Kernel/Helpers" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/sockets/clients" />
-      <recent name="$PROJECT_DIR$/sockets/servers" />
-      <recent name="$PROJECT_DIR$/algorithms" />
-      <recent name="$PROJECT_DIR$/linux-deep/test-inode" />
-      <recent name="$PROJECT_DIR$/Control/Src/Files" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -456,7 +457,7 @@
       <workItem from="1547797303774" duration="1291000" />
       <workItem from="1547798925661" duration="286000" />
       <workItem from="1548038185522" duration="1035000" />
-      <workItem from="1548041377798" duration="2035000" />
+      <workItem from="1548041377798" duration="4806000" />
     </task>
     <task id="LOCAL-00001" summary="1. Add the collection module.">
       <created>1508492503533</created>
@@ -640,11 +641,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547716580024</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="1. socket client based on the stream_select system call.">
+      <created>1548054574607</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1548054574607</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110125000" />
+    <option name="totallyTimeSpent" value="112896000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -734,7 +742,8 @@
     <MESSAGE value="1.基于 fork 的多进程服务器。" />
     <MESSAGE value="1. Add signal handler." />
     <MESSAGE value="1. add signal handlers." />
-    <option name="LAST_COMMIT_MESSAGE" value="1. add signal handlers." />
+    <MESSAGE value="1. socket client based on the stream_select system call." />
+    <option name="LAST_COMMIT_MESSAGE" value="1. socket client based on the stream_select system call." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -742,13 +751,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/hash/hash.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="18" column="86" selection-start-line="18" selection-start-column="86" selection-end-line="18" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/influxdb/influxdb-php/src/InfluxDB/Point.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
@@ -975,13 +977,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sockets/servers/echo_server_v1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1024,31 +1019,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/sockets/sockets.php">
+    <entry file="file://$PROJECT_DIR$/sockets/servers/echo_server_v1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="1274" column="2" selection-start-line="1274" selection-start-column="2" selection-end-line="1274" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_6.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="300" column="9" selection-start-line="300" selection-start-column="9" selection-end-line="300" selection-end-column="9" />
+        <state relative-caret-position="509">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sockets/servers/echo_server_v2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        <state relative-caret-position="42">
+          <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/sockets/sockets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="179" column="9" selection-start-line="179" selection-start-column="9" selection-end-line="179" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sockets/clients/echo_client_v2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="168">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="789" column="9" selection-start-line="789" selection-start-column="9" selection-end-line="789" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sockets/servers/echo_server_v3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
         </state>
       </provider>
     </entry>
