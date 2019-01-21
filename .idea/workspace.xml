@@ -4,10 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/linux-deep/test-cp.php" line="32" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5102b44-12df-4404-bd59-ad1b38ef2c80" name="Default" comment="">
+    <list default="true" id="d5102b44-12df-4404-bd59-ad1b38ef2c80" name="Default" comment="1. add signal handlers.">
+      <change afterPath="$PROJECT_DIR$/sockets/clients/echo_client_v2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sockets/clients/echo_client_v1.php" beforeDir="false" afterPath="$PROJECT_DIR$/sockets/clients/echo_client_v1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sockets/servers/echo_server_v2.php" beforeDir="false" afterPath="$PROJECT_DIR$/sockets/servers/echo_server_v2.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,14 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="echo_server_v2.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sockets/servers/echo_server_v2.php">
+      <file leaf-file-name="echo_client_v2.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sockets/clients/echo_client_v2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="715">
-              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-              <folding>
-                <element signature="e#192#208#0#PHP" />
-              </folding>
+            <state>
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -74,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Http/index.php" />
         <option value="$PROJECT_DIR$/Http/Src/Request.php" />
         <option value="$PROJECT_DIR$/FileSystem/Src/Dictionary.php" />
         <option value="$PROJECT_DIR$/Database/MysqlFunction/Mysql.php" />
@@ -123,8 +118,9 @@
         <option value="$PROJECT_DIR$/sockets/servers/server_v1.php" />
         <option value="$PROJECT_DIR$/sockets/servers/echo_server_v1.php" />
         <option value="$PROJECT_DIR$/sockets/servers/fork_server_v1.php" />
-        <option value="$PROJECT_DIR$/sockets/servers/echo_server_v2.php" />
         <option value="$PROJECT_DIR$/sockets/clients/echo_client_v1.php" />
+        <option value="$PROJECT_DIR$/sockets/servers/echo_server_v2.php" />
+        <option value="$PROJECT_DIR$/sockets/clients/echo_client_v2.php" />
       </list>
     </option>
   </component>
@@ -187,7 +183,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,6 +220,12 @@
               <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
               <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="Core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pure-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
               <item name="readline" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -237,13 +238,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -254,8 +256,8 @@
       <recent name="$PROJECT_DIR$/Kernel/Helpers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/sockets/servers" />
       <recent name="$PROJECT_DIR$/sockets/clients" />
+      <recent name="$PROJECT_DIR$/sockets/servers" />
       <recent name="$PROJECT_DIR$/algorithms" />
       <recent name="$PROJECT_DIR$/linux-deep/test-inode" />
       <recent name="$PROJECT_DIR$/Control/Src/Files" />
@@ -447,7 +449,14 @@
       <workItem from="1547695679621" duration="3610000" />
       <workItem from="1547713411849" duration="417000" />
       <workItem from="1547714011234" duration="854000" />
-      <workItem from="1547715066058" duration="1396000" />
+      <workItem from="1547715066058" duration="2296000" />
+      <workItem from="1547781197091" duration="212000" />
+      <workItem from="1547794680229" duration="824000" />
+      <workItem from="1547796616087" duration="631000" />
+      <workItem from="1547797303774" duration="1291000" />
+      <workItem from="1547798925661" duration="286000" />
+      <workItem from="1548038185522" duration="1035000" />
+      <workItem from="1548041377798" duration="2035000" />
     </task>
     <task id="LOCAL-00001" summary="1. Add the collection module.">
       <created>1508492503533</created>
@@ -624,11 +633,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547712767909</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="1. add signal handlers.">
+      <created>1547716580024</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1547716580024</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102911000" />
+    <option name="totallyTimeSpent" value="110125000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -647,20 +663,20 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32995737" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="LuaCheck" order="8" weight="0.32995737" />
-      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.32962963" />
+      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.39537036" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5212963" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.9919817" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5212963" />
       <window_info anchor="right" id="LuaJ" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.9919817" />
       <window_info anchor="right" x="100" y="100" width="1720" height="880" id="Documentation" order="4" type="FLOATING" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -717,7 +733,8 @@
     <MESSAGE value="1. socket programming ." />
     <MESSAGE value="1.基于 fork 的多进程服务器。" />
     <MESSAGE value="1. Add signal handler." />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Add signal handler." />
+    <MESSAGE value="1. add signal handlers." />
+    <option name="LAST_COMMIT_MESSAGE" value="1. add signal handlers." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -725,14 +742,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Kernel/Application/Container.php" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_9.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/hash/hash.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -821,13 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="288" column="9" selection-start-line="288" selection-start-column="9" selection-end-line="288" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_6.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="676" column="6" selection-start-line="676" selection-start-column="6" selection-end-line="676" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -966,20 +968,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="465" column="9" selection-start-line="465" selection-start-column="9" selection-end-line="465" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/readline/readline.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/_types.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1008,30 +996,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/sockets/sockets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="1304" column="18" selection-start-line="1304" selection-start-column="18" selection-end-line="1304" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sockets/clients/echo_client_v1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding>
-            <element signature="e#7#24#0#PHP" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/readline/readline.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="537" column="6" selection-start-line="537" selection-start-column="6" selection-end-line="537" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_d.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="378" column="8" selection-start-line="378" selection-start-column="8" selection-end-line="378" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/sockets/sockets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="1274" column="2" selection-start-line="1274" selection-start-column="2" selection-end-line="1274" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="300" column="9" selection-start-line="300" selection-start-column="9" selection-end-line="300" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sockets/servers/echo_server_v2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-          <folding>
-            <element signature="e#192#208#0#PHP" />
-          </folding>
+        <state relative-caret-position="561">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sockets/clients/echo_client_v2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
