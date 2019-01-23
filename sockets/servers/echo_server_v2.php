@@ -55,7 +55,7 @@ while (true) {
      */
     if ($pid == 0) {
         //子进程关闭监听套接字
-//        socket_close($sockFd);
+        socket_close($sockFd);
         
         /**
          * Socket read 函数会阻塞在这里。

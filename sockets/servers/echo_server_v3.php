@@ -81,3 +81,4 @@ function handleMasterTerminate(int $signalNumber, $signalInfo)
     exit(0);
 }
 
+

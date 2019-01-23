@@ -8,7 +8,6 @@ $address= $argv[1] ?? die("Address number required!");
 $port= $argv[2] ?? die("Port number required!");
 
 
-
 //创建一个ipv4的tcp套接字
 $sockFd = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
 
