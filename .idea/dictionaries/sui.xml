@@ -3,6 +3,8 @@
     <words>
       <w>arrayable</w>
       <w>dest</w>
+      <w>influxdb</w>
+      <w>nginx</w>
       <w>sigchild</w>
     </words>
   </dictionary>
