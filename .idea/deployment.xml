@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="自己的主服务器">
+  <component name="PublishConfigData" autoUpload="Always">
     <serverData>
-      <paths name="叨叨服务器">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
       <paths name="自己的主服务器">
         <serverdata>
           <mappings>
