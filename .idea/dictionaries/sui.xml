@@ -6,6 +6,7 @@
       <w>influxdb</w>
       <w>nginx</w>
       <w>sigchild</w>
+      <w>syncer</w>
     </words>
   </dictionary>
 </component>
