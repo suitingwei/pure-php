@@ -15,6 +15,7 @@
 		}
 	},
     "require": {
-        "influxdb/influxdb-php": "^1.14"
+        "influxdb/influxdb-php": "^1.14",
+        "nesbot/carbon": "^2.10"
     }
 }

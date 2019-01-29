@@ -28,7 +28,7 @@ class Syncer
      * The client to the influx db.
      * @var \InfluxDB\Client
      */
-    private static $influxDBClient;
+    private $influxDBClient;
 
     private $srcFile;
 
@@ -46,10 +46,8 @@ class Syncer
 
     public function __construct($host = 'localhost', $port = 8086)
     {
-        if (is_null(static::$influxDBClient)) {
-            return static::$influxDBClient = new InfluxDB\Client($this->host = $host, $this->port = $port);
-        }
-        return static::$influxDBClient;
+        date_default_timezone_set('PRC');
+        return $this->influxDBClient = new InfluxDB\Client($this->host = $host, $this->port = $port);
     }
 
     public function sync()
@@ -115,14 +113,38 @@ class Syncer
         return $this;
     }
 
-    public function shell(string $shellCommand, callable $callback)
+    public function rawSync()
     {
-        $shellCommand = str_replace('[FILE_NAME]',$this->srcFile,$shellCommand);
+        try {
+            $shellCommand = "cat {$this->srcFile}  | awk -F \"[ - ]\" '{printf(\"%s %s %s %s %s\\\\n\",$1,$3,$5,$7,$8) }'";
+            $data         = shell_exec($shellCommand);
+            $data         = explode('\n', $data);
 
-        $data = shell_exec($shellCommand);
-
-        foreach ($data as $line) {
-            call_user_func($callback, ...$line);
+            $points = [];
+            foreach ($data as $line) {
+                if (empty($line)){
+                    continue;
+                }
+                $requestData = explode(' ', $line);
+                array_push($points,
+                    new Point(
+                        $this->measurement, // name of the measurement
+                        null,
+                        [
+                            'request_status' => $requestData[2],
+                            'request_method' => $requestData[3],
+                            'request_uri'    => $requestData[4],
+                        ],
+                        [
+                            'request_time'   => $requestData[1],
+                        ],
+                        date("U", strtotime($requestData[0]))
+                    )
+                );
+            }
+            $this->influxDBClient->selectDB($this->database)->writePoints($points,Database::PRECISION_SECONDS);
+        } catch (\InfluxDB\Exception $e) {
+            throw new $e;
         }
     }
 }
@@ -137,9 +159,8 @@ try {
      */
     $syncer->fromFile('/var/www/html/wordpress/logs/access.log')
         ->useDB('wordpress')
-        ->toMeasurement('access-log')
-        ->shell(" cat [FILE_NAME]  | awk -F \"[ - ]\" '{printf(\"%s\t%s\t%s\t%s\t%s\n\",$1,$3,$5,$7,$8) }'", function () {
+        ->toMeasurement('access_log')
+        ->rawSync();
 
-        });
 } catch (Exception $e) {
 }
