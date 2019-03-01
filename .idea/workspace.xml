@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5102b44-12df-4404-bd59-ad1b38ef2c80" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms/string/countAndSay.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/string/strStr.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,23 +77,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="countAndSay.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithms/string/countAndSay.php">
+      <file leaf-file-name="strStr.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithms/string/strStr.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="656">
-              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+            <state relative-caret-position="672">
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
               <folding>
-                <element signature="n#countAndSay#0;n#Solution#0;n#!!top" />
-                <element signature="e#99#147#0#PHP" />
-                <element signature="e#156#205#0#PHP" />
-                <element signature="n#cs#0;n#Solution#0;n#!!top" />
-                <element signature="e#424#520#0#PHP" />
-                <element signature="e#579#1401#0#PHP" />
-                <element signature="e#712#1391#0#PHP" />
-                <element signature="e#934#1391#0#PHP" />
-                <element signature="e#987#1377#0#PHP" />
-                <element signature="e#1311#1377#0#PHP" />
-                <element signature="e#1419#1580#0#PHP" />
+                <element signature="e#587#834#0#PHP" />
               </folding>
             </state>
           </provider>
@@ -121,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Array/Src/Collection.php" />
         <option value="$PROJECT_DIR$/Arrayable/ArrayFunctions.php" />
         <option value="$PROJECT_DIR$/Arrayable/index.php" />
         <option value="$PROJECT_DIR$/Arrayable/Src/Collection.php" />
@@ -172,6 +161,7 @@
         <option value="$PROJECT_DIR$/algorithms/rotateArray.php" />
         <option value="$PROJECT_DIR$/algorithms/string/reverseString.php" />
         <option value="$PROJECT_DIR$/algorithms/string/countAndSay.php" />
+        <option value="$PROJECT_DIR$/algorithms/string/strStr.php" />
       </list>
     </option>
   </component>
@@ -310,26 +300,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.countAndSay.php">
+  <component name="RunManager" selected="PHP Script.strStr.php">
     <configuration name="countAndSay.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/algorithms/string/countAndSay.php" />
     <configuration name="maxProfilt.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/algorithms/maxProfilt.php" />
-    <configuration name="plusOne" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/algorithms/plusOne" />
     <configuration name="reverseString.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/algorithms/string/reverseString.php" />
     <configuration name="rotateArray.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/algorithms/rotateArray.php" />
+    <configuration name="strStr.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/algorithms/string/strStr.php" />
     <list>
-      <item itemvalue="PHP Script.plusOne" />
       <item itemvalue="PHP Script.maxProfilt.php" />
       <item itemvalue="PHP Script.rotateArray.php" />
       <item itemvalue="PHP Script.reverseString.php" />
       <item itemvalue="PHP Script.countAndSay.php" />
+      <item itemvalue="PHP Script.strStr.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.strStr.php" />
         <item itemvalue="PHP Script.countAndSay.php" />
         <item itemvalue="PHP Script.reverseString.php" />
         <item itemvalue="PHP Script.rotateArray.php" />
         <item itemvalue="PHP Script.maxProfilt.php" />
-        <item itemvalue="PHP Script.plusOne" />
       </list>
     </recent_temporary>
   </component>
@@ -492,7 +482,7 @@
       <workItem from="1551347108901" duration="830000" />
       <workItem from="1551348047470" duration="146000" />
       <workItem from="1551348297791" duration="1934000" />
-      <workItem from="1551406911154" duration="2638000" />
+      <workItem from="1551406911154" duration="3155000" />
     </task>
     <task id="LOCAL-00001" summary="1. Add the collection module.">
       <created>1508492503533</created>
@@ -641,11 +631,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551406027567</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="1. 报数，优化。">
+      <created>1551410225136</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1551410225136</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95340000" />
+    <option name="totallyTimeSpent" value="95857000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -660,7 +657,7 @@
     <frame x="1440" y="-975" width="1080" height="1920" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.36875" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.36851853" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32995737" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="LuaCheck" order="12" weight="0.32995737" />
@@ -742,7 +739,8 @@
     <MESSAGE value="1. add apcu" />
     <MESSAGE value="1.add the influxdb syncer." />
     <MESSAGE value="1. leetcode." />
-    <option name="LAST_COMMIT_MESSAGE" value="1. leetcode." />
+    <MESSAGE value="1. 报数，优化。" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 报数，优化。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -750,14 +748,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clear-jiaocai-result.txt" />
     <entry file="file://$PROJECT_DIR$/clear-course-section-result.txt" />
     <entry file="file://$PROJECT_DIR$/work_helpers.php" />
@@ -1047,20 +1037,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/string/countAndSay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        <state relative-caret-position="809">
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
           <folding>
             <element signature="n#countAndSay#0;n#Solution#0;n#!!top" />
-            <element signature="e#99#147#0#PHP" />
-            <element signature="e#156#205#0#PHP" />
-            <element signature="n#cs#0;n#Solution#0;n#!!top" />
-            <element signature="e#424#520#0#PHP" />
-            <element signature="e#579#1401#0#PHP" />
-            <element signature="e#712#1391#0#PHP" />
-            <element signature="e#934#1391#0#PHP" />
-            <element signature="e#987#1377#0#PHP" />
-            <element signature="e#1311#1377#0#PHP" />
-            <element signature="e#1419#1580#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/string/strStr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding>
+            <element signature="e#587#834#0#PHP" />
           </folding>
         </state>
       </provider>
