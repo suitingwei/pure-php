@@ -6,7 +6,7 @@
  * Date: 2019/3/5
  * Time: 14:23
  */
-class Solution
+class EightQueens
 {
     /**
      * 保存每一次的八皇后的解,用完之后会清空
@@ -93,4 +93,4 @@ class Solution
     }
 }
 
-(new Solution())->calculateEightQueens(0);
+(new EightQueens())->calculateEightQueens(0);
