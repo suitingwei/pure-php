@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5102b44-12df-4404-bd59-ad1b38ef2c80" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms/backtrace/EightQueens.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/backtrace/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/backtrace/CombinationSum2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/backtrace/CombinationSum.php" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/backtrace/CombinationSum.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,14 +78,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EightQueens.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithms/backtrace/EightQueens.php">
+      <file leaf-file-name="CombinationSum.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithms/backtrace/CombinationSum.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-              <folding>
-                <element signature="e#1172#1220#0#PHP" />
-              </folding>
+            <state>
+              <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -104,6 +101,10 @@
       <find>stu</find>
       <find>appear</find>
       <find>'上册'</find>
+      <find>used</find>
+      <find>[1,2,7,5,10,6,1]</find>
+      <find>Candidates:[1,2,7,5,10,6,1]</find>
+      <find>result:{&quot;0&quot;:1,&quot;1&quot;:1,&quot;6&quot;:1,&quot;3&quot;:5}</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,8 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Http/Src/Request.php" />
-        <option value="$PROJECT_DIR$/FileSystem/Src/Dictionary.php" />
         <option value="$PROJECT_DIR$/Database/MysqlFunction/Mysql.php" />
         <option value="$PROJECT_DIR$/Database/config.php" />
         <option value="$PROJECT_DIR$/FileSystem/Src/DotEnv.php" />
@@ -163,6 +162,8 @@
         <option value="$PROJECT_DIR$/algorithms/search/binarySearch.php" />
         <option value="$PROJECT_DIR$/algorithms/backtrace/README.md" />
         <option value="$PROJECT_DIR$/algorithms/backtrace/EightQueens.php" />
+        <option value="$PROJECT_DIR$/algorithms/backtrace/CombinationSum.php" />
+        <option value="$PROJECT_DIR$/algorithms/backtrace/CombinationSum2.php" />
       </list>
     </option>
   </component>
@@ -291,6 +292,7 @@
       <recent name="$PROJECT_DIR$/Kernel" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algorithms/backtrace" />
       <recent name="$PROJECT_DIR$/linux-deep/test-inode" />
       <recent name="$PROJECT_DIR$/Control/Src/Files" />
     </key>
@@ -307,26 +309,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.EightQueens.php">
+  <component name="RunManager" selected="PHP Script.CombinationSum2.php">
+    <configuration name="CombinationSum2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/algorithms/backtrace/CombinationSum2.php" />
+    <configuration name="CombinationSum.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/algorithms/backtrace/CombinationSum.php" />
     <configuration name="EightQueens.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/algorithms/backtrace/EightQueens.php" />
     <configuration name="atoi.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/algorithms/string/atoi.php" />
     <configuration name="binarySearch.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/algorithms/search/binarySearch.php" />
-    <configuration name="countAndSay.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/algorithms/string/countAndSay.php" />
-    <configuration name="strStr.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/algorithms/string/strStr.php" />
     <list>
-      <item itemvalue="PHP Script.countAndSay.php" />
-      <item itemvalue="PHP Script.strStr.php" />
       <item itemvalue="PHP Script.atoi.php" />
       <item itemvalue="PHP Script.binarySearch.php" />
       <item itemvalue="PHP Script.EightQueens.php" />
+      <item itemvalue="PHP Script.CombinationSum.php" />
+      <item itemvalue="PHP Script.CombinationSum2.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.CombinationSum2.php" />
+        <item itemvalue="PHP Script.CombinationSum.php" />
         <item itemvalue="PHP Script.EightQueens.php" />
         <item itemvalue="PHP Script.binarySearch.php" />
         <item itemvalue="PHP Script.atoi.php" />
-        <item itemvalue="PHP Script.strStr.php" />
-        <item itemvalue="PHP Script.countAndSay.php" />
       </list>
     </recent_temporary>
   </component>
@@ -491,7 +493,7 @@
       <workItem from="1551348297791" duration="1934000" />
       <workItem from="1551406911154" duration="3924000" />
       <workItem from="1551430417418" duration="873000" />
-      <workItem from="1551688470561" duration="3903000" />
+      <workItem from="1551688470561" duration="14435000" />
     </task>
     <task id="LOCAL-00001" summary="1. Add the collection module.">
       <created>1508492503533</created>
@@ -661,11 +663,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551689665872</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="1.【回溯算法】八皇后。">
+      <created>1551769060680</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1551769060680</updated>
+    </task>
+    <task id="LOCAL-00026" summary="1.【回溯算法】组合总和">
+      <created>1551775708071</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1551775708071</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101402000" />
+    <option name="totallyTimeSpent" value="111934000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -685,7 +701,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="LuaCheck" order="12" weight="0.32995737" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32962963" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3564815" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38055557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -765,30 +781,16 @@
     <MESSAGE value="1. 报数，优化。" />
     <MESSAGE value="1. substr" />
     <MESSAGE value="1.二分查找算法。" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.二分查找算法。" />
+    <MESSAGE value="1.【回溯算法】八皇后。" />
+    <MESSAGE value="1.【回溯算法】组合总和" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.【回溯算法】组合总和" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/InfluxGrafana/studentNginxAccess2018081505.log" />
-    <entry file="file://$PROJECT_DIR$/InfluxGrafana/NOAA_data.txt" />
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_7.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="870" column="9" selection-start-line="870" selection-start-column="9" selection-end-line="870" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linux-deep/test-inode/reader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -917,13 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="727" selection-start-line="727" selection-end-line="727" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/influxdb/influxdb-php/src/InfluxDB/Client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
@@ -1013,13 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/http/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/maxProfilt.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
@@ -1102,11 +1090,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/backtrace/EightQueens.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        <state relative-caret-position="255">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding>
             <element signature="e#1172#1220#0#PHP" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="1137" column="9" selection-start-line="1137" selection-start-column="9" selection-end-line="1137" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="281" column="9" selection-start-line="281" selection-start-column="9" selection-end-line="281" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_9.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="637" column="9" selection-start-line="637" selection-start-column="9" selection-end-line="637" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/backtrace/CombinationSum2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding>
+            <element signature="e#113#142#0#PHP" />
+            <element signature="e#178#226#0#PHP" />
+            <element signature="e#267#371#0#PHP" />
+            <element signature="e#663#781#0#PHP" />
+            <element signature="e#833#1517#0#PHP" />
+            <element signature="e#891#975#0#PHP" />
+            <element signature="e#987#1079#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/backtrace/CombinationSum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
         </state>
       </provider>
     </entry>

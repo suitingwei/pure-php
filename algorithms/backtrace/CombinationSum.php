@@ -22,36 +22,34 @@ class CombinationSum
      * @param array $candidates
      * @param int   $target
      *
+     * @param int   $recursiveDepth
+     *
      * @return bool
      */
-    function solution(array $candidates, int $target)
+    function solution(array $candidates, int $target,int $recursiveDepth=0)
     {
         //因为最终我们要拼出来的是一个目标值,target,可以每次都在候选数组中选择一个数字,只要他们之和还小于target,那么就可以继续搜索
         if (($previousSum = array_sum($this->result)) == $target) {
+            echo sprintf("Find Solution:%s\n",json_encode($this->result));
             $this->finalResult[] = $this->result;
             
             return true;
         }
         
-        if($previousSum > $target){
-            return false;
-        }
-        
-        //对于每一个
+        //对于每一个值，都试图用所有的解进行试探。
         foreach ($candidates as $index => $candidate) {
+            echo str_repeat("\t",$recursiveDepth)."Trying candidate:{$candidate}...\n";
             //如果当前这个数字+ 之前的和超过了目标值，那么肯定没戏了
             if ($previousSum + $candidate > $target) {
-                //echo "PreviousSum:{$previousSum},\tCandidate:{$candidate},\tTarget:{$target}\n";
                 continue;
             }
             //把当前的值放入
             $this->result [] = $candidate;
            
             //递归一把，算一下以这个值作为基点能不能产生可行解
-            $this->solution(array_slice($candidates,$index),$target);
+            $this->solution(array_slice($candidates,$index),$target,$recursiveDepth+1);
             
             array_pop($this->result);
-
         }
         return false;
     }
@@ -77,4 +75,4 @@ class CombinationSum
 
 $candidates = [2,3,6,7];
 $target = 7;
-print_r( (new CombinationSum())->combinationSumSolution($candidates,$target));
+( (new CombinationSum())->combinationSumSolution($candidates,$target));
