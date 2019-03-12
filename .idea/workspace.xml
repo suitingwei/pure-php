@@ -4,11 +4,17 @@
     <bookmark url="file://$PROJECT_DIR$/linux-deep/test-cp.php" line="32" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5102b44-12df-4404-bd59-ad1b38ef2c80" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms/array/SearchRotateArray.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pure-php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pure-php.iml" afterDir="false" />
+    <list default="true" id="d5102b44-12df-4404-bd59-ad1b38ef2c80" name="Default" comment="1.【二分查找】搜索旋转数组。">
+      <change afterPath="$PROJECT_DIR$/algorithms/array/FindDuplicates.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/sort/MergeSort.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/string/PalindromePartitioning.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/string/WordBreak.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/tree/ValidBinarySearchTree.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/bubbleSort.php" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/sort/bubbleSort.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/insertSort.php" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/sort/insertSort.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/selectSort.php" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/sort/selectSort.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,40 +43,46 @@
     <session id="-1569313255">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.166" value="1" />
+          <entry key="project.open.time.75" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="json" value="1" />
           <entry key="md" value="2" />
-          <entry key="php" value="35" />
+          <entry key="php" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="JSON" value="1" />
           <entry key="Markdown" value="2" />
-          <entry key="PHP" value="35" />
+          <entry key="PHP" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="1" />
           <entry key="md" value="63" />
-          <entry key="php" value="9861" />
-          <entry key="txt" value="30" />
+          <entry key="php" value="16457" />
+          <entry key="txt" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="63" />
-          <entry key="PHP" value="9861" />
-          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="PHP" value="16457" />
+          <entry key="PLAIN_TEXT" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="1" />
+          <entry key="PHP Class.type" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -84,20 +96,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithms/array/SearchRotateArray.php">
+        <entry file="file://$PROJECT_DIR$/algorithms/sort/MergeSort.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-              <folding>
-                <element signature="e#365#495#0#PHP" />
-                <element signature="e#508#576#0#PHP" />
-                <element signature="e#623#800#0#PHP" />
-                <element signature="e#699#836#0#PHP" />
-                <element signature="e#830#874#0#PHP" />
-                <element signature="e#956#1240#0#PHP" />
-                <element signature="e#1033#1228#0#PHP" />
-                <element signature="e#1165#1228#0#PHP" />
-              </folding>
+            <state relative-caret-position="833">
+              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -128,18 +130,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Database/config.php" />
-        <option value="$PROJECT_DIR$/FileSystem/Src/DotEnv.php" />
-        <option value="$PROJECT_DIR$/vendor/autoload.php" />
-        <option value="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/Kernel/FileSystem/Src/DotEnv.php" />
         <option value="$PROJECT_DIR$/Kernel/Arrayable/ArrayFunctions.php" />
         <option value="$PROJECT_DIR$/Kernel/Config/database.php" />
         <option value="$PROJECT_DIR$/Kernel/Database/Pdo/Model.php" />
         <option value="$PROJECT_DIR$/Kernel/Database/Pdo/Configure.php" />
         <option value="$PROJECT_DIR$/Helpers/Traits/Singleton.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/Kernel/Helpers/Traits/Singleton.php" />
         <option value="$PROJECT_DIR$/Kernel/Http/Src/Request.php" />
         <option value="$PROJECT_DIR$/app/config/database.php" />
@@ -179,6 +174,13 @@
         <option value="$PROJECT_DIR$/algorithms/backtrace/CombinationSum.php" />
         <option value="$PROJECT_DIR$/algorithms/backtrace/CombinationSum2.php" />
         <option value="$PROJECT_DIR$/algorithms/array/SearchRotateArray.php" />
+        <option value="$PROJECT_DIR$/algorithms/tree/ValidBinarySearchTree.php" />
+        <option value="$PROJECT_DIR$/algorithms/array/FindDuplicates.php" />
+        <option value="$PROJECT_DIR$/algorithms/string/palindromePartitioning.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/algorithms/string/PalindromePartitioning.php" />
+        <option value="$PROJECT_DIR$/algorithms/string/WordBreak.php" />
+        <option value="$PROJECT_DIR$/algorithms/sort/MergeSort.php" />
       </list>
     </option>
   </component>
@@ -206,8 +208,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -258,6 +260,24 @@
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PurePHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PurePHP" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="backtrace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PurePHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PurePHP" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PurePHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PurePHP" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -269,20 +289,20 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/linux-deep/test-inode" />
-      <recent name="$PROJECT_DIR$/Kernel/Helpers/Functions" />
-      <recent name="$PROJECT_DIR$/Kernel/Helpers" />
-      <recent name="$PROJECT_DIR$/app/config" />
-      <recent name="$PROJECT_DIR$/Kernel" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/algorithms/backtrace" />
       <recent name="$PROJECT_DIR$/linux-deep/test-inode" />
       <recent name="$PROJECT_DIR$/Control/Src/Files" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algorithms/sort" />
+      <recent name="$PROJECT_DIR$/linux-deep/test-inode" />
+      <recent name="$PROJECT_DIR$/Kernel/Helpers/Functions" />
+      <recent name="$PROJECT_DIR$/Kernel/Helpers" />
+      <recent name="$PROJECT_DIR$/app/config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -297,36 +317,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.SearchRotateArray.php">
-    <configuration name="CombinationSum2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/algorithms/backtrace/CombinationSum2.php">
+  <component name="RunManager" selected="PHP Script.MergeSort.php">
+    <configuration name="FindDuplicates.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/algorithms/array/FindDuplicates.php">
       <method v="2" />
     </configuration>
-    <configuration name="CombinationSum.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/algorithms/backtrace/CombinationSum.php">
+    <configuration name="MergeSort.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/algorithms/sort/MergeSort.php">
       <method v="2" />
     </configuration>
-    <configuration name="EightQueens.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/algorithms/backtrace/EightQueens.php">
+    <configuration name="PalindromePartitioning.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/algorithms/string/PalindromePartitioning.php">
       <method v="2" />
     </configuration>
     <configuration name="SearchRotateArray.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/algorithms/array/SearchRotateArray.php">
       <method v="2" />
     </configuration>
-    <configuration name="binarySearch.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/algorithms/search/binarySearch.php">
+    <configuration name="WordBreak.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/algorithms/string/WordBreak.php">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHP Script.binarySearch.php" />
-      <item itemvalue="PHP Script.EightQueens.php" />
-      <item itemvalue="PHP Script.CombinationSum.php" />
-      <item itemvalue="PHP Script.CombinationSum2.php" />
       <item itemvalue="PHP Script.SearchRotateArray.php" />
+      <item itemvalue="PHP Script.FindDuplicates.php" />
+      <item itemvalue="PHP Script.PalindromePartitioning.php" />
+      <item itemvalue="PHP Script.WordBreak.php" />
+      <item itemvalue="PHP Script.MergeSort.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.MergeSort.php" />
+        <item itemvalue="PHP Script.WordBreak.php" />
+        <item itemvalue="PHP Script.PalindromePartitioning.php" />
+        <item itemvalue="PHP Script.FindDuplicates.php" />
         <item itemvalue="PHP Script.SearchRotateArray.php" />
-        <item itemvalue="PHP Script.CombinationSum2.php" />
-        <item itemvalue="PHP Script.CombinationSum.php" />
-        <item itemvalue="PHP Script.EightQueens.php" />
-        <item itemvalue="PHP Script.binarySearch.php" />
       </list>
     </recent_temporary>
   </component>
@@ -492,7 +512,11 @@
       <workItem from="1551406911154" duration="3924000" />
       <workItem from="1551430417418" duration="873000" />
       <workItem from="1551688470561" duration="14435000" />
-      <workItem from="1551883064458" duration="3807000" />
+      <workItem from="1551883064458" duration="4049000" />
+      <workItem from="1552109555183" duration="1088000" />
+      <workItem from="1552135602658" duration="27000" />
+      <workItem from="1552135804117" duration="23000" />
+      <workItem from="1552135827516" duration="7473000" />
     </task>
     <task id="LOCAL-00001" summary="1. Add the collection module.">
       <created>1508492503533</created>
@@ -676,11 +700,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551775708071</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="1.【二分查找】搜索旋转数组。">
+      <created>1551917523587</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1551917523587</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116040000" />
+    <option name="totallyTimeSpent" value="124893000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -692,15 +723,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.36822918" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3673611" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32777777" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31666666" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45444444" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38981482" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -782,52 +813,10 @@
     <MESSAGE value="1.二分查找算法。" />
     <MESSAGE value="1.【回溯算法】八皇后。" />
     <MESSAGE value="1.【回溯算法】组合总和" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.【回溯算法】组合总和" />
+    <MESSAGE value="1.【二分查找】搜索旋转数组。" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.【二分查找】搜索旋转数组。" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/linux-deep/test-inode/test-fpm-cp-error/implementedClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux-deep/test-inode/test-fpm-cp-error/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux-deep/test-cp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/syslog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux-deep/test-inode/writer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux-deep/file1" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_defines.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="288" column="9" selection-start-line="288" selection-start-column="9" selection-end-line="288" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_6.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -946,13 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="551" column="9" selection-start-line="551" selection-start-column="9" selection-end-line="551" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/text">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="774">
@@ -1009,13 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/string/reverseString.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/string/countAndSay.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="809">
@@ -1061,13 +1036,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_8.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="1137" column="9" selection-start-line="1137" selection-start-column="9" selection-end-line="1137" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="749">
@@ -1107,28 +1075,87 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2058">
           <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-          <folding>
-            <element signature="e#137#166#0#PHP" expanded="true" />
-            <element signature="e#204#295#0#PHP" expanded="true" />
-            <element signature="e#1278#20522#0#PHP" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/array/SearchRotateArray.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="590">
+          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/sort/insertSort.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="840" column="9" selection-start-line="840" selection-start-column="9" selection-end-line="840" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/tree/ValidBinarySearchTree.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="16" column="7" selection-end-line="47" selection-end-column="1" />
           <folding>
-            <element signature="e#365#495#0#PHP" />
-            <element signature="e#508#576#0#PHP" />
-            <element signature="e#623#800#0#PHP" />
-            <element signature="e#699#836#0#PHP" />
-            <element signature="e#830#874#0#PHP" />
-            <element signature="e#956#1240#0#PHP" />
-            <element signature="e#1033#1228#0#PHP" />
-            <element signature="e#1165#1228#0#PHP" />
+            <element signature="e#6#83#0#PHP" expanded="true" />
+            <element signature="e#85#231#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-307" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/array/FindDuplicates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+          <folding>
+            <element signature="n#solution#0;n#FindDuplicates#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/string/reverseString.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/string/PalindromePartitioning.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="n#isPalindromeStr#0;n#PalindromePartitioning#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="766" column="9" selection-start-line="766" selection-start-column="9" selection-end-line="766" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/string/WordBreak.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/sort/MergeSort.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
         </state>
       </provider>
     </entry>
