@@ -17,14 +17,12 @@ class MergeSort
 
     function mSort(array $arr, $start, $end)
     {
-        //当子序列长度为1时，$start == $end，不用再分组
-        if ($start >= $end) {
-            return [];
+        if($start < $end){
+            $mid = floor(($start + $end) / 2);    //将 $arr 平分为 $arr[$start - $mid] 和 $arr[$mid+1 - $end]
+            $this->mSort($arr, $start, $mid);            //将 $arr[$start - $mid] 归并为有序的$arr[$start - $mid]
+            $this->mSort($arr, $mid+1 , $end);            //将 $arr[$mid+1 - $end] 归并为有序的 $arr[$mid+1 - $end]
+            $this->mergeArray($arr,$start,$mid,$end);//将$arr[$start - $mid]部分和$arr[$mid+1 - $end]部分合并起来成为有序的$arr[$start - $end]
         }
-        $mid = intval(($start + $end) / 2);    //将 $arr 平分为 $arr[$start - $mid] 和 $arr[$mid+1 - $end]
-        $arr1 = $this->mSort($arr, $start, $mid-1);            //将 $arr[$start - $mid] 归并为有序的$arr[$start - $mid]
-        $arr2=  $this->mSort($arr, $mid , $end-1);            //将 $arr[$mid+1 - $end] 归并为有序的 $arr[$mid+1 - $end]
-        return $this->mergeArray2($arr1,$arr2);       //将$arr[$start - $mid]部分和$arr[$mid+1 - $end]部分合并起来成为有序的$arr[$start - $end]
     }
 
     //归并操作
@@ -56,9 +54,6 @@ class MergeSort
         }
     }
 
-    private function mergeArray2(array $arr1, array $arr2)
-    {
-    }
 }
 
 
