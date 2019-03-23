@@ -11,17 +11,17 @@ class MergeSort
     //归并算法总函数
     function slove(array $arr)
     {
-        $this->mSort($arr, 0, count($arr)-1);
+        $this->mSort($arr, 0, count($arr) - 1);
         return $arr;
     }
 
     function mSort(array &$arr, $start, $end)
     {
-        if($start < $end){
+        if ($start < $end) {
             $mid = intval(($start + $end) / 2);    //将 $arr 平分为 $arr[$start - $mid] 和 $arr[$mid+1 - $end]
             $this->mSort($arr, $start, $mid);            //将 $arr[$start - $mid] 归并为有序的$arr[$start - $mid]
-            $this->mSort($arr, $mid+1 , $end);            //将 $arr[$mid+1 - $end] 归并为有序的 $arr[$mid+1 - $end]
-            $this->mergeArray($arr,$start,$mid,$end);//将$arr[$start - $mid]部分和$arr[$mid+1 - $end]部分合并起来成为有序的$arr[$start - $end]
+            $this->mSort($arr, $mid + 1, $end);            //将 $arr[$mid+1 - $end] 归并为有序的 $arr[$mid+1 - $end]
+            $this->mergeArray($arr, $start, $mid, $end);//将$arr[$start - $mid]部分和$arr[$mid+1 - $end]部分合并起来成为有序的$arr[$start - $end]
         }
     }
 
@@ -53,6 +53,7 @@ class MergeSort
             $arr[$i] = $temparr[$i];
         }
     }
+
 
 }
 
