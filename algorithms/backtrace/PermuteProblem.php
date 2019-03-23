@@ -8,7 +8,7 @@
 
 class PermuteProblem
 {
-    function solve(array &$result, array $tempResult, array $nums, $usedIndex= [])
+    function solve(array &$result, array $tempResult, array $nums, $usedIndex= [],$depth=0)
     {
         $length = count($nums);
         if (count($tempResult) == $length) {
@@ -24,8 +24,10 @@ class PermuteProblem
             }
             $tempResult[] = $nums[$i];
             $usedIndex [] = $i;
-            $this->solve($result, $tempResult, $nums, $usedIndex);
+            echo str_repeat("\t",$depth)."尝试使用{$nums[$i]}\n";
+            $this->solve($result, $tempResult, $nums, $usedIndex,$depth+1);
             array_pop($usedIndex);
+            echo str_repeat("\t",$depth)."回溯{$nums[$i]}\n";
             array_pop($tempResult);
         }
         
