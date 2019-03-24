@@ -6,11 +6,7 @@
  * Time: 22:16
  */
 
-/**
- * Class SubSetProblem
- * @link https://leetcode-cn.com/problems/subsets/
- */
-class SubSetProblem
+class SubSetProblemII
 {
     /**
      * @param Integer[] $nums
@@ -21,6 +17,7 @@ class SubSetProblem
         $result = [];
         $length = count($nums);
 
+        sort($nums);
         $this->solve($nums, $length, $result);
 
         return $result;
@@ -57,6 +54,9 @@ class SubSetProblem
         }
         //因为备选数组是排序的，所以为了避免重复生成子集，我们每次都往后挪动 index
         for ($i = $startIndex; $i < count($nums); $i++) {
+            if($i>0 && $nums[$i] == $nums[$i-1] && $i>$startIndex){
+                continue;
+            }
             $tempResult [] = $nums[$i];
 
             $this->try($nums, $targetLength, $i + 1, $result, $tempResult);
@@ -67,8 +67,8 @@ class SubSetProblem
     }
 }
 
-$nums     = [1, 2, 3];
-$solution = new SubSetProblem();
+$nums     = [1, 2, 2,3,3];
+$solution = new SubSetProblemII();
 $result   = $solution->subsets($nums);
 //$solution->try($nums, 3,0, $result, []);
 print_r($result);
