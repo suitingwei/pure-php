@@ -39,6 +39,7 @@ class SudokuProblem
     {
         $this->printBoard($board, $row, $column, true);
 
+        //找到下一个要去规划的点
         while ($board[$row][$column] != '.') {
             if (++$column >= 9) {
                 $row++;
@@ -195,7 +196,7 @@ class SudokuProblem
         //初始化记录各个行列能用的数字
         $this->initMetadata($board);
 
-        $result = $this->solve($board, 0, 0);
+        $this->solve($board, 0, 0);
 
         $this->printBoard($board, -1, -1, true);
     }
