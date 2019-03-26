@@ -20,7 +20,9 @@ class ListNode
 
 /**
  * Class SerializeAndUnSerializeProblem
+ *
  * @link https://leetcode-cn.com/problems/serialize-and-deserialize-bst/
+ * @link https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/
  * 使用前序遍历来序列化和反序列化
  */
 class SerializeAndUnSerializeProblem
@@ -54,7 +56,7 @@ class SerializeAndUnSerializeProblem
      */
     public function build($nodes)
     {
-        $nodeValue = array_pop($nodes);
+        $nodeValue = array_shift($nodes);
         if ($nodeValue == '#') {
             return null;
         }
