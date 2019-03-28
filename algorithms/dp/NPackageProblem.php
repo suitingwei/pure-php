@@ -12,17 +12,36 @@
  */
 class NPackageProblem
 {
-    public function solveByRecursive()
+    /**
+     * @param $nodes
+     * @param $maxWeight
+     * @param $packagesCount
+     * @param $result
+     * @param $tempResult
+     */
+    public function solveByRecursive($nodes, $maxWeight, $packagesCount, &$result, $tempResult)
     {
-        
+
     }
 
-    public function solve()
+    public function solve($nodes, $maxWeight, $packagesCount, $mode = 1)
     {
-        
+        $result = [];
+
+        if ($mode == 1) {
+            $this->solveByRecursive($nodes, $maxWeight, $packagesCount, $result, []);
+        } else {
+            $this->solveByDP($nodes, $maxWeight, $packagesCount, $result, []);
+        }
+
+        return $result;
+    }
+
+    private function solveByDP($nodes, $maxWeight, $packagesCount, array $result, array $array)
+    {
     }
 }
 
-$packagesCount =  4;
-$maxWeight = 9;
-$nodes = [2,3,4,1,2];
+$packagesCount = 4;
+$maxWeight     = 9;
+$nodes         = [2, 3, 4, 1, 2];
