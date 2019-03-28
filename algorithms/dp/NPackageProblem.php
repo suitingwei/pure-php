@@ -12,5 +12,17 @@
  */
 class NPackageProblem
 {
+    public function solveByRecursive()
+    {
+        
+    }
 
+    public function solve()
+    {
+        
+    }
 }
+
+$packagesCount =  4;
+$maxWeight = 9;
+$nodes = [2,3,4,1,2];
