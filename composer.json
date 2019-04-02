@@ -16,7 +16,7 @@
 	},
     "require": {
         "influxdb/influxdb-php": "^1.14",
-        "nesbot/carbon": "^2.10",
-      "ext-json": "*"
+      "ext-json": "*",
+        "nesbot/carbon": "^2.16"
     }
 }
